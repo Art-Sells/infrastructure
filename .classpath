@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="MVP/EcareWebApp/src/main/java"/>
+	<classpathentry kind="src" path="MVP/EcareWebApp/src/test/java"/>
+	<classpathentry kind="src" path="R&amp;D/Possible-Algos/Arrays"/>
+	<classpathentry kind="src" path="R&amp;D/Possible-Algos/DynamicProgramming"/>
+	<classpathentry kind="src" path="R&amp;D/Possible-Algos/HashTablesMap"/>
+	<classpathentry kind="src" path="R&amp;D/Possible-Algos/LinkedList"/>
+	<classpathentry kind="src" path="R&amp;D/Possible-Algos/Recursion"/>
+	<classpathentry kind="src" path="R&amp;D/Possible-Algos/Trees"/>
+	<classpathentry kind="lib" path="MVP/EcareWebApp/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

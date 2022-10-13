@@ -36,6 +36,8 @@ public class MainController {
 	// Comment out bottom getters after successful tests
 	
 	 @GetMapping("/test") public String test() { return "test/home-test.jsp"; }
+	 
+	 @GetMapping("/arells") public String arells() { return "test/arells.jsp"; }
 	  
 //	 @GetMapping("/prototype-test") public String prototypeTest() { return
 //	 "test/prototype-test.jsp"; }
@@ -43,8 +45,8 @@ public class MainController {
 //	 @GetMapping("/guide-test") public String guideTest() { return
 //	 "test/guide-test.jsp"; }
 // 
-//	 @GetMapping("/roadmap-test") public String roadmapTest() { return
-//	 "test/roadmap-test.jsp"; }
+	 @GetMapping("/roadmap-test") public String roadmapTest() { return
+	 "test/roadmap-test.jsp"; }
 	 
 
 }
