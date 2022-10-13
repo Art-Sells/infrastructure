@@ -49,9 +49,11 @@
 		<title>Arells</title>
 	
 	</head>
-	<body >
+	
+	<body>
+		<canvas width="2" height="2">
 	
 	
-	
+		</canvas>
 	</body>
 </html>
