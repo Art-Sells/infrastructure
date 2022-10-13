@@ -1,5 +1,5 @@
-var canvas = document.querySelector('canvas');
-var ctx = canvas.getContext('2d');
+var body = document.querySelector('body');
+var ctx = body.getContext('2d');
 
 
 function Pixel( x, y ) {

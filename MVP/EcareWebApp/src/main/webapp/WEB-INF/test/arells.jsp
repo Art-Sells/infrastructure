@@ -49,7 +49,7 @@
 		<title>Arells</title>
 	
 	</head>
-	<body>
+	<body >
 	
 	
 	
