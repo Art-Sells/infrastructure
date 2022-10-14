@@ -56,7 +56,7 @@
 	
 		<h3>Present</h3>
 	
-		<form method="get" target="_blank" action="https://github.com/jeyakatsa/Ecare/tree/main/R%26D">
+		<form method="get" target="_blank" action="https://github.com/Ecare-Exchange/infrastructure/tree/main/R%26D">
 		<button id="wrapper-content">
 			<p id="milestone">R&D Work 
 			</p>
@@ -103,7 +103,7 @@
 	
 		<h3>Aug 2022 - Jan 2023</h3>
 	
-		<form method="get" target="_blank" action="https://github.com/jeyakatsa/Ecare/tree/main/R%26D">
+		<form method="get" target="_blank" action="https://github.com/Ecare-Exchange/infrastructure/tree/main/MVP/BdApp">
 		<button id="wrapper-content">
 			<p id="milestone">Base dApp
 			</p>
@@ -120,7 +120,7 @@
 	
 		<h3>Feb 2023 - Jul 2023</h3>
 	
-		<form method="get" target="_blank" action="https://github.com/jeyakatsa/Ecare/tree/main/MVP">
+		<form method="get" target="_blank" action="https://github.com/Ecare-Exchange/infrastructure/tree/main/MVP">
 		<button id="wrapper-content">
 			<p id="milestone">Internal Market API
 			</p>
@@ -137,7 +137,7 @@
 	
 		<h3>Aug 2023 - Aug 2025</h3>
 	
-		<form method="get" target="_blank" action="https://github.com/jeyakatsa/Ecare/tree/main/MVP">
+		<form method="get" target="_blank" action="https://github.com/Ecare-Exchange/infrastructure/tree/main/MVP">
 		<button id="wrapper-content">
 			<p id="milestone">Full dApp
 			</p>
@@ -152,7 +152,7 @@
 	
 		 <footer>
 	      
-		  <a href="https://github.com/jeyakatsa/Ecare"
+		  <a href="https://github.com/orgs/Ecare-Exchange"
 		      target="_blank"
 		      id="contact">
 		      <img id="github" src="/icons&images/GithubBright.png">
