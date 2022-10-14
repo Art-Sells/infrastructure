@@ -74,26 +74,29 @@
 	  
 	  </div>
 	  
-	  <div id="about">
-	  
-		  <h3 id="about-title">About</h3>	  
-	  
-		  <p id="about-desc">Ecare is the infrastructure created
-		  to house an ecosystem to lift storytellers 
-		  out of poverty.</p>
+		<div id="about">
 		  
-		  <section id="ecosystem">
+			  <h3 id="about-title">About</h3>	  
 		  
-		  	 <img class="eco-icon" src="/icons&images/Icon.png"/>
+			  <p id="about-desc">Ecare is the infrastructure created
+			  to house an ecosystem to lift storytellers 
+			  out of poverty.</p>
+			  
+		 </div>	  
+		  
+		 <canvas width="2" height="2">
+		  
+		  	  <img class="eco-icon" src="/icons&images/Icon.png"/>
 		  
 			  <h3 id="eco-title">Ecosystem</h3>
 			  
 			  <h4>Coming Soon</h4>
 	
-		 </section>
 	
-	      
-		 <section id="infrastructure">
+		 </canvas>
+		
+		      
+		 <div id="infrastructure">
 		 
 		 	  <img class="infra-icon" src="/icons&images/Icon.png"/>
 		  
@@ -111,9 +114,8 @@
 			      <img id="github" src="/icons&images/GithubBright.png">
 			  </a>  	
 			  
-		</section>		  
-
-	 </div>
+		</div>
+				  
 	
 	</body>
 </html>
