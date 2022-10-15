@@ -52,5 +52,16 @@
 	
 	<body>
 	
+		<div id="overlay">
+		
+		</div>
+		
+		<footer>
+		
+			<span id="powered">powered by</span>
+			<img class="ecare-icon" src="/icons&images/Icon.png"/>
+		
+		</footer>
+	
 	</body>
 </html>
