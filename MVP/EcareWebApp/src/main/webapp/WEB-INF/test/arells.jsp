@@ -54,13 +54,19 @@
 	
 		<div id="overlay">
 		
+			<img id="arells-icon" src="/icons&images/Arells-Icon.png"/>
+			<h1>arells</h1>
+		
 		</div>
 		
 		<footer>
 		
 			<span id="powered">powered by</span>
-			<img id="ecare-icon" src="/icons&images/Icon.png"/>
-		
+			<a href="https://ecare.exchange"
+		      target="_blank">
+		      <img id="ecare-icon" src="/icons&images/Icon.png"/>
+		  	</a>  
+			
 		</footer>
 	
 	</body>
