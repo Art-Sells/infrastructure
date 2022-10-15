@@ -56,14 +56,20 @@
 		
 			<img id="arells-icon" src="/icons&images/Arells-Icon.png"/>
 			<h1>arells</h1>
+			<p id="slogan">MAKE MONEY WITH YOUR LIFE STORY</p>
+			<p id="coming-soon">COMING SOON</p>
 		
 		</div>
 		
 		<footer>
 		
-			<span id="powered">powered by</span>
+			<p id="description">
+				created to lift storytellers out of poverty
+			</p>
+			<p id="powered">powered by</p>
 			<a href="https://ecare.exchange"
-		      target="_blank">
+		      target="_blank"
+		      id="ecare-link">
 		      <img id="ecare-icon" src="/icons&images/Icon.png"/>
 		  	</a>  
 			
