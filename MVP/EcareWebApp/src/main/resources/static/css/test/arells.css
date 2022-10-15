@@ -5,28 +5,36 @@ body {
   margin-left: 0%;
   margin-right: 0%;
   margin-bottom: 0%;
-  background: #f8f8fc;
+	background: linear-gradient(45deg, 
+	rgba(200,18,18,1) %, 
+	rgba(172,173,0,1) 35%, 
+	rgba(48,223,48,1) 40%, 
+	rgba(33,220,196,1) 55%, 
+	rgba(41,15,216,1) 70%, 
+	rgba(255,0,215,1) 80%);   
+     animation: gradient 30s ease infinite; 
+     background-size: 500% 500%;
 }
 
 
 #overlay {
 	height: 600px;
 	width: 100%;
-	margin-top: 0px;
-	margin-bottom: 40px;	
+	margin-top: 0px;	
 	margin-left: auto;
 	margin-right: auto;
 	border-radius: 0px;	
-	background: linear-gradient(111deg, 
-	rgba(200,18,18,1) 0%, 
-	rgba(172,173,0,1) 10%, 
-	rgba(48,223,48,1) 30%, 
-	rgba(33,220,196,1) 60%, 
-	rgba(41,15,216,1) 80%, 
-	rgba(255,0,215,1) 100%);   
-     animation: gradient 20s ease infinite; 
-     background-size: 30000% 30000%;
-     box-shadow: 0px 5px 30px 5px gray;
+	background: linear-gradient(45deg, 
+	rgba(200,18,18,1) 10%, 
+	rgba(172,173,0,1) 35%, 
+	rgba(48,223,48,1) 45%, 
+	rgba(33,220,196,1) 55%, 
+	rgba(41,15,216,1) 65%, 
+	rgba(255,0,215,1) 90%);       
+     animation: gradient 30s ease infinite; 
+     background-size: 20000% 20000%;
+     box-shadow: 0px 0px 10px 0px black;
+     z-index: 1;
 }
 @-webkit-keyframes gradient{
   0% {
@@ -52,15 +60,18 @@ body {
 }
 
 	footer {
-	 	height: 100px;
+	   padding: 30px;
+	 	height: 50px;
 		margin-left: auto;
 		margin-right: auto;	
+		z-index: 2;
 	}
 	#powered {
 		color: gray;
-	    opacity: .8;
-	    font-size: 12px;
+	    font-size: 15px;
 	    letter-spacing: 2px;
+	    margin-right: 10px;
+	    padding-bottom: 10px;
 	}
 	.ecare-icon {
 		width: 20px;
