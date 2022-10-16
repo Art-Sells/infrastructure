@@ -6,12 +6,11 @@ body {
   margin-right: 0%;
   margin-bottom: 0%;
 	background: linear-gradient(50deg, 
-	rgba(200,18,18,1) 15%, 
-	rgba(172,173,0,1) 25%, 
-	rgba(48,223,48,1) 40%, 
-	rgba(33,220,196,1) 60%, 
-	rgba(41,15,216,1) 75%, 
-	rgba(255,0,215,1) 90%);       
+	rgba(255,0,0,1) 15%, 
+	rgba(178,179,2,1) 30%, 
+	rgba(1,187,1,1) 50%, 
+	rgba(33,0,255,1) 70%, 
+	rgba(187,1,158,1) 85%);    
      animation: gradients 20s ease infinite; 
      background-size: 20000% 20000%;
 }
@@ -49,12 +48,11 @@ body {
 	margin-right: auto;
 	border-radius: 0px;	
 	background: linear-gradient(50deg, 
-	rgba(200,18,18,1) 15%, 
-	rgba(172,173,0,1) 25%, 
-	rgba(48,223,48,1) 40%, 
-	rgba(33,220,196,1) 60%, 
-	rgba(41,15,216,1) 75%, 
-	rgba(255,0,215,1) 90%);       
+	rgba(255,0,0,1) 15%, 
+	rgba(178,179,2,1) 30%, 
+	rgba(1,187,1,1) 50%, 
+	rgba(33,0,255,1) 70%, 
+	rgba(187,1,158,1) 85%);    
      animation: gradients 20s ease infinite; 
      background-size: 20000% 20000%;
      box-shadow: 0px 0px 10px 0px black;
@@ -226,12 +224,11 @@ footer {
 	margin-right: auto;	
 	z-index: 2;
 	background: linear-gradient(50deg, 
-	rgba(200,18,18,1) 5%, 
-	rgba(172,173,0,1) 20%, 
-	rgba(48,223,48,1) 40%, 
-	rgba(33,220,196,1) 60%, 
-	rgba(41,15,216,1) 75%, 
-	rgba(255,0,215,1) 90%);   
+	rgba(255,0,0,1) 15%, 
+	rgba(178,179,2,1) 30%, 
+	rgba(1,187,1,1) 50%, 
+	rgba(33,0,255,1) 70%, 
+	rgba(187,1,158,1) 85%); 
      animation: gradient 20s ease infinite; 
      background-size: 1000% 1000%;
 }
