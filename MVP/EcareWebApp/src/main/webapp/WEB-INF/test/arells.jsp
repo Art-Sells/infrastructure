@@ -72,11 +72,11 @@
 		</div>
 		
 		<footer>
-		
+
+		    <span id="powered">POWERED BY</span>		
 	        <a href="https://ecare.exchange"
 		      target="_blank"
 		      id="ecare-link">
-		      <span id="powered">POWERED BY</span>
 		      <img id="ecare-icon" src="/icons&images/Icon.png"/>
 		  	</a>  		
 

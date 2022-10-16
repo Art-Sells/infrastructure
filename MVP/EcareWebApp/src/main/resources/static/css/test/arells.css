@@ -85,57 +85,57 @@ body {
 
 	#arells-icon {
 		width: 120px;
-		opacity: .8;
+		opacity: .9;
 	}
 
 	h1{
 		margin-top: 0px;
 		font-family: Bahnschrift;
 		font-size: 60px;	
-		letter-spacing: -3px;
+		letter-spacing: -6px;
 		margin-right: 3px;
 		font-weight: 500;
 		color: white;
-		opacity: .8;
+		opacity: .9;
 	}
 	#slogan {
 		margin-top: -30px;
-		font-size: 14px;
-		letter-spacing: 2px;
-		margin-left: 2px; 
+		font-size: 12px;
+		letter-spacing: 0px;
+		margin-left: 0px; 
 		font-weight: 800;
 		color: white;
-		opacity: .8;
+		opacity: .9;
 	}
 	
 	hr {
 	  margin-top: 30px;
 	  background-color: white;
 	  border: none;
-	  height: 5px;
+	  height: 1px;
 	  border-radius: 30px;
-	  width: 400px;
-	  opacity: .5;
+	  width: 230px;
+	  opacity: .9;
 	}	
 	
 	#description {
 		margin-top: 30px;
 		font-size: 9px;
-		letter-spacing: 2px;
-		margin-left: 2px;
-		font-weight: 800;
-		opacity: .8;
+		letter-spacing: 3px;
+		margin-left: 3px;
+		font-weight: 400;
+		opacity: .9;
 		color: white;
 	}	
 	#coming-soon {
 		margin-top: 25px;
 		font-size: 14px;
-		margin-left: 15px;
-		letter-spacing: 15px;
-		font-weight: 500;
+		margin-left: 10px;
+		letter-spacing: 10px;
+		font-weight: 400;
 		color: white;
 		margin-bottom: 45px;
-		opacity: .8;
+		opacity: .9;
 	}
 	
 	#updates {
@@ -176,35 +176,35 @@ body {
 
 	h1{
 		margin-top: 10px;
-		font-size: 45px;	
-		letter-spacing: -3px;
+		font-size: 50px;	
+		letter-spacing: -5px;
 		margin-right: 3px;
 		font-weight: 500;
 	}	  
   	#slogan {
-		margin-top: -10px;
-		font-size: 9.5px;
-		letter-spacing: 1px;
-		margin-left: 1px; 
+		margin-top: -20px;
+		font-size: 9px;
+		letter-spacing: 0px;
+		margin-left: 0px; 
 		font-weight: 800;
 	}
 	hr {
+	  height: .5px;	
 	  margin-top: 30px;
-	  width: 280px;
+	  width: 150px;
 	}	
 	
 	#description {
 		margin-top: 30px;
 		font-size: 7px;
-		letter-spacing: 1px;
-		margin-left: 1px;
-		font-weight: 800;
+		letter-spacing: 2px;
+		margin-left: 2px;
 	}		
 	#coming-soon {
 		margin-top: 30px;
 		font-size: 9px;
-		margin-left: 12px;
-		letter-spacing: 12px;
+		margin-left: 7px;
+		letter-spacing: 7px;
 		margin-bottom: 45px;
 	}
 	#updates {
@@ -221,43 +221,30 @@ body {
 
 footer {
    padding-top: 40px;
-   height: 80px;
+   height: 100px;
 	margin-left: auto;
 	margin-right: auto;	
 	z-index: 2;
 }
 	#powered {
-		margin-top: -5px;
-	    font-size: 13px;
-	    letter-spacing: 4px; 
+	    font-size: 8px;
+	    letter-spacing: 5px; 
 	    font-weight: 800; 
-	    margin-right: 7px;
-	    opacity: .6;
-	    color: black;
+	    margin-right: 10px;
+	    opacity: .4;
+	    color: white;
 	}
 	#ecare-link {
 		text-decoration: none;		
 	}
 	#ecare-link:hover{
-		opacity: .5;
+		opacity: .2;
 	    cursor: pointer;
 		transition: 1s;
 	}
 	#ecare-icon {
 		width: 20px;
-		margin-bottom: -15px;
+		margin-bottom: 0px;
 		opacity: .9;
 	}
-@media screen and (max-width: 650px) {
-	#powered {
-	    font-size: 10px;
-	    letter-spacing: 2px; 
-	    margin-right: 5px;
-	}
-	#ecare-icon {
-		width: 15px;
-		margin-bottom: -12px;
-		opacity: .9;
-	}
-}	
 
