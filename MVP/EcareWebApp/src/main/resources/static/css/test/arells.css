@@ -9,13 +9,13 @@ body {
 	rgba(200,18,18,1) 15%, 
 	rgba(172,173,0,1) 25%, 
 	rgba(48,223,48,1) 40%, 
-	rgba(33,220,196,1) 50%, 
-	rgba(41,15,216,1) 70%, 
-	rgba(255,0,215,1) 80%);   
-     animation: gradient 20s ease infinite; 
-     background-size: 500% 500%;
+	rgba(33,220,196,1) 60%, 
+	rgba(41,15,216,1) 75%, 
+	rgba(255,0,215,1) 90%);       
+     animation: gradients 20s ease infinite; 
+     background-size: 20000% 20000%;
 }
-@-webkit-keyframes gradient{
+@-webkit-keyframes gradients{
   0% {
     background-position: 0 50%;
   }
@@ -26,7 +26,7 @@ body {
      background-position: 0% 50%;
   }
 }
-@keyframes gradient{
+@keyframes gradients{
   0% {
     background-position: 0 50%;
   }
@@ -105,7 +105,7 @@ body {
 		margin-left: 0px; 
 		font-weight: 800;
 		color: white;
-		opacity: .9;
+		opacity: .8;
 	}
 	
 	hr {
@@ -115,7 +115,7 @@ body {
 	  height: 1px;
 	  border-radius: 30px;
 	  width: 230px;
-	  opacity: .9;
+	  opacity: 1;
 	}	
 	
 	#description {
@@ -124,7 +124,7 @@ body {
 		letter-spacing: 3px;
 		margin-left: 3px;
 		font-weight: 400;
-		opacity: .9;
+		opacity: .8;
 		color: white;
 	}	
 	#coming-soon {
@@ -135,7 +135,7 @@ body {
 		font-weight: 400;
 		color: white;
 		margin-bottom: 45px;
-		opacity: .9;
+		opacity: .8;
 	}
 	
 	#updates {
@@ -153,7 +153,7 @@ body {
 	  border-radius: 10px;
 	  border-width: 2px;
 	  width: 200px;
-	  opacity: .8;
+	  opacity: .9;
 	}
 	#updates:hover,
 	#updates:focus {
@@ -225,6 +225,37 @@ footer {
 	margin-left: auto;
 	margin-right: auto;	
 	z-index: 2;
+	background: linear-gradient(50deg, 
+	rgba(200,18,18,1) 5%, 
+	rgba(172,173,0,1) 20%, 
+	rgba(48,223,48,1) 40%, 
+	rgba(33,220,196,1) 60%, 
+	rgba(41,15,216,1) 75%, 
+	rgba(255,0,215,1) 90%);   
+     animation: gradient 20s ease infinite; 
+     background-size: 1000% 1000%;
+}
+@-webkit-keyframes gradient{
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+     background-position: 0% 50%;
+  }
+}
+@keyframes gradient{
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+     background-position: 0% 50%;
+  }
 }
 	#powered {
 	    font-size: 8px;
@@ -245,6 +276,25 @@ footer {
 	#ecare-icon {
 		width: 20px;
 		margin-bottom: 0px;
-		opacity: .9;
+		opacity: .8;
 	}
+	
+@media screen and (max-width: 650px) {
+
+	footer {
+	   height: 90px;
+	}
+	#powered {
+	    font-size: 6px;
+	    letter-spacing: 3px; 
+	    margin-right: 7px;
+	    opacity: .5;
+	}
+
+	#ecare-icon {
+		width: 15px;
+		margin-bottom: 0px;
+	}	
+	
+}	
 
