@@ -101,44 +101,75 @@ body {
 
 	
 #about {
-	text-decoration: none;
 	padding-top: 43px;
 	width: 100%;
 	padding-bottom: 40px;
 	background-color: #1f1f1f;
+	margin-left: auto;
+	margin-right: auto;	
 }
-
-#about-desc{
-		margin-left: auto;
-    margin-right: auto;	
-	margin-bottom: 30px;
-	width: 400px;
-}
-
-	#ecosystem {
-		margin-left: auto;
-	    margin-right: auto;
-		width: 300px;
-		padding: 40px;
-		border-radius: 5px;
-	    background-color: #f8f8fc;
-	    margin-bottom: 40px;
-	}
-	
-	#infrastructure {
-		margin-left: auto;
-	    margin-right: auto;
-		width: 300px;
-		background-color: #f8f8fc;
-		padding: 40px;
-		border-radius: 5px;
+	#about-desc{
+		margin-bottom: 30px;
+		width: 400px;
 	}
 
-		.eco-icon, .infra-icon {
-		  width: 40px;
+#ecosystem {
+	margin-left: auto;
+    margin-right: auto;
+	width: 100%;
+	padding: 40px;
+    background-color: #f8f8fc;
+    margin-bottom: 40px;
+}
+		#eco-icon {
+		  width: 20px;
 		  margin-left: auto;
 		  margin-right: auto;
 		}
+		#eco-title {
+			font-size: 15px;
+			color: white;
+			opacity: .75;
+		}	
+		#eco-link {
+		  background: white;
+		  margin-top: 10px;
+		  text-decoration: none;
+		  color: gray;
+		  font-weight:600;
+		  font-size: 13px;
+		  padding: 20px;
+		  border: none;
+		  letter-spacing: 1px;
+		  border-radius: 10px;
+		  width: 150px;
+		  box-shadow: 0px 5px 15px 0px rgb(169, 166, 211);
+		}
+		#eco-link:hover,
+		#eco-link:focus {
+		  opacity: .7;
+		  transition: 1s;
+		  cursor: pointer;
+		}
+
+#infrastructure {
+	margin-left: auto;
+    margin-right: auto;
+	width: 100%;
+	background-color: #f8f8fc;
+	padding: 40px;
+}
+
+		#infra-icon {
+		  width: 20px;
+		  margin-left: auto;
+		  margin-right: auto;
+		}
+		#infra-title {
+			font-size: 15px;
+			color: white;
+			opacity: .75;
+		}	
 	
 		#roadmap {
 		  background: #1f1f1f;

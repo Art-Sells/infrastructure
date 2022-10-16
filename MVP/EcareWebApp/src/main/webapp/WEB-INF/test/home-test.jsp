@@ -84,21 +84,21 @@
 			  
 		 </div>	  
 		  
-		 <canvas width="2" height="2">
+		 <div id="ecosystem">
 		  
-		  	  <img class="eco-icon" src="/icons&images/Icon.png"/>
+		  	  <img id="eco-icon" src="/icons&images/Icon.png"/>
 		  
 			  <h3 id="eco-title">Ecosystem</h3>
 			  
-			  <h4>Coming Soon</h4>
+			  <a href="/arells" id="eco-link">Coming Soon</a>
 	
 	
-		 </canvas>
+		 </div>
 		
 		      
 		 <div id="infrastructure">
 		 
-		 	  <img class="infra-icon" src="/icons&images/Icon.png"/>
+		 	  <img id="infra-icon" src="/icons&images/Icon.png"/>
 		  
 			  <h3 id="infra-title">Infrastructure</h3>
 		 	  	     <!-- Change below link after test -->
