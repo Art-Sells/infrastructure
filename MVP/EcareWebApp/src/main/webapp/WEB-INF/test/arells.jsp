@@ -73,11 +73,10 @@
 		
 		<footer>
 		
-
-			<span id="powered">powered by</span>
 			<a href="https://ecare.exchange"
 		      target="_blank"
 		      id="ecare-link">
+		      <span id="powered">powered by</span>
 		      <img id="ecare-icon" src="/icons&images/Icon.png"/>
 		  	</a>  
 			
