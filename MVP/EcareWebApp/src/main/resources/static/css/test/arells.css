@@ -85,7 +85,7 @@ body {
 
 	#arells-icon {
 		width: 120px;
-		opacity: .9;
+		opacity: 1;
 	}
 
 	h1{
@@ -96,7 +96,7 @@ body {
 		margin-right: 3px;
 		font-weight: 500;
 		color: white;
-		opacity: .9;
+		opacity: 1;
 	}
 	#slogan {
 		margin-top: -30px;
@@ -105,7 +105,7 @@ body {
 		margin-left: 0px; 
 		font-weight: 800;
 		color: white;
-		opacity: .8;
+		opacity: 1;
 	}
 	
 	hr {
@@ -124,7 +124,7 @@ body {
 		letter-spacing: 3px;
 		margin-left: 3px;
 		font-weight: 400;
-		opacity: .8;
+		opacity: 1;
 		color: white;
 	}	
 	#coming-soon {
@@ -135,7 +135,7 @@ body {
 		font-weight: 400;
 		color: white;
 		margin-bottom: 45px;
-		opacity: .8;
+		opacity: 1;
 	}
 	
 	#updates {
@@ -153,7 +153,7 @@ body {
 	  border-radius: 10px;
 	  border-width: 2px;
 	  width: 200px;
-	  opacity: .9;
+	  opacity: 1;
 	}
 	#updates:hover,
 	#updates:focus {
@@ -260,9 +260,9 @@ footer {
 	#powered {
 	    font-size: 8px;
 	    letter-spacing: 5px; 
-	    font-weight: 800; 
+	    font-weight: 500; 
 	    margin-right: 10px;
-	    opacity: .4;
+	    opacity: .7;
 	    color: white;
 	}
 	#ecare-link {
@@ -276,7 +276,7 @@ footer {
 	#ecare-icon {
 		width: 20px;
 		margin-bottom: 0px;
-		opacity: .8;
+		opacity: 1;
 	}
 	
 @media screen and (max-width: 650px) {
@@ -288,7 +288,6 @@ footer {
 	    font-size: 6px;
 	    letter-spacing: 3px; 
 	    margin-right: 7px;
-	    opacity: .5;
 	}
 
 	#ecare-icon {
