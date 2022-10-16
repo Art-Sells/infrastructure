@@ -9,11 +9,33 @@ body {
 	rgba(200,18,18,1) 15%, 
 	rgba(172,173,0,1) 25%, 
 	rgba(48,223,48,1) 40%, 
-	rgba(33,220,196,1) 60%, 
-	rgba(41,15,216,1) 75%, 
-	rgba(255,0,215,1) 85%);   
+	rgba(33,220,196,1) 50%, 
+	rgba(41,15,216,1) 70%, 
+	rgba(255,0,215,1) 80%);   
      animation: gradient 20s ease infinite; 
      background-size: 500% 500%;
+}
+@-webkit-keyframes gradient{
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+     background-position: 0% 50%;
+  }
+}
+@keyframes gradient{
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+     background-position: 0% 50%;
+  }
 }
 
 
@@ -32,13 +54,13 @@ body {
 	rgba(48,223,48,1) 40%, 
 	rgba(33,220,196,1) 60%, 
 	rgba(41,15,216,1) 75%, 
-	rgba(255,0,215,1) 85%);       
-     animation: gradient 20s ease infinite; 
+	rgba(255,0,215,1) 90%);       
+     animation: gradients 20s ease infinite; 
      background-size: 20000% 20000%;
      box-shadow: 0px 0px 10px 0px black;
      z-index: 1;
 }
-@-webkit-keyframes gradient{
+@-webkit-keyframes gradients{
   0% {
     background-position: 0 50%;
   }
@@ -49,7 +71,7 @@ body {
      background-position: 0% 50%;
   }
 }
-@keyframes gradient{
+@keyframes gradients{
   0% {
     background-position: 0 50%;
   }
@@ -90,10 +112,10 @@ body {
 	  margin-top: 30px;
 	  background-color: white;
 	  border: none;
-	  height: 2px;
+	  height: 5px;
 	  border-radius: 30px;
-	  width: 500px;
-	  opacity: .8;
+	  width: 400px;
+	  opacity: .5;
 	}	
 	
 	#description {
