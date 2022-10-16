@@ -161,11 +161,23 @@ body {
 	}	  
   	#slogan {
 		margin-top: -10px;
-		font-size: 9px;
+		font-size: 9.5px;
 		letter-spacing: 1px;
 		margin-left: 1px; 
 		font-weight: 800;
 	}
+	hr {
+	  margin-top: 30px;
+	  width: 280px;
+	}	
+	
+	#description {
+		margin-top: 30px;
+		font-size: 7px;
+		letter-spacing: 1px;
+		margin-left: 1px;
+		font-weight: 800;
+	}		
 	#coming-soon {
 		margin-top: 30px;
 		font-size: 9px;
