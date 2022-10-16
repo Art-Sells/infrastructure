@@ -83,7 +83,7 @@
 	      
 	      <br>
 	          
-		  <a href="https://github.com/jeyakatsa/Ecare"
+		  <a href="https://github.com/orgs/Ecare-Exchange"
 		      target="_blank"
 		      id="contact">
 		      <img id="github" src="/icons&images/GithubBright.png">
