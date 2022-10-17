@@ -39,12 +39,12 @@ public class MainController {
 	 
 	 @GetMapping("/arells") public String arells() { return "test/arells.jsp"; }
 	  
-//	 @GetMapping("/prototype-test") public String prototypeTest() { return
-//	 "test/prototype-test.jsp"; }
-//	  
-//	 @GetMapping("/guide-test") public String guideTest() { return
-//	 "test/guide-test.jsp"; }
-// 
+	 @GetMapping("/prototype-test") public String prototypeTest() { return
+	 "test/prototype-test.jsp"; }
+	  
+	 @GetMapping("/guide-test") public String guideTest() { return
+	 "test/guide-test.jsp"; }
+ 
 	 @GetMapping("/roadmap-test") public String roadmapTest() { return
 	 "test/roadmap-test.jsp"; }
 	 

@@ -74,9 +74,7 @@
 	  
 	  </div>
 	  
-		<div id="about">
-		  
-			  <h3 id="about-title">About</h3>	  
+		<div id="about"> 
 		  
 			  <p id="about-desc">Ecare is the infrastructure created
 			  to house an ecosystem to lift storytellers 
@@ -85,22 +83,19 @@
 		 </div>	  
 		  
 		 <div id="ecosystem">
-		  
-		  	  <img id="eco-icon" src="/icons&images/Icon.png"/>
-		  
-			  <h3 id="eco-title">Ecosystem</h3>
-			  
-			  <a href="/arells" id="eco-link">Coming Soon</a>
+		 
+		      <a href="/arells"
+		       	  target="_blank"
+			      id="eco-link">		      
+<!-- 				   <img id="eco-icon" src="/icons&images/Arells-Icon.png"/> -->
+			      <p id="eco-title">arells</p>			      
+		      </a>		 
 	
 	
 		 </div>
 		
 		      
 		 <div id="infrastructure">
-		 
-		 	  <img id="infra-icon" src="/icons&images/Icon.png"/>
-		  
-			  <h3 id="infra-title">Infrastructure</h3>
 		 	  	     <!-- Change below link after test -->
 		 	  	     
 		      <a href="/roadmap-test" id="roadmap">Roadmap
