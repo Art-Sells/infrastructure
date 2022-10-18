@@ -15,17 +15,14 @@ body {
 }
 
 #above {
-	padding-top: 35px;
+	padding-top: 60px;
 	display: flex;
 	width: 100%;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	background-color: #f8f8fc;
-	height: 470px;
-	position: sticky;
-	z-index: 4;
-	box-shadow: 0px 5px 8px 0px black;
+	height: 460px;
 }
 
 	.icon {
@@ -86,11 +83,11 @@ body {
 	  color: rgb(169, 166, 211);
 	  font-weight:600;
 	  font-size: 13px;
-	  padding: 20px;
 	  border: none;
 	  letter-spacing: 1px;
 	  border-radius: 5px;
 	  width: 100px;
+	  padding: 20px;
 	  box-shadow: 0px 3px 8px 0px rgb(169, 166, 211);
 	}
 	#guide:hover,
@@ -103,34 +100,30 @@ body {
 
 	
 #about {
-	padding-top: 25px;
+	padding-top: 40px;
 	width: 100%;
-	height: 50px;
-	background-color: #1f1f1f;
+	height: 100px;
+	background-color: gray;
 	margin-left: auto;
 	margin-right: auto;	
-	position: sticky;
-	z-index: 3;
-	box-shadow: 0px 3px 10px 0px black;	
 }
 	#about-desc{
 		margin: auto;
 		width: 300px;
-		color: white;
-		line-height: 13px;
-		opacity: .5;
+		color: #f8f8fc;
+		font-weight: 600;
+		line-height: 30px;
+		opacity: .85;
 		font-size: 12px;
 	}
 
 #ecosystem {
-	padding-top: 40px;	
+	padding-top: 50px;	
 	margin-left: auto;
     margin-right: auto;
     height: 100px; 
 	width: 100%;
     margin-bottom: 40px;
-    position: sticky;
-	z-index: 1;
 	background: linear-gradient(50deg, 
 	rgba(255,0,0,1) 15%, 
 	rgba(178,179,2,1) 30%, 
@@ -138,8 +131,7 @@ body {
 	rgba(33,0,255,1) 70%, 
 	rgba(187,1,158,1) 85%); 
      animation: gradient 20s ease infinite; 
-     background-size: 20000% 20000%;
-	box-shadow: 0px 0px 30px 0px black;	     
+     background-size: 20000% 20000%; 
 }
 @-webkit-keyframes gradient{
   0% {
@@ -165,39 +157,37 @@ body {
 }	
 		#eco-link {
 		  text-decoration: none;
+			color: white;
+			font-family: Bahnschrift;
+			font-size: 40px;	
+			letter-spacing: -4px;
+			margin-right: 4px;	
+			font-weight: 500;	
+			opacity: 1;
+		    padding-top: 15px;
+			  padding-bottom: 15px;
+			  padding-right: 30px;
+			  padding-left: 26px;	  
+			  border-radius: 10px;
+			  border-width: 2px;
+			  width: 150px;	 
+			  border: solid;		  
 		}
-		#eco-link:hover{
+		#eco-link:hover,
+		#eco-link:focus {
 		  opacity: .3;
 		  transition: 1s;
 		  cursor: pointer;
-		}
-		#eco-icon {
-		  width: 60px;
-		  margin-left: auto;
-		  margin-right: auto;
-		  opacity: .7;
-		}
-		#eco-title{
-		margin-top: 0px;
-			color: white;
-			font-family: Bahnschrift;
-			font-size: 50px;	
-			letter-spacing: -5px;
-			margin-right: 5px;	
-			font-weight: 500;	
-			opacity: .7;
-		}		
+		}	
 
 #infrastructure {
 	margin-left: auto;
     margin-right: auto;
     padding-top: 20px;
-    padding-bottom: 50px;
+    padding-bottom: 70px;
 	width: 100%;
-	height: 80px;
+	height: 70px;
 	background-color: #1f1f1f;
-	position: stricky;
-	z-index: 2;
 }
 	
 		#roadmap {

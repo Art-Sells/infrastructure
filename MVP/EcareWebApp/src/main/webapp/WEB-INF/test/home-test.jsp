@@ -84,11 +84,11 @@
 		  
 		 <div id="ecosystem">
 		 
+	      		<!-- Change below link after test -->		 
 		      <a href="/arells"
 		       	  target="_blank"
 			      id="eco-link">		      
-<!-- 				   <img id="eco-icon" src="/icons&images/Arells-Icon.png"/> -->
-			      <p id="eco-title">arells</p>			      
+			      arells		      
 		      </a>		 
 	
 	
