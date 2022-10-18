@@ -76,9 +76,8 @@
 	  
 		<div id="about"> 
 		  
-			  <p id="about-desc">Ecare is the infrastructure created
-			  to house an ecosystem to lift storytellers 
-			  out of poverty.</p>
+			  <p id="about-desc">Created to house an ecosystem 
+			  to lift storytellers out of poverty.</p>
 			  
 		 </div>	  
 		  
