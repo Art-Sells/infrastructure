@@ -74,12 +74,12 @@
 	  
 	  </div>
 	  
-		<div id="about"> 
+<!-- 		<div id="about"> 
 		  
 			  <p id="about-desc">Created to house an ecosystem 
 			  to lift storytellers out of poverty.</p>
 			  
-		 </div>	  
+		 </div>	  --> 
 		  
 		 <div id="ecosystem">
 		 
