@@ -170,15 +170,15 @@ body {
 			font-size: 25px;	
 			letter-spacing: -2px;
 			font-weight: 500;	
-			opacity: .70;
+			opacity: 1;
 		    padding-top: 15px;
+			  border: solid;			    
 			  padding-bottom: 15px;
 			  padding-right: 32px;
 			  padding-left: 30px;	  
-			  border-radius: 5px;
-			  border-width: 2px;
-			  width: 200px;	 
-			  border: solid;		  
+			  border-radius: 10px;
+			  border-width: 1px;
+			  width: 200px;	 	  
 		}
 		#eco-link:hover,
 		#eco-link:focus {
@@ -208,7 +208,7 @@ body {
 		  border-color: silver;
 		  border-width: 2px;
 		  border-radius: 3px;
-		  opacity: .70;
+		  opacity: .75;
 		}
 		#roadmap:hover,
 		#roadmap:focus {
@@ -218,7 +218,7 @@ body {
 		}	
 	
 		#contact {
-			opacity: .45;	
+			opacity: .75;	
 		}
 		#contact:hover {
 			opacity: .3;
@@ -286,13 +286,10 @@ body {
 				font-size: 21px;	
 				letter-spacing: -1px;
 				font-weight: 500;	
-				opacity: .70;
 			    padding-top: 13px;
 				  padding-bottom: 13px;
 				  padding-right: 24px;
 				  padding-left: 23px;	  
-				  border-radius: 5px;
-				  border-width: 2px;
 				  width: 150px;	 		  
 			}		
 	
