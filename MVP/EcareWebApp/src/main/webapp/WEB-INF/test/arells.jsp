@@ -55,21 +55,39 @@
 		<div id="overlay">
 		
 			<img id="arells-icon" src="/icons&images/Arells-Icon.png"/>
+			
 			<h1>arells</h1>
+			
 			<p id="slogan">MAKE MONEY WITH YOUR LIFE STORY</p>
+			
 			<hr>
+			
 			<p id="description">
 				CREATED TO LIFT STORYTELLERS OUT OF POVERTY
 			</p>
+			
 			<p id="coming-soon">COMING SOON</p>
+			
 			<!-- Change below link after test -->
 			<a href="https://ecare.exchange" 
 			target="_blank"
 			id="updates">
-	      	STAY UPDATED
+	      		STAY UPDATED
 	        </a>
+	        
+	        <br>
 		
-		</div>
+			<p id="rdmp">
+				<!-- Change below link after test -->
+				<a href="https://ecare.exchange" 
+				target="_blank"
+				id="roadmap">
+		      		ROADMAP
+		        </a>				
+			</p>
+		
+		
+		</div>			
 		
 		<footer>
 
@@ -79,9 +97,9 @@
 		      id="ecare-link">
 		      <img id="ecare-icon" src="/icons&images/Icon.png"/>
 		  	</a>  		
-
 			
 		</footer>
+	
 	
 	</body>
 </html>
