@@ -86,7 +86,6 @@ span {
 	margin-top: 50px;
 	border-width: 2px;
 	border-radius: 20px;
-	border-color: silver;
 	margin-left: auto;
 	margin-right: auto;
     box-shadow: 0px 5px 25px -10px black;
@@ -122,7 +121,7 @@ h3 {
 		border: none;
 		margin-top: 20px;
 		border-color: white;
-		border-width: 5px;
+		border-width: 10px;
 		border-radius: 10px;
 		margin-left: auto;
 		margin-right: auto;
