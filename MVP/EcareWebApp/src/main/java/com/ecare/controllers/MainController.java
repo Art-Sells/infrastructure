@@ -38,6 +38,8 @@ public class MainController {
 	 @GetMapping("/test") public String test() { return "test/home-test.jsp"; }
 	 
 	 @GetMapping("/arells") public String arells() { return "test/arells.jsp"; }
+	 
+	 @GetMapping("/arells-roadmap") public String arellsRoadmap() { return "test/arells-roadmap.jsp"; }
 	  
 	 @GetMapping("/prototype-test") public String prototypeTest() { return
 	 "test/prototype-test.jsp"; }

@@ -69,7 +69,7 @@
 			<p id="coming-soon">COMING SOON</p>
 			
 			<!-- Change below link after test -->
-			<a href="https://ecare.exchange" 
+			<a href="https://twitter.com" 
 			target="_blank"
 			id="updates">
 	      		STAY UPDATED
@@ -79,7 +79,7 @@
 		
 			<p id="rdmp">
 				<!-- Change below link after test -->
-				<a href="https://ecare.exchange" 
+				<a href="/arells-roadmap" 
 				target="_blank"
 				id="roadmap">
 		      		ROADMAP
