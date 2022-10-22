@@ -85,7 +85,6 @@
 		 
 	      		<!-- Change below link after test -->		 
 		      <a href="/arells"
-		       	  target="_blank"
 			      id="eco-link">		      
 			      arells		      
 		      </a>		 

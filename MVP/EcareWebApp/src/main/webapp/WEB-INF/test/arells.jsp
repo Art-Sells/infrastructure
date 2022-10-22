@@ -80,7 +80,6 @@
 			<p id="rdmp">
 				<!-- Change below link after test -->
 				<a href="/arells-roadmap" 
-				target="_blank"
 				id="roadmap">
 		      		ROADMAP
 		        </a>				
@@ -91,9 +90,9 @@
 		
 		<footer>
 
-		    <span id="powered">POWERED BY</span>		
-	        <a href="https://ecare.exchange"
-		      target="_blank"
+		    <span id="powered">POWERED BY</span>
+		    <!-- Change below link after test -->		
+	        <a href="/test"
 		      id="ecare-link">
 		      <img id="ecare-icon" src="/icons&images/Icon.png"/>
 		  	</a>  		
