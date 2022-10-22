@@ -7,7 +7,7 @@ Ecare was born out of the ashes of a cryptocurrency ecosystem in 2019 created to
 
 #### Broadly, Ecare is the infrastructure created to house an ecosystem to lift storytellers out of poverty.
 
-#### Specifically, ECARE, is an Ethereum Combinatorial Auction Rate Exchange meant to facilitate a self-sustaining ecosystem immune to bear-market volatility. 
+##### Specifically, ECARE, is an Ethereum Combinatorial Auction Rate Exchange meant to facilitate a self-sustaining ecosystem immune to bear-market volatility. 
 
 ### Motivation:
 
