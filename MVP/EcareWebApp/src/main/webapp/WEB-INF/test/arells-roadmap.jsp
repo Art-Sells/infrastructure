@@ -50,18 +50,13 @@
 	
 	</head>
 	<body>
-	
-<!-- change link below after test -->	
-  	<a id="homelink" href="/test">
-     	<img id="img" src="/icons&images/Arells-Icon.png"/>	  
-  	</a>	
-    <span>ROADMAP</span>
+<!--     <span>ROADMAP</span> -->
     
 	<section id="wrapper-ongoing">
 	
-		<p id="date-title">OCT 2022 - AUG 2025</p>
+		<p id="date-title">Oct 2022 - Aug 2025</p>
 	
-		<form method="get" target="_blank" action="https://github.com/Ecare-Exchange">
+		<form method="get" target="_blank" action="https://ecare.exchange">
 		<button type="button" id="wrapper-content">
 			<p id="milestone">Infrastructure
 			</p>
@@ -76,7 +71,7 @@
 	
 	<section id="wrapper-date-top">
 	
-		<p id="date-title">SEP 2025 - DEC 2027</p>
+		<p id="date-title">Sep 2025 - Dec 2027</p>
 	
 	<!-- change link below after test -->
 		<form method="get" target="_blank" action="https://github.com/Ecare-Exchange/infrastructure/blob/main/R&D/Ecosystem-Roadmap.md">
@@ -106,7 +101,7 @@
 	 
 	<section id="wrapper-date">
 	
-		<p id="date-title">JAN 2028 - DEC 2028</p>
+		<p id="date-title">Jan 2028 - Dec 2028</p>
 	
 		<form method="get" target="_blank" action="https://github.com/Ecare-Exchange/infrastructure/blob/main/R&D/Ecosystem-Roadmap.md">
 		<button type="button" id="wrapper-content">
@@ -123,7 +118,7 @@
 	 
 	 <section id="wrapper-date">
 	
-		<p id="date-title">JAN 2029 - DEC 2029</p>
+		<p id="date-title">Jan 2029 - Dec 2029</p>
 	
 		<form method="get" target="_blank" action="https://github.com/Ecare-Exchange/infrastructure/blob/main/R&D/Ecosystem-Roadmap.md">
 		<button type="button" id="wrapper-content">
@@ -138,13 +133,12 @@
 	
 	 </section>	  	 
 	
-		 <footer>
+	<footer>
 	      
-		  <a href="https://github.com/orgs/Ecare-Exchange"
-		      target="_blank"
-		      id="contact">
-		      <img id="github" src="/icons&images/GithubBright.png">
-		  </a>  	
+		<!-- change link below after test -->	
+		   	<a id="homelink" href="/test">
+		     	<img id="img" src="/icons&images/guideIcon.png"/>	  
+		  	</a>
 		  
 	</footer>
 	

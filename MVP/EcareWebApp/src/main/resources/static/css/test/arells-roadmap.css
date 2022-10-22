@@ -5,14 +5,14 @@ body {
   margin-left: 0%;
   margin-right: 0%;
   margin-bottom: 0%;
-	background: linear-gradient(50deg, 
-	rgba(255,0,0,1) 15%, 
-	rgba(178,179,2,1) 30%, 
+	background: linear-gradient(90deg, 
+	rgba(255,0,0,1) 0%, 
+	rgba(178,179,2,1) 25%, 
 	rgba(1,187,1,1) 50%, 
-	rgba(33,0,255,1) 70%, 
-	rgba(187,1,158,1) 85%);    
+	rgba(33,0,255,1) 75%, 
+	rgba(187,1,158,1) 100%);    
      animation: gradients 20s ease infinite; 
-     background-size: 5000% 5000%;
+     background-size: 10000% 10000%;
 }
 @-webkit-keyframes gradients{
   0% {
@@ -37,95 +37,83 @@ body {
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 650px) {
   body {
     -webkit-text-size-adjust: none;
   }
 }
 
-#homelink {
-  text-decoration: none;
-}
-#img {
-  padding-top: 45px;
-  width: 14px;
-  margin-left: auto;
-  margin-right: auto;	
-  margin-bottom: -3px;
-}
-#img:hover {
-  opacity: .4;
-  transition: 1s;
-  cursor: pointer;
-}
-span {
+/* span {
 	color: white;
+	padding-top: 20px;
 	font-size: 20px;
-	margin-left: 15px;
+	margin-right: 10px;
 	letter-spacing: 10px;
+	margin: auto;
 	font-weight: 400;
+	
 	opacity: 1;
-}	
+}	 */
 
 #wrapper-ongoing {
-	width: 550px;
+	width: 500px;
 	height: 360px;
 	padding: 10px;
-	margin-top: 50px;
+	margin-top: 70px;
 	border: solid;	
-	border-width: 4px;
-	border-color: black;
-	border-radius: 30px;
+	border-width: 1px;
+	border-color: gray;
+	border-radius: 20px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 #wrapper-date-top {
-	width: 550px;
+	width: 500px;
 	height: 570px;
 	padding: 10px;
 	margin-top: 50px;
 	border: solid;	
-	border-width: 4px;
-	border-color: black;
-	border-radius: 30px;
+	border-width: 1px;
+	border-color: gray;
+	border-radius: 20px;
 	margin-left: auto;
 	margin-right: auto;
 }	
 #wrapper-date {
-	width: 550px;
+	width: 500px;
 	height: 360px;
 	padding: 10px;
 	margin-top: 50px;
 	border: solid;	
-	border-width: 4px;
-	border-color: black;
-	border-radius: 30px;
+	border-width: 1px;
+	border-color: gray;
+	border-radius: 20px;
 	margin-left: auto;
 	margin-right: auto;
 }	
 
 	#date-title {
 		color: white;
-		font-size: 14px;
+		font-size: 13px;
 		padding-top: 35px;
 		padding-bottom: 20px;
 		margin: auto;
-		letter-spacing: 1px;
-		margin-right: 1px;
+		letter-spacing: 0px;
+		margin-right: 0px;
 		font-weight: 500;
-		opacity: .8;
+		opacity: .9;
 	}	
 
 	#wrapper-content {
-		width: 350px;
+		width: 300px;
 		height: 180px;
 		color: white;
 		padding: 30px;
 		border: solid;
 		margin-top: 20px;
 		border-color: white;
-		border-width: 3px;
+		border-width: 1px;
 		border-radius: 20px;
 		margin-left: auto;
 		margin-right: auto;
@@ -140,22 +128,22 @@ span {
 	}
 		#milestone {
 			opacity: 1;
-			font-size: 17px;
+			font-size: 15px;
 			font-weight: 400;
 			margin-bottom: -10px;
-			letter-spacing: 1px;
+			letter-spacing: 0px;
 			
 		}	
 		#status-title {
 			opacity: .6;
-			font-size: 15px;
-			margin-bottom: -10px;
-			letter-spacing: 1px;			
+			font-size: 12px;
+			margin-bottom: -7px;
+			letter-spacing: 0px;			
 		}	
 		#status {
 			opacity: .8;
-			font-size: 14px;
-			letter-spacing: 1px;
+			font-size: 11px;
+			letter-spacing: 0px;
 			padding-bottom: 10px;
 		}			
 
@@ -167,28 +155,28 @@ footer {
 	margin-bottom: 30px;
 }
 
-	#contact:hover {
-		opacity: .3;
-		cursor: pointer;
-		transition: 1s;
+	#homelink {
+	  text-decoration: none;
 	}
-	#github {
-		width: 25px;
-		opacity: .9;
+	#img {
+	  width: 45px;
+	  margin-left: auto;
+	  margin-right: auto;	
 	}
+	#img:hover {
+	  opacity: .4;
+	  transition: 1s;
+	  cursor: pointer;
+	} 
 
-@media screen and (max-width: 700px){
-	
-#img {
-  width: 22px;
-  margin-bottom: -4px;
-}
+@media screen and (max-width: 650px){
 
-span {
+
+/* span {
 	font-size: 15px;
 	margin-left: 10px;
 	letter-spacing: 7px;
-}	
+}	 */
 
 #wrapper-ongoing {
 	width: 300px;
@@ -214,24 +202,24 @@ span {
 		height: 180px;
 	}	
 		#milestone {
-			font-size: 14px;
-			margin-bottom: -8px;
+			font-size: 13px;
+			margin-bottom: -3px;
 			
 		}	
 		#status-title {
-			font-size: 12px;
+			font-size: 10px;
 			margin-bottom: -5px;						
 		}	
 		#status {
 		line-height: 15px;
-			font-size: 11px;
+			font-size: 9px;
 		}
 	
 footer {
-	height: 40px;
+	height: 60px;
 }
 	
-	#github {
-		width: 20px;
-	}	
+	#img {
+	  width: 20px;
+	}
 }
