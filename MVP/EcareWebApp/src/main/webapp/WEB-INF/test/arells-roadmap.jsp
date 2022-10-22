@@ -62,7 +62,7 @@
 		<h3>Present</h3>
 	
 		<form method="get" target="_blank" action="https://github.com/Ecare-Exchange/infrastructure/tree/main/R%26D">
-		<button id="wrapper-content">
+		<button type="button" id="wrapper-content">
 			<p id="milestone">R&D Work 
 			</p>
 			<p id="status-title">Status
@@ -80,7 +80,7 @@
 	
 	<!-- change link below after test -->
 		<form method="get" target="_blank" action="/prototype-test">
-		<button id="wrapper-content">
+		<button type="button" id="wrapper-content">
 			<p id="milestone">Prototype
 			</p>
 			<p id="status-title">Status
@@ -92,7 +92,7 @@
 		
 	<!-- change link below after test -->
 		<form method="get" target="_blank" action="/guide-test">		
-		<button id="wrapper-content">
+		<button type="button" id="wrapper-content">
 			<p id="milestone">Prototype Guide
 			</p>
 			<p id="status-title">Status
@@ -109,7 +109,7 @@
 		<h3>Aug 2022 - Jan 2023</h3>
 	
 		<form method="get" target="_blank" action="https://github.com/Ecare-Exchange/infrastructure/tree/main/MVP/BdApp">
-		<button id="wrapper-content">
+		<button type="button" id="wrapper-content">
 			<p id="milestone">Base dApp
 			</p>
 			<p id="status-title">Status
@@ -126,7 +126,7 @@
 		<h3>Feb 2023 - Jul 2023</h3>
 	
 		<form method="get" target="_blank" action="https://github.com/Ecare-Exchange/infrastructure/tree/main/MVP">
-		<button id="wrapper-content">
+		<button type="button" id="wrapper-content">
 			<p id="milestone">Internal Market API
 			</p>
 			<p id="status-title">Status
@@ -143,7 +143,7 @@
 		<h3>Aug 2023 - Aug 2025</h3>
 	
 		<form method="get" target="_blank" action="https://github.com/Ecare-Exchange/infrastructure/tree/main/MVP">
-		<button id="wrapper-content">
+		<button type="button" id="wrapper-content">
 			<p id="milestone">Full dApp
 			</p>
 			<p id="status-title">Status
