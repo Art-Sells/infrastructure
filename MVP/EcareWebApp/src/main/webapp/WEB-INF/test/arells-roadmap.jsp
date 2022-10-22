@@ -55,19 +55,19 @@
   	<a id="homelink" href="/test">
      	<img id="img" src="/icons&images/guideIcon.png"/>	  
   	</a>	
-    <span>Roadmap</span>
+    <span>ROADMAP</span>
     
 	<section id="wrapper-ongoing">
 	
-		<h3>Present</h3>
+		<p id="date-title">OCT 2022 - AUG 2025</p>
 	
-		<form method="get" target="_blank" action="https://github.com/Ecare-Exchange/infrastructure/tree/main/R%26D">
+		<form method="get" target="_blank" action="https://github.com/Ecare-Exchange">
 		<button type="button" id="wrapper-content">
-			<p id="milestone">R&D Work 
+			<p id="milestone">Infrastructure
 			</p>
 			<p id="status-title">Status
 			</p>			
-			<p id="status">Ongoing
+			<p id="status">In Development
 			</p>
 		</button>
 		</form>	
@@ -76,28 +76,28 @@
 	
 	<section id="wrapper-date-top">
 	
-		<h3>Jun 2022 - Jul 2022</h3>
+		<p id="date-title">SEP 2025 - DEC 2027</p>
 	
 	<!-- change link below after test -->
-		<form method="get" target="_blank" action="/prototype-test">
+		<form method="get" target="_blank" action="https://github.com/Ecare-Exchange/infrastructure/blob/main/R&D/Ecosystem-Roadmap.md">
 		<button type="button" id="wrapper-content">
-			<p id="milestone">Prototype
+			<p id="milestone">Protocol
 			</p>
 			<p id="status-title">Status
 			</p>			
-			<p id="status">Completed | Launched
+			<p id="status">Announced
 			</p>
 		</button>
 		</form>	
 		
 	<!-- change link below after test -->
-		<form method="get" target="_blank" action="/guide-test">		
+		<form method="get" target="_blank" action="https://github.com/Ecare-Exchange/infrastructure/blob/main/R&D/Ecosystem-Roadmap.md">		
 		<button type="button" id="wrapper-content">
-			<p id="milestone">Prototype Guide
+			<p id="milestone">Apps
 			</p>
 			<p id="status-title">Status
 			</p>	
-			<p id="status">Completed | Launched
+			<p id="status">Announced
 			</p>				
 		</button>
 		</form>
@@ -106,28 +106,11 @@
 	 
 	<section id="wrapper-date">
 	
-		<h3>Aug 2022 - Jan 2023</h3>
+		<p id="date-title">JAN 2028 - DEC 2028</p>
 	
-		<form method="get" target="_blank" action="https://github.com/Ecare-Exchange/infrastructure/tree/main/MVP/BdApp">
+		<form method="get" target="_blank" action="https://github.com/Ecare-Exchange/infrastructure/blob/main/R&D/Ecosystem-Roadmap.md">
 		<button type="button" id="wrapper-content">
-			<p id="milestone">Base dApp
-			</p>
-			<p id="status-title">Status
-			</p>			
-			<p id="status">Research & Development
-			</p>
-		</button>
-		</form>	
-	
-	 </section>	 
-	 
-	 <section id="wrapper-date">
-	
-		<h3>Feb 2023 - Jul 2023</h3>
-	
-		<form method="get" target="_blank" action="https://github.com/Ecare-Exchange/infrastructure/tree/main/MVP">
-		<button type="button" id="wrapper-content">
-			<p id="milestone">Internal Market API
+			<p id="milestone">Testnet
 			</p>
 			<p id="status-title">Status
 			</p>			
@@ -140,11 +123,11 @@
 	 
 	 <section id="wrapper-date">
 	
-		<h3>Aug 2023 - Aug 2025</h3>
+		<p id="date-title">JAN 2029 - DEC 2029</p>
 	
-		<form method="get" target="_blank" action="https://github.com/Ecare-Exchange/infrastructure/tree/main/MVP">
+		<form method="get" target="_blank" action="https://github.com/Ecare-Exchange/infrastructure/blob/main/R&D/Ecosystem-Roadmap.md">
 		<button type="button" id="wrapper-content">
-			<p id="milestone">Full dApp
+			<p id="milestone">Mainnet
 			</p>
 			<p id="status-title">Status
 			</p>			
@@ -153,7 +136,7 @@
 		</button>
 		</form>	
 	
-	 </section>		 	 
+	 </section>	  	 
 	
 		 <footer>
 	      
