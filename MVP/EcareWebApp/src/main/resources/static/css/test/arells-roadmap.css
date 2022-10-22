@@ -60,11 +60,11 @@ body {
 }
 span {
 	color: white;
-	font-size: 18px;
-	margin-left: 10px;
-	letter-spacing: 2px;
+	font-size: 20px;
+	margin-left: 15px;
+	letter-spacing: 10px;
 	font-weight: 400;
-	opacity: .8;
+	opacity: 1;
 }	
 
 #wrapper-ongoing {
@@ -73,8 +73,8 @@ span {
 	padding: 10px;
 	margin-top: 50px;
 	border: solid;	
-	border-width: .5px;
-	border-color: white;
+	border-width: 4px;
+	border-color: black;
 	border-radius: 30px;
 	margin-left: auto;
 	margin-right: auto;
@@ -86,8 +86,8 @@ span {
 	padding: 10px;
 	margin-top: 50px;
 	border: solid;	
-	border-width: .5px;
-	border-color: white;
+	border-width: 4px;
+	border-color: black;
 	border-radius: 30px;
 	margin-left: auto;
 	margin-right: auto;
@@ -98,8 +98,8 @@ span {
 	padding: 10px;
 	margin-top: 50px;
 	border: solid;	
-	border-width: .5px;
-	border-color: white;
+	border-width: 4px;
+	border-color: black;
 	border-radius: 30px;
 	margin-left: auto;
 	margin-right: auto;
@@ -125,7 +125,7 @@ span {
 		border: solid;
 		margin-top: 20px;
 		border-color: white;
-		border-width: 2px;
+		border-width: 3px;
 		border-radius: 20px;
 		margin-left: auto;
 		margin-right: auto;
@@ -134,25 +134,26 @@ span {
 	#wrapper-content:hover,
 	#wrapper-content:focus{
 		opacity: .5;	
+		border-color: transparent;
 		transition: 1s;
 	    cursor: pointer;		
 	}
 		#milestone {
-			opacity: .9;
-			font-size: 18px;
+			opacity: 1;
+			font-size: 17px;
 			font-weight: 400;
 			margin-bottom: -10px;
 			letter-spacing: 1px;
 			
 		}	
 		#status-title {
-			opacity: .8;
+			opacity: .6;
 			font-size: 15px;
 			margin-bottom: -10px;
 			letter-spacing: 1px;			
 		}	
 		#status {
-			opacity: .9;
+			opacity: .8;
 			font-size: 14px;
 			letter-spacing: 1px;
 			padding-bottom: 10px;
@@ -179,7 +180,7 @@ footer {
 @media screen and (max-width: 700px){
 	
 #img {
-  width: 12px;
+  width: 22px;
   margin-bottom: -4px;
 }
 

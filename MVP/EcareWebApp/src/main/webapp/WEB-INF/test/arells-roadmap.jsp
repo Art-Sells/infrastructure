@@ -53,7 +53,7 @@
 	
 <!-- change link below after test -->	
   	<a id="homelink" href="/test">
-     	<img id="img" src="/icons&images/guideIcon.png"/>	  
+     	<img id="img" src="/icons&images/Arells-Icon.png"/>	  
   	</a>	
     <span>ROADMAP</span>
     
