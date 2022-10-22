@@ -55,8 +55,12 @@
 		<div id="overlay">
 		
 			<img id="arells-icon" src="/icons&images/Arells-Icon.png"/>
+		
+			<br>
 			
-			<h1>arells</h1>
+			<img id="letter-logo" src="/icons&images/Letter-Logo.png">	
+			
+			<br>
 			
 			<p id="slogan">MAKE MONEY WITH YOUR LIFE STORY</p>
 			
