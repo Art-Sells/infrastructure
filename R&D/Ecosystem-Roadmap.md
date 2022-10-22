@@ -10,7 +10,7 @@
    - [ ] Infrastructure *[[In Development]](https://github.com/Ecare-Exchange/infrastructure)*
 
 - **Sep 2025 - Dec 2027**
-  - [ ] Blockchain *[announced]*
+  - [ ] Protocol *[announced]*
   - [ ] iOS/Android Apps *[announced]*
 
 - **Jan 2028 - Dec 2028**
