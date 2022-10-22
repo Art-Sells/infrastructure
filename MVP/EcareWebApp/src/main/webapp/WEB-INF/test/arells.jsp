@@ -25,7 +25,7 @@
 		<link rel="canonical" href="https://ecare.exchange/arells">
 		
 				<!-- Change below link after test -->
-		<meta property="og:image" content="https://user-images.githubusercontent.com/51394348/197360254-3720608b-6d20-4070-920b-de9c6e4597be.jpg">	
+		<meta property="og:image" content="https://user-images.githubusercontent.com/51394348/197365387-1384787a-0dd7-4e78-88f9-7464a8eb07c1.jpg">	
 		<meta property="og:site_name" content="Arells">	
 		<meta property="og:type" content="object">				
 		<meta property="og:title" content="Arells">
@@ -38,7 +38,7 @@
 		
 		<meta name="twitter:title" content="Arells">
 				<!-- Change below link after test -->
-		<meta name="twitter:image" content="https://user-images.githubusercontent.com/51394348/197360254-3720608b-6d20-4070-920b-de9c6e4597be.jpg">
+		<meta name="twitter:image" content="https://user-images.githubusercontent.com/51394348/197365387-1384787a-0dd7-4e78-88f9-7464a8eb07c1.jpg">
 				<!-- Change below link after test -->
 		<meta name="twitter:url" content="https://ecare.exchange/arells">
 		<meta name="twitter:card" content="summary_large_image">
