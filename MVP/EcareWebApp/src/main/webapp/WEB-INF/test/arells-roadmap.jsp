@@ -20,7 +20,7 @@
 		<meta name="viewport" id="viewport" content="width=device-width,user-scalable=yes,initial-scale=1" >
 		
 				<!-- Change below link after test -->
-		<link rel="icon" type="image/x-icon" href="/icons&images/Iconic.ico" sizes="156x156">
+		<link rel="icon" type="image/x-icon" href="/icons&images/Arells-Favicon.ico" sizes="156x156">
 				<!-- Change below link after test -->
 		<link rel="canonical" href="https://ecare.exchange/arells">
 		
@@ -75,7 +75,7 @@
 		<p id="date-title">Sep 2025 - Dec 2027</p>
 	
 	<!-- change link below after test -->
-		<form method="get" target="_blank" action="https://github.com/Ecare-Exchange/infrastructure/blob/main/R&D/Ecosystem-Roadmap.md">
+		<form method="get" target="_blank" action="https://github.com/Ecare-Exchange/Arells">
 		<button id="wrapper-content">
 			<p id="milestone">Protocol
 			</p>
@@ -87,7 +87,7 @@
 		</form>	
 		
 	<!-- change link below after test -->
-		<form method="get" target="_blank" action="https://github.com/Ecare-Exchange/infrastructure/blob/main/R&D/Ecosystem-Roadmap.md">		
+		<form method="get" target="_blank" action="https://github.com/Ecare-Exchange/Arells">		
 		<button id="wrapper-content">
 			<p id="milestone">Apps
 			</p>
@@ -104,7 +104,7 @@
 	
 		<p id="date-title">Jan 2028 - Dec 2028</p>
 	
-		<form method="get" target="_blank" action="https://github.com/Ecare-Exchange/infrastructure/blob/main/R&D/Ecosystem-Roadmap.md">
+		<form method="get" target="_blank" action="https://github.com/Ecare-Exchange/Arells">
 		<button id="wrapper-content">
 			<p id="milestone">Testnet
 			</p>
@@ -121,7 +121,7 @@
 	
 		<p id="date-title">Jan 2029 - Dec 2029</p>
 	
-		<form method="get" target="_blank" action="https://github.com/Ecare-Exchange/infrastructure/blob/main/R&D/Ecosystem-Roadmap.md">
+		<form method="get" target="_blank" action="https://github.com/Ecare-Exchange/Arells">
 		<button id="wrapper-content">
 			<p id="milestone">Mainnet
 			</p>
