@@ -58,7 +58,7 @@
 		
 			<br>
 			
-			<img id="letter-logo" src="/icons&images/Letter-Logo.png">	
+			<img id="letter-logo" src="/icons&images/Word-Logo.png">	
 			
 			<br>
 			

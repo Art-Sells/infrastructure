@@ -86,7 +86,7 @@
 	      		<!-- Change below link after test -->		 
 		      <a href="/arells"
 			      id="eco-link">		      
-				<img id="letter-logo" src="/icons&images/Letter-Logo.png">	      
+				<img id="letter-logo" src="/icons&images/Word-Logo.png">	      
 		      </a>		 
 	
 	
