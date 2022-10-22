@@ -123,7 +123,7 @@ body {
 	} */
 
 #ecosystem {
-	padding-top: 42px;	
+	padding-top: 45px;	
 	margin-left: auto;
     margin-right: auto;
     height: 65px; 
@@ -183,8 +183,7 @@ body {
 		  cursor: pointer;
 		}
 		#letter-logo {
-			height: 20px;
-			width: 60px;
+			width: 58px;
 		}	
 
 #infrastructure {
@@ -290,7 +289,6 @@ body {
 				  width: 150px;	 		  
 			}	
 			#letter-logo {
-				height: 14px;
 				width: 42px;
 			}		
 	
