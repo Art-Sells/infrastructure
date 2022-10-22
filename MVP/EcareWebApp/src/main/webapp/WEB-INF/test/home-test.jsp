@@ -21,7 +21,7 @@
 				<!-- Change below link after test -->
 		<link rel="canonical" href="https://ecare.exchange/test">
 		
-		<meta property="og:image" content="https://user-images.githubusercontent.com/51394348/169722650-92d9cef2-3288-433d-8a9f-9bebb8911c38.jpg">	
+		<meta property="og:image" content="https://user-images.githubusercontent.com/51394348/197364687-453880c9-aee3-4880-a36b-be917e28e046.jpg">	
 		<meta property="og:site_name" content="Ecare">	
 		<meta property="og:type" content="object">				
 		<meta property="og:title" content="Ecare">
@@ -33,7 +33,7 @@
 		<meta property="og:image:height" content="400">
 		
 		<meta name="twitter:title" content="Ecare">
-		<meta name="twitter:image" content="https://user-images.githubusercontent.com/51394348/169722650-92d9cef2-3288-433d-8a9f-9bebb8911c38.jpg">
+		<meta name="twitter:image" content="https://user-images.githubusercontent.com/51394348/197364687-453880c9-aee3-4880-a36b-be917e28e046.jpg">
 				<!-- Change below link after test -->
 		<meta name="twitter:url" content="https://ecare.exchange/test">
 		<meta name="twitter:card" content="summary_large_image">
