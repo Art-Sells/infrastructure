@@ -22,7 +22,7 @@
 				<!-- Change below link after test -->
 		<link rel="icon" type="image/x-icon" href="/icons&images/Arells-Favicon.ico" sizes="156x156">
 				<!-- Change below link after test -->
-		<link rel="canonical" href="https://ecare.exchange/arells">
+		<link rel="canonical" href="https://ecare.exchange/arells-roadmap">
 		
 				<!-- Change below link after test -->
 		<meta property="og:image" content="https://user-images.githubusercontent.com/51394348/197365387-1384787a-0dd7-4e78-88f9-7464a8eb07c1.jpg">	
@@ -30,7 +30,7 @@
 		<meta property="og:type" content="object">				
 		<meta property="og:title" content="Arells">
 				<!-- Change below link after test -->
-		<meta propety="og:url" content="https://ecare.exchange/arells">
+		<meta propety="og:url" content="https://ecare.exchange/arells-roadmap">
 		<meta property="og:description" content="Make Money With Your Life Story">
 		<meta property="og:image:type" content="image/jpg">
 		<meta property="og:image:width" content="700">
@@ -40,7 +40,7 @@
 				<!-- Change below link after test -->
 		<meta name="twitter:image" content="https://user-images.githubusercontent.com/51394348/197365387-1384787a-0dd7-4e78-88f9-7464a8eb07c1.jpg">
 				<!-- Change below link after test -->
-		<meta name="twitter:url" content="https://ecare.exchange/arells">
+		<meta name="twitter:url" content="https://ecare.exchange/arells-roadmap">
 		<meta name="twitter:card" content="summary_large_image">
 		<meta name="twitter:description" content="Make Money With Your Life Story">
 		<meta name="description" content="Make Money With Your Life Story">

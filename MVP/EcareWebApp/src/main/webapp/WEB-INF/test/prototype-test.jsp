@@ -556,7 +556,7 @@
 		<meta property="og:type" content="object">				
 		<meta property="og:title" content="Ecare">
 				<!-- Change below link after test -->
-		<meta propety="og:url" content="https://ecare.exchange/test">
+		<meta propety="og:url" content="https://ecare.exchange/prototype-test">
 		<meta property="og:description" content="Ethereum Combinatorial Auction Rate Exchange">
 		<meta property="og:image:type" content="image/jpg">
 		<meta property="og:image:width" content="700">
