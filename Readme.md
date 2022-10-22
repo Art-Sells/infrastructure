@@ -5,7 +5,9 @@
 
 Ecare was born out of the ashes of a cryptocurrency ecosystem in 2019 created to lift artists & storytellers out of poverty; Novestic. Though Novestic gained 600+ users pre-product release, it needed a specific infrastructure in order for it to maintain a successful ecosystem that did not yet exist; Ecare.
 
-#### ECARE, is an Ethereum Combinatorial Auction Rate Exchange meant to facilitate a self-sustaining ecosystem immune to bear-market volatility. 
+#### Broadly, Ecare is the infrastructure created to house an ecosystem to lift storytellers out of poverty.
+
+#### Specifically, ECARE, is an Ethereum Combinatorial Auction Rate Exchange meant to facilitate a self-sustaining ecosystem immune to bear-market volatility. 
 
 ### Motivation:
 
