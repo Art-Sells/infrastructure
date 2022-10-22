@@ -126,7 +126,7 @@ body {
 	padding-top: 42px;	
 	margin-left: auto;
     margin-right: auto;
-    height: 67px; 
+    height: 65px; 
 	width: 100%;
     margin-bottom: 40px;
 	background: linear-gradient(50deg, 
@@ -183,6 +183,7 @@ body {
 		  cursor: pointer;
 		}
 		#letter-logo {
+			height: 20px;
 			width: 60px;
 		}	
 
@@ -289,7 +290,8 @@ body {
 				  width: 150px;	 		  
 			}	
 			#letter-logo {
-				width: 40px;
+				height: 14px;
+				width: 42px;
 			}		
 	
 	#infrastructure {
