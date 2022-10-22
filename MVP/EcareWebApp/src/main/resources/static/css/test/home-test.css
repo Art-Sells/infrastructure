@@ -182,7 +182,7 @@ body {
 		  transition: 1s;
 		  cursor: pointer;
 		}
-		#letter-logo {
+		#word-logo {
 			width: 58px;
 		}	
 
@@ -288,7 +288,7 @@ body {
 				  padding-left: 27px;	  
 				  width: 150px;	 		  
 			}	
-			#letter-logo {
+			#word-logo {
 				width: 42px;
 			}		
 	
