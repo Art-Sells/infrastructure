@@ -5,6 +5,14 @@ body {
   margin-left: 0%;
   margin-right: 0%;
   margin-bottom: 0%;
+  background: white;
+}
+
+#wrapper {
+	padding-top: 20px;
+	padding-bottom: 5px;
+  height: 100%;
+  width: 100%;
 	background: linear-gradient(90deg, 
 	rgba(255,0,0,1) 0%, 
 	rgba(178,179,2,1) 25%, 

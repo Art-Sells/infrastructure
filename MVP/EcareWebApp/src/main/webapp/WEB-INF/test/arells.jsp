@@ -18,7 +18,7 @@
 		<meta name="keywords" content="Arells">
 		<meta name="author" content="Arells">
 		<meta name="viewport" id="viewport" content="width=device-width,user-scalable=yes,initial-scale=1" >
-		
+	
 				<!-- Change below link after test -->
 		<link rel="icon" type="image/x-icon" href="/icons&images/Arells-Favicon.ico" sizes="156x156">
 				<!-- Change below link after test -->

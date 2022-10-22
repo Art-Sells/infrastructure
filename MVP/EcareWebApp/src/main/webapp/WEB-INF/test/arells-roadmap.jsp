@@ -50,99 +50,101 @@
 	
 	</head>
 	<body>
-<!--     <span>ROADMAP</span> -->
-    
-	<section id="wrapper-ongoing">
+
+	<div id="wrapper">
 	
-		<p id="date-title">Oct 2022 - Aug 2025</p>
+		<section id="wrapper-ongoing">
+			
+				<p id="date-title">Oct 2022 - Aug 2025</p>
+			
+			<!-- change link below after test -->	
+				<form method="get" action="/test">
+				<button id="wrapper-content">
+					<p id="milestone">Infrastructure
+					</p>
+					<p id="status-title">Status
+					</p>			
+					<p id="status">In Development
+					</p>
+				</button>
+				</form>	
+			
+			 </section>	     
+			
+			<section id="wrapper-date-top">
+			
+				<p id="date-title">Sep 2025 - Dec 2027</p>
+			
+			<!-- change link below after test -->
+				<form method="get" target="_blank" action="https://github.com/Ecare-Exchange/Arells">
+				<button id="wrapper-content">
+					<p id="milestone">Protocol
+					</p>
+					<p id="status-title">Status
+					</p>			
+					<p id="status">Announced
+					</p>
+				</button>
+				</form>	
+				
+			<!-- change link below after test -->
+				<form method="get" target="_blank" action="https://github.com/Ecare-Exchange/Arells">		
+				<button id="wrapper-content">
+					<p id="milestone">Apps
+					</p>
+					<p id="status-title">Status
+					</p>	
+					<p id="status">Announced
+					</p>				
+				</button>
+				</form>
+			
+			</section>
+			 
+			<section id="wrapper-date">
+			
+				<p id="date-title">Jan 2028 - Dec 2028</p>
+			
+				<form method="get" target="_blank" action="https://github.com/Ecare-Exchange/Arells">
+				<button id="wrapper-content">
+					<p id="milestone">Testnet
+					</p>
+					<p id="status-title">Status
+					</p>			
+					<p id="status">Announced
+					</p>
+				</button>
+				</form>	
+			
+			 </section>	 
+			 
+			 <section id="wrapper-date">
+			
+				<p id="date-title">Jan 2029 - Dec 2029</p>
+			
+				<form method="get" target="_blank" action="https://github.com/Ecare-Exchange/Arells">
+				<button id="wrapper-content">
+					<p id="milestone">Mainnet
+					</p>
+					<p id="status-title">Status
+					</p>			
+					<p id="status">Announced
+					</p>
+				</button>
+				</form>	
+			
+			 </section>	  	 
+			
+			<footer>
+			      
+				<!-- change link below after test -->	
+				   	<a id="homelink" href="/test">
+				     	<img id="img" src="/icons&images/guideIcon.png"/>	  
+				  	</a>
+				  
+			</footer>	
 	
-	<!-- change link below after test -->	
-		<form method="get" action="/test">
-		<button id="wrapper-content">
-			<p id="milestone">Infrastructure
-			</p>
-			<p id="status-title">Status
-			</p>			
-			<p id="status">In Development
-			</p>
-		</button>
-		</form>	
-	
-	 </section>	     
-	
-	<section id="wrapper-date-top">
-	
-		<p id="date-title">Sep 2025 - Dec 2027</p>
-	
-	<!-- change link below after test -->
-		<form method="get" target="_blank" action="https://github.com/Ecare-Exchange/Arells">
-		<button id="wrapper-content">
-			<p id="milestone">Protocol
-			</p>
-			<p id="status-title">Status
-			</p>			
-			<p id="status">Announced
-			</p>
-		</button>
-		</form>	
-		
-	<!-- change link below after test -->
-		<form method="get" target="_blank" action="https://github.com/Ecare-Exchange/Arells">		
-		<button id="wrapper-content">
-			<p id="milestone">Apps
-			</p>
-			<p id="status-title">Status
-			</p>	
-			<p id="status">Announced
-			</p>				
-		</button>
-		</form>
-	
-	</section>
-	 
-	<section id="wrapper-date">
-	
-		<p id="date-title">Jan 2028 - Dec 2028</p>
-	
-		<form method="get" target="_blank" action="https://github.com/Ecare-Exchange/Arells">
-		<button id="wrapper-content">
-			<p id="milestone">Testnet
-			</p>
-			<p id="status-title">Status
-			</p>			
-			<p id="status">Announced
-			</p>
-		</button>
-		</form>	
-	
-	 </section>	 
-	 
-	 <section id="wrapper-date">
-	
-		<p id="date-title">Jan 2029 - Dec 2029</p>
-	
-		<form method="get" target="_blank" action="https://github.com/Ecare-Exchange/Arells">
-		<button id="wrapper-content">
-			<p id="milestone">Mainnet
-			</p>
-			<p id="status-title">Status
-			</p>			
-			<p id="status">Announced
-			</p>
-		</button>
-		</form>	
-	
-	 </section>	  	 
-	
-	<footer>
-	      
-		<!-- change link below after test -->	
-		   	<a id="homelink" href="/test">
-		     	<img id="img" src="/icons&images/guideIcon.png"/>	  
-		  	</a>
-		  
-	</footer>
-	
+	</div>	
 	
 	</body>
 </html>
