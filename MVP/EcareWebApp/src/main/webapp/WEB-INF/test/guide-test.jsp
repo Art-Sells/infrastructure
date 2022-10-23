@@ -57,6 +57,7 @@
 	
 	<section id="wrapper">
 	
+	<!-- Change below link after test -->
 	  <a id="homelink" href="/test">
       	 <img id="img" src="/icons&images/appIcon.png"/>	  
 	  </a>	
