@@ -95,7 +95,7 @@
 
 		    <span id="powered">POWERED BY</span>
 		    <!-- Change below link after test -->		
-	        <a href="/test"
+	        <a href="/"
 		      id="ecare-link">
 		      <img id="ecare-icon" src="/icons&images/Icon.png"/>
 		  	</a>  		
