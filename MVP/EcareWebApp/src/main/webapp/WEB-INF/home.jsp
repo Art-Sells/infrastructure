@@ -4,9 +4,10 @@
 <!DOCTYPE html>
 <html>
 	<head>
-			
+
+					<!-- Change below link after test -->
 		<link rel="stylesheet" type="text/css" href="css/home.css">	
-			
+						
 		<meta charset="UTF-8">
 		
 <!-- Below information for social media sharing and search-engine/browser optimization -->		
@@ -18,14 +19,14 @@
 		<meta name="viewport" id="viewport" content="width=device-width,user-scalable=yes,initial-scale=1" >
 		
 		<link rel="icon" type="image/x-icon" href="/icons&images/Iconic.ico" sizes="156x156">
-				
+				<!-- Change below link after test -->
 		<link rel="canonical" href="https://ecare.exchange">
 		
-		<meta property="og:image" content="https://user-images.githubusercontent.com/51394348/179379910-a765a965-e34d-45f1-8394-e5fb2477875c.jpg">	
+		<meta property="og:image" content="https://user-images.githubusercontent.com/51394348/197364687-453880c9-aee3-4880-a36b-be917e28e046.jpg">	
 		<meta property="og:site_name" content="Ecare">	
 		<meta property="og:type" content="object">				
 		<meta property="og:title" content="Ecare">
-				
+				<!-- Change below link after test -->
 		<meta propety="og:url" content="https://ecare.exchange">
 		<meta property="og:description" content="Ethereum Combinatorial Auction Rate Exchange">
 		<meta property="og:image:type" content="image/jpg">
@@ -33,8 +34,8 @@
 		<meta property="og:image:height" content="400">
 		
 		<meta name="twitter:title" content="Ecare">
-		<meta name="twitter:image" content="https://user-images.githubusercontent.com/51394348/179379910-a765a965-e34d-45f1-8394-e5fb2477875c.jpg">
-				
+		<meta name="twitter:image" content="https://user-images.githubusercontent.com/51394348/197364687-453880c9-aee3-4880-a36b-be917e28e046.jpg">
+				<!-- Change below link after test -->
 		<meta name="twitter:url" content="https://ecare.exchange">
 		<meta name="twitter:card" content="summary_large_image">
 		<meta name="twitter:description" content="Ethereum Combinatorial Auction Rate Exchange">
@@ -60,36 +61,55 @@
 		   	  <p id="names">exchange</p>
 		  </div>
 		  
-		  		
+		  		<!-- Change below link after test -->
 	 	  <a href="/prototype" id="prototype">
 	      	Prototype
 	      </a>
 	      
 	      <br>
 	      
-	      		
+	      		<!-- Change below link after test -->
 	      <a href="/guide" id="guide">
 	      	Guide
 	      </a>
 	  
 	  </div>
-
-      
-	 <footer>
-	 	  	     
-	      <a href="/roadmap" id="roadmap">
-	      	Roadmap
-	      </a>
-	      
-	      <br>
-	          
-		  <a href="https://github.com/orgs/Ecare-Exchange"
-		      target="_blank"
-		      id="contact">
-		      <img id="github" src="/icons&images/GithubBright.png">
-		  </a>  	
+	  
+<!-- 		<div id="about"> 
 		  
-	</footer>
+			  <p id="about-desc">Created to house an ecosystem 
+			  to lift storytellers out of poverty.</p>
+			  
+		 </div>	  --> 
+		  
+		 <div id="ecosystem">
+		 
+	      		<!-- Change below link after test -->		 
+		      <a href="https://arells.com"
+			      id="eco-link">		      
+				<img id="letter-logo" src="/icons&images/Arells-Logo.png">	      
+		      </a>		 
+	
+	
+		 </div>
+		
+		      
+		 <div id="infrastructure">
+		 	  	     <!-- Change below link after test -->
+		 	  	     
+		      <a href="/roadmap" id="roadmap">Roadmap
+		      </a>
+		      
+		      <br>
+		          
+			  <a href="https://github.com/orgs/Ecare-Exchange"
+			      target="_blank"
+			      id="contact">
+			      <img id="github" src="/icons&images/GithubBright.png">
+			  </a>  	
+			  
+		</div>
+				  
 	
 	</body>
 </html>

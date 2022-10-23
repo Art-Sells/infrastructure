@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-			
+			<!-- Change below link after test -->
 		<link rel="stylesheet" type="text/css" href="css/guide.css">	
 			
 		<meta charset="UTF-8">
@@ -18,14 +18,14 @@
 		<meta name="viewport" id="viewport" content="width=device-width,user-scalable=yes,initial-scale=1" >
 		
 		<link rel="icon" type="image/x-icon" href="/icons&images/Iconic.ico" sizes="156x156">
-		       
+		       <!-- Change below link after test -->	
 		<link rel="canonical" href="https://ecare.exchange/guide">
 		
-		<meta property="og:image" content="https://user-images.githubusercontent.com/51394348/179379910-a765a965-e34d-45f1-8394-e5fb2477875c.jpg">	
+		<meta property="og:image" content="https://user-images.githubusercontent.com/51394348/197364687-453880c9-aee3-4880-a36b-be917e28e046.jpg">	
 		<meta property="og:site_name" content="Ecare">	
 		<meta property="og:type" content="object">				
 		<meta property="og:title" content="Ecare">
-				
+				<!-- Change below link after test -->
 		<meta propety="og:url" content="https://ecare.exchange/guide">
 		<meta property="og:description" content="Ethereum Combinatorial Auction Rate Exchange">
 		<meta property="og:image:type" content="image/jpg">
@@ -33,8 +33,8 @@
 		<meta property="og:image:height" content="400">
 		
 		<meta name="twitter:title" content="Ecare">
-		<meta name="twitter:image" content="https://user-images.githubusercontent.com/51394348/179379910-a765a965-e34d-45f1-8394-e5fb2477875c.jpg">
-				
+		<meta name="twitter:image" content="https://user-images.githubusercontent.com/51394348/197364687-453880c9-aee3-4880-a36b-be917e28e046.jpg">
+				<!-- Change below link after test -->
 		<meta name="twitter:url" content="https://ecare.exchange/guide">
 		<meta name="twitter:card" content="summary_large_image">
 		<meta name="twitter:description" content="Ethereum Combinatorial Auction Rate Exchange">
@@ -48,7 +48,7 @@
 	
 	<section id="wrapper">
 	
-	  <a id="homelink" href="/">
+	  <a id="homelink" href="/test">
       	 <img id="img" src="/icons&images/appIcon.png"/>	  
 	  </a>	
 	  
@@ -63,7 +63,7 @@
 	  <div id="step-one">
 		  <h1 id="step-one-title">Step One</h1>
 		  <p id="describe-prototype">Launch the Prototype</p>
-  		  		
+  		  		<!-- Change below link after test -->
 	 	  <a href="/prototype" target="_blank" id="prototype">
 	      	Prototype
 	      </a>
