@@ -85,7 +85,7 @@
 		 <div id="ecosystem">
 		 
 	      		<!-- Change below link after test -->		 
-		      <a href="https://arells.com"
+		      <a href="/arells"
 			      id="eco-link">		      
 				<img id="letter-logo" src="/icons&images/Arells-Logo.png">	      
 		      </a>		 

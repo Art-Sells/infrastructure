@@ -19,8 +19,7 @@
 		<meta name="author" content="Arells">
 		<meta name="viewport" id="viewport" content="width=device-width,user-scalable=yes,initial-scale=1" >
 		
-				<!-- Change below link after test -->
-		<link rel="icon" type="image/x-icon" href="/icons&images/Arells-Favicon.ico" sizes="156x156">
+		<link rel="icon" type="image/x-icon" href="/icons&images/Arells-Ico-Icon.ico" sizes="156x156">
 				<!-- Change below link after test -->
 		<link rel="canonical" href="https://ecare.exchange/arells-roadmap">
 		
@@ -58,7 +57,7 @@
 				<p id="date-title">Oct 2022 - Aug 2025</p>
 			
 			<!-- change link below after test -->	
-				<form method="get" action="/test">
+				<form method="get" action="/">
 				<button id="wrapper-content">
 					<p id="milestone">Infrastructure
 					</p>
@@ -138,7 +137,7 @@
 			<footer>
 			      
 				<!-- change link below after test -->	
-				   	<a id="homelink" href="/test">
+				   	<a id="homelink" href="/">
 				     	<img id="img" src="/icons&images/guideIcon.png"/>	  
 				  	</a>
 				  
