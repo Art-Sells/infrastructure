@@ -4,7 +4,10 @@
 <!DOCTYPE html>
 <html>
 	<head>
+			
+			<!--  COMMENT OUT CONTROLER LINKS AFTER TEST-->
 			<!-- Change below link after test -->
+			
 		<link rel="stylesheet" type="text/css" href="css/test/roadmap-test.css">	
 			
 		<meta charset="UTF-8">

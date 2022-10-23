@@ -533,6 +533,8 @@
 			}
 
 		</script>
+		
+		<!--  COMMENT OUT CONTROLER LINKS AFTER TEST-->
 				<!-- Change below links after test -->
 		<link rel="stylesheet" type="text/css" href="css/test/prototype-test.css">	
 		<link rel="stylesheet" href="css/test/RWmodalani-test.css" />

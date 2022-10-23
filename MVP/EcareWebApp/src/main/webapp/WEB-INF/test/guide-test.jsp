@@ -4,7 +4,16 @@
 <!DOCTYPE html>
 <html>
 	<head>
-			<!-- Change below link after test -->
+
+			
+			
+			
+			
+			<!--  COMMENT OUT CONTROLER LINKS AFTER TEST-->
+			
+			
+			
+					<!-- Change below link after test -->	
 		<link rel="stylesheet" type="text/css" href="css/guide-test.css">	
 			
 		<meta charset="UTF-8">
