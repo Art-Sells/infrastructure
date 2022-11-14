@@ -4,12 +4,12 @@
 // import './index.css'
 // import { TransactionProvider} from './context/TransactIonContext';
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+// ReactDOM.createRoot(document.getElementById('root')).render(
 
-<TransactionProvider>
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>
-  </TransactionProvider>
+// <TransactionProvider>
+//     <React.StrictMode>
+//       <App />
+//     </React.StrictMode>
+//   </TransactionProvider>
 
-)
+// )
