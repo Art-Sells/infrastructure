@@ -2,4 +2,4 @@
 
 #### Ecare's BdApp is created to forelay a basic foundation for its full Decentralized Application. 
 
-More information about the overall roadmap can be found here: [Ecare Roadmap](https://github.com/jeyakatsa/Ecare/tree/main/MVP#readme)
+More information about the overall roadmap can be found here: [Ecare Roadmap](https://github.com/Ecare-Exchange/infrastructure/tree/main/MVP#readme)
