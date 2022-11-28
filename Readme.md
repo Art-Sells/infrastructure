@@ -1,17 +1,14 @@
 <img src="https://github.com/Ecare-Exchange/infrastructure/blob/main/assets/EcareIcon.png" width="60px">
 
 # [ECARE](https://ecare.exchange)
+
 ## Ethereum Combinatorial Auction Rate Exchange
 
-Ecare was born out of the ashes of a cryptocurrency ecosystem in 2019 created to lift artists & storytellers out of poverty; Novestic. Though Novestic gained 600+ users pre-product release, it needed a specific infrastructure in order for it to maintain a successful ecosystem that did not yet exist; Ecare.
-
-#### Broadly, Ecare is the infrastructure created to house an ecosystem to lift storytellers out of poverty.
-
-##### Specifically, ECARE, is an Ethereum Combinatorial Auction Rate Exchange meant to facilitate a self-sustaining ecosystem immune to bear-market volatility. 
+#### Ecare is the infrastructure created to house an ecosystem to lift storytellers out of poverty.
 
 ### Motivation:
 
-Bear markets are insufficient for public good tokens operating under Ethereum since ERC-20 tokens in their current forms are mostly used as investment contracts needing consistent investment to maintain their values.
+Ecare was born out of the ashes of a cryptocurrency ecosystem in 2019 created to lift artists & storytellers out of poverty; Novestic. Though Novestic gained 600+ users pre-product release, it needed a specific infrastructure in order for it to maintain a successful ecosystem that did not yet exist; Ecare.
 
 ECARE tokens *(ERC-20 tokens using ECARE)* are not to be "bought and sold" but rather, only exchanged or "swapped" via AMMs (Automated Market Makers like Uniswap or an ECARE AMM). 
 
@@ -70,7 +67,7 @@ During exchanges, each token exchanged is moved into a burn wallet while the val
 
 --------------------------------------------------
 
-### [Roadmap](https://github.com/jeyakatsa/monalisa/blob/main/MVP/Readme.md)
+### [Roadmap](https://github.com/Ecare-Exchange/infrastructure/blob/main/MVP/Readme.md)
 
 #### [Combinatorial Auction Implementations](https://www.sciencedirect.com/topics/computer-science/combinatorial-auction)
 
