@@ -1,14 +1,12 @@
-import React, {useEffect, useState } from 'react';
-import { Welcome, Services, Transactions, Footer } from './components';  
+import { useState } from 'react'
+import './App.css'
 
 function App() {
-    return (
-        <div className="App">
-            <Welcome />
-        </div>
-    )
 
+  return (
+    <div className="App">
+    </div>
+  )
 }
 
 export default App
-
