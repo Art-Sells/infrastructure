@@ -1,12 +1,18 @@
 import { useState } from 'react'
 import './App.css'
+import { Welcome, Loader, Services, Transactions, Footer} from './components'
 
-function App() {
+const App = () => {
 
   return (
-    <div className="App">
+    <div className="min-h-screen">
+        <Welcome/>
+        <Loader/>
+        <Services/>
+        <Transactions/>
+        <Footer/>
     </div>
   )
 }
 
-export default App
+export default App;
