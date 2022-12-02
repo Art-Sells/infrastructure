@@ -1,4 +1,6 @@
 import './css/Welcome.css'
+import {Loader} from './'
+
 
 const Input = ( name, type, value, handleChange ) => (
     <input
@@ -29,7 +31,15 @@ const Welcome = () => {
                 name="amount"
                 type="number"
                 handleChange={() => {}}/>     
-            <br/>                
+            <br/> 
+            <div id="load"/>  
+            {true ? (
+                <Loader />
+            ) : (
+                <div>
+
+                </div>
+            )}             
             <button
                 type="button"
                 onClick={connectWallet}
