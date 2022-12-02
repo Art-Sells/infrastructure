@@ -1,6 +1,21 @@
+const Input = ( placeholder ) => (
+    <input
+        placeholder={placeholder}
+        />
+);
+
 const Welcome = () => {
+
+    const connectWallet =() => {
+        
+    }
+
     return (
-        <h1>Welcome</h1>
+        
+        <button
+            type="button"
+            onClick={connectWallet}
+            id="connectWallet">Connect Wallet</button>
     );
 }
 
