@@ -17,6 +17,10 @@ const Welcome = () => {
 
     }
 
+    const handleSubmit =() => {
+
+    }
+
     return (
         <>
         <div id="walletWrapper">
@@ -31,14 +35,16 @@ const Welcome = () => {
                 name="amount"
                 type="number"
                 handleChange={() => {}}/>     
-            <br/> 
-            <div id="load"/>  
-            {true ? (
+            <br/>  
+            {false ? (
                 <Loader />
             ) : (
-                <div>
-
-                </div>
+                <button
+                type="button"
+                onClick={handleSubmit}
+                id="submit">
+                    Send
+                </button>
             )}             
             <button
                 type="button"
