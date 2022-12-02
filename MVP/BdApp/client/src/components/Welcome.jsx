@@ -1,7 +1,12 @@
-const Input = ( placeholder ) => (
+import './css/Welcome.css'
+
+const Input = ( name, type, value, handleChange ) => (
     <input
-        placeholder={placeholder}
-        />
+        type={type}
+        step="0.0001"
+        value={value}
+        onChange={(e) => handleChange(e, name)}
+        id="address-input"/>
 );
 
 const Welcome = () => {
@@ -13,11 +18,18 @@ const Welcome = () => {
     return (
         <>
         <div id="walletWrapper">
-            <Input 
-                placeholder="Address To" 
-                name="adressTo"
+            <label id="address">Address To</label>
+            <Input  
+                name="addressTo"
                 type="text"
                 handleChange={() => {}}/>
+            <br/>    
+            <label id="amount">Amount (ETH)</label>    
+            <Input  
+                name="amount"
+                type="number"
+                handleChange={() => {}}/>     
+            <br/>                
             <button
                 type="button"
                 onClick={connectWallet}
