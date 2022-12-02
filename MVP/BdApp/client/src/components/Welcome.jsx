@@ -7,15 +7,23 @@ const Input = ( placeholder ) => (
 const Welcome = () => {
 
     const connectWallet =() => {
-        
+
     }
 
     return (
-        
-        <button
-            type="button"
-            onClick={connectWallet}
-            id="connectWallet">Connect Wallet</button>
+        <>
+        <div id="walletWrapper">
+            <Input 
+                placeholder="Address To" 
+                name="adressTo"
+                type="text"
+                handleChange={() => {}}/>
+            <button
+                type="button"
+                onClick={connectWallet}
+                id="connectWallet">Connect Wallet</button>
+        </div>
+        </>
     );
 }
 
