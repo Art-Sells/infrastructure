@@ -43,8 +43,8 @@ public class MainController {
 //	 @GetMapping("/guide-test") public String guideTest() { return
 //	 "test/guide-test.jsp"; }
 // 
-	 @GetMapping("/roadmap-test") public String roadmapTest() { return
-	 "test/roadmap-test.jsp"; }
+//	 @GetMapping("/roadmap-test") public String roadmapTest() { return
+//	 "test/roadmap-test.jsp"; }
 	 
 
 }

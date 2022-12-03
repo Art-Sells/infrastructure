@@ -4,8 +4,11 @@
 <!DOCTYPE html>
 <html>
 	<head>
-			<!-- Change below link after test -->
-		<link rel="stylesheet" type="text/css" href="css/roadmap.css">	
+			
+			<!--  COMMENT OUT CONTROLER LINKS AFTER TEST-->
+			
+			<!-- Change below link after test -->			
+		<link rel="stylesheet" type="text/css" href="css/test/roadmap.css">	
 			
 		<meta charset="UTF-8">
 		
@@ -52,7 +55,7 @@
   	</a>	
     <span>Roadmap</span>
     
-	<section id="wrapper-ongoing">
+<!-- 	<section id="wrapper-ongoing">
 	
 		<h3>Present</h3>
 	
@@ -67,7 +70,7 @@
 		</button>
 		</form>	
 	
-	 </section>	     
+	 </section>	      -->
 	
 	<section id="wrapper-date-top">
 	
