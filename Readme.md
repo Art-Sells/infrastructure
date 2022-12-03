@@ -8,17 +8,15 @@
 
 ### Motivation:
 
-Ecare was born out of the ashes of a cryptocurrency ecosystem in 2019 created to lift artists & storytellers out of poverty; Novestic. Though Novestic gained 600+ users pre-product release, it needed a specific infrastructure in order for it to maintain a successful ecosystem that did not yet exist; Ecare.
+Ecare was born out of the ashes of a cryptocurrency ecosystem in 2019 created to lift storytellers out of poverty; Novestic. Though Novestic gained 600+ users pre-product release, it needed a specific infrastructure in order for it to maintain a successful ecosystem that did not yet exist; Ecare.
 
-ECARE tokens *(ERC-20 tokens using ECARE)* are not to be "bought and sold" but rather, only exchanged or "swapped" via AMMs (Automated Market Makers like Uniswap or an ECARE AMM). 
+How will Ecare achieve poverty alleviation for storytellers? Through CPES, an exchange system immune to bear-market volatility.
 
-*Thus, ECARE token balances rise and maintain value based on exchange rates agreed upon further calcifying a self-sustaining token ecosystem absent of consistent investment.*
+### CPES (Cross Pollination Exchange System):
 
-### Mechanics:
+Unlike other exchange rate systems, ECARE's CPES system isn't based on the market caps of the tokens, but is based solely on wallet balances and tokens. 
 
-Unlike other exchange rate systems, ECARE's system isn't based on the market caps of the tokens, but is based solely on wallet balances and tokens. Thus, the mechanics that helps its tokens rise and maintain value are composed from its cross-pollination exchange system. 
-
-#### Cross-pollination exchange system:
+ECARE tokens *(ERC-20 tokens using ECARE)* are not to be "bought and sold" but rather, only exchanged or "swapped" via AMMs (Automated Market Makers like Uniswap or an ECARE AMM). *Thus, ECARE token balances rise and maintain value based on exchange rates agreed upon further calcifying a self-sustaining token ecosystem absent of consistent investment.*
 
 During exchanges, each token exchanged is moved into a burn wallet while the value of the tokens burned are exchanged into the corresponding wallet's balance as follows:
 
