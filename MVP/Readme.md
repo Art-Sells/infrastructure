@@ -1,8 +1,5 @@
 ## ECARE Roadmap 
 
-- Ongoing: 
-  - [X] Research & Development *[[Ongoing]](https://github.com/Ecare-Exchange/infrastructure/tree/main/R%26D)*
-
 - **Jun 2022**
   - [X] Official website for updates/blog-posts/etc *[[Completed & Launched]](https://github.com/Ecare-Exchange/infrastructure/tree/main/MVP/EcareWebApp)*---------***https://ecare.exchange***
 
