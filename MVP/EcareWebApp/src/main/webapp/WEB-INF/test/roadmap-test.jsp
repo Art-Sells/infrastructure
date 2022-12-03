@@ -55,7 +55,7 @@
   	</a>	
     <span>Roadmap</span>
     
-	<section id="wrapper-ongoing">
+<!-- 	<section id="wrapper-ongoing">
 	
 		<h3>Present</h3>
 	
@@ -70,7 +70,7 @@
 		</button>
 		</form>	
 	
-	 </section>	     
+	 </section>	      -->
 	
 	<section id="wrapper-date-top">
 	
