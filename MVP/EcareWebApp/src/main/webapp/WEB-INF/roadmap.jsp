@@ -8,7 +8,7 @@
 			<!--  COMMENT OUT CONTROLER LINKS AFTER TEST-->
 			
 			<!-- Change below link after test -->			
-		<link rel="stylesheet" type="text/css" href="css/test/roadmap.css">	
+		<link rel="stylesheet" type="text/css" href="css/roadmap.css">	
 			
 		<meta charset="UTF-8">
 		
