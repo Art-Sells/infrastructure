@@ -24,8 +24,8 @@ const getEthereumContract = () => {
 }
 
 export const TransactionProvider = ({children}) => {
-    const [connectedAccount, setConnectedAccount] = 
-    useState(initialState);
+
+    const [connectedAccount, setConnectedAccount] = useState("");
 
     const checkIfWalletIsConnected = async () => {
         if(!ethereum) return alert("Please install metamask");
@@ -54,7 +54,7 @@ export const TransactionProvider = ({children}) => {
     }, [])
 
     return (
-        <TransactionContext.Provider value={{ conectWallet }}>
+        <TransactionContext.Provider value={{ connectWallet }}>
             {children}
         </TransactionContext.Provider>
     )
