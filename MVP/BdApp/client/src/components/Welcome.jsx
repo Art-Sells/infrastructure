@@ -1,5 +1,8 @@
+import React, {useContext} from 'react';
 import './css/Welcome.css'
+
 import {Loader} from './'
+import { TransactionContext } from '../context/TransactionContext';
 
 
 const Input = ( name, type, value, handleChange ) => (
@@ -12,6 +15,10 @@ const Input = ( name, type, value, handleChange ) => (
 );
 
 const Welcome = () => {
+
+    const { value } = useContext(TransactionContext);
+
+    console.log(value);
 
     const connectWallet =() => {
 
