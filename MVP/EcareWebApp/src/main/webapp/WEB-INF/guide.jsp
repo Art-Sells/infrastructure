@@ -65,7 +65,7 @@
 		  <h1 id="step-one-title">Step One</h1>
 		  <p id="describe-prototype">Launch the Prototype</p>
   		  		<!-- Change below link after test -->
-	 	  <a href="/prototype" target="_blank" id="prototype">
+	 	  <a href="/prototype" id="prototype">
 	      	Prototype
 	      </a>
 	  </div>
