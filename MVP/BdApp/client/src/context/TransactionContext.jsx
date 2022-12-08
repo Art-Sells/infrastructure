@@ -25,7 +25,7 @@ const getEthereumContract = () => {
 
 export const TransactionProvider = ({children}) => {
 
-    const [connectedAccount, setConnectedAccount] = useState("");
+    const [currentAccount, setCurrentAccount] = useState("");
 
     const checkIfWalletIsConnected = async () => {
         try {
@@ -66,7 +66,7 @@ export const TransactionProvider = ({children}) => {
     }, [])
 
     return (
-        <TransactionContext.Provider value={{ connectWallet }}>
+        <TransactionContext.Provider value={{ connectWallet, currentAccount }}>
             {children}
         </TransactionContext.Provider>
     )

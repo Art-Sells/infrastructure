@@ -16,7 +16,7 @@ const Input = ( name, type, value, handleChange ) => (
 
 const Welcome = () => {
 
-    const { connectWallet } = useContext(TransactionContext);
+    const { connectWallet, currentAccount } = useContext(TransactionContext);
 
     const handleSubmit =() => {
 
@@ -47,10 +47,13 @@ const Welcome = () => {
                     Send
                 </button>
             )}             
-            <button
-                type="button"
-                onClick={connectWallet}
-                id="connectWallet">Connect Wallet</button>
+            {!currentAccount && (
+                <button
+                    type="button"
+                    onClick={connectWallet}
+                    id="connectWallet">Connect Wallet
+                </button>
+            )}
         </div>
         </>
     );
