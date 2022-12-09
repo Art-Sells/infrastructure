@@ -54,6 +54,11 @@ const Welcome = () => {
                     id="connectWallet">Connect Wallet
                 </button>
             )}
+            {currentAccount && (
+                <p>
+                    Wallet Connected
+                </p>
+            )}
         </div>
         </>
     );
