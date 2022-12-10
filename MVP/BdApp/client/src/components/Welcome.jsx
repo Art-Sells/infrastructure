@@ -16,7 +16,13 @@ const Input = ( name, type, value, handleChange ) => (
 
 const Welcome = () => {
 
-    const { connectWallet, currentAccount } = useContext(TransactionContext);
+    const { 
+        connectWallet, 
+        currentAccount,
+        formData,
+        setFormData,
+        handleChange
+     } = useContext(TransactionContext);
 
     const handleSubmit =() => {
 
@@ -29,13 +35,13 @@ const Welcome = () => {
             <Input  
                 name="addressTo"
                 type="text"
-                handleChange={() => {}}/>
+                handleChange={handleChange}/>
             <br/>    
             <label id="amount">Amount (ETH)</label>    
             <Input  
                 name="amount"
                 type="number"
-                handleChange={() => {}}/>     
+                handleChange={handleChange}/>     
             <br/>  
             {false ? (
                 <Loader />

@@ -89,7 +89,13 @@ export const TransactionProvider = ({children}) => {
     }, [])
 
     return (
-        <TransactionContext.Provider value={{ connectWallet, currentAccount }}>
+        <TransactionContext.Provider value={{ 
+            connectWallet, 
+            currentAccount,
+            formData,
+            setFormData,
+            handleChange
+             }}>
             {children}
         </TransactionContext.Provider>
     )
