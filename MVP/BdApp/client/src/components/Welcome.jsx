@@ -20,12 +20,18 @@ const Welcome = () => {
         connectWallet, 
         currentAccount,
         formData,
-        setFormData,
+        sendTransaction,
         handleChange
      } = useContext(TransactionContext);
 
     const handleSubmit =() => {
+        const { addressTo, amount, keyword, message } = formData;
 
+        e.preventDefault();
+
+        if(!addressTo || !amount || !keyword || !message) return;
+
+        sendTransaction();
     }
 
     return (
