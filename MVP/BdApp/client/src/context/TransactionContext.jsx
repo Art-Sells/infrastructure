@@ -77,6 +77,7 @@ export const TransactionProvider = ({children}) => {
             if(!ethereum) return alert("Please install metamask");
 
             const {addressTo, amount, keyword, message} = formData;
+            getEthereumContract();
         } catch(error) {
             console.log(error);
 
