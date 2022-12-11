@@ -11,7 +11,8 @@ const Input = ( name, type, value, handleChange ) => (
         step="0.0001"
         value={value}
         onChange={(e) => handleChange(e, name)}
-        id="address-input"/>
+        id="address-input"
+    />
 );
 
 const Welcome = () => {

@@ -26,10 +26,8 @@ const getEthereumContract = () => {
 export const TransactionProvider = ({children}) => {
     const [currentAccount, setCurrentAccount] = useState('');
     const [formData, setFormData] = useState({ 
-        adressTo: '', 
+        addressTo: '', 
         amount: '',
-        keyword: '',
-        message: ''
      });
      const handleChange = (e, name) => {
         setFormData((prevState) => ({
@@ -87,7 +85,7 @@ export const TransactionProvider = ({children}) => {
 
     useEffect(() => {
         checkIfWalletIsConnected();
-    }, [])
+    }, []);
 
     return (
         <TransactionContext.Provider value={{ 
@@ -100,5 +98,5 @@ export const TransactionProvider = ({children}) => {
              }}>
             {children}
         </TransactionContext.Provider>
-    )
+    );
 }
