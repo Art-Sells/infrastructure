@@ -10,7 +10,8 @@ const Input = ( name, type, value, handleChange ) => (
         type={type}
         step="0.0001"
         value={value}
-        onChange={handleChange(e, name)}
+        onChange={(e) => handleChange(e, name)}
+        //needs to be refactored ^
         id="address-input"
     />
 );
