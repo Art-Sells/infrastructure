@@ -5,13 +5,16 @@ import {Loader} from './'
 import { TransactionContext } from '../context/TransactionContext';
 
 
+const handleChange = (e, name) => {
+    return null;
+}
 
-const Input = ( name, type, value, onChange ) => (
+const Input = ( name, type, value, handleChange ) => (
     <input
         type={type}
         step="0.0001"
         value={value}
-        onChange={(e) => onChange(e, name)}
+        onChange={(e) => handleChange(e, name)}
         //needs to be refactored ^
         id="address-input"
     />
@@ -44,13 +47,13 @@ const Welcome = () => {
             <Input  
                 name="addressTo"
                 type="text"
-                onChange={handleChange}/>
+                handleChange={handleChange}/>
             <br/>    
             <label id="amount">Amount (ETH)</label>    
             <Input  
                 name="amount"
                 type="number"
-                onChange={handleChange}/>     
+                handleChange={handleChange}/>     
             <br/>  
             {false ? (
                 <Loader />
