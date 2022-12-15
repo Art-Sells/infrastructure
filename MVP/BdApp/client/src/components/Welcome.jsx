@@ -4,18 +4,12 @@ import './css/Welcome.css'
 import {Loader} from './'
 import { TransactionContext } from '../context/TransactionContext';
 
-
-const handleChange = (e, name) => {
-    return null;
-}
-
-const Input = ( name, type, value, handleChange ) => (
+const Input = ( {name, type, value, handleChange} ) => (
     <input
         type={type}
         step="0.0001"
         value={value}
         onChange={(e) => handleChange(e, name)}
-        //needs to be refactored ^
         id="address-input"
     />
 );
