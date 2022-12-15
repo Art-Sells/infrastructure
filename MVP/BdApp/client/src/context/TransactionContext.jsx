@@ -16,11 +16,7 @@ const getEthereumContract = () => {
         signer
     );
 
-    console.log({
-        provider,
-        signer,
-        transactionContract
-    });
+    return transactionContract;
 }
 
 export const TransactionProvider = ({children}) => {
@@ -28,7 +24,9 @@ export const TransactionProvider = ({children}) => {
     const [formData, setFormData] = useState({ 
         addressTo: '', 
         amount: '',
-     });
+    });
+    const [isLoading, setIsLoading] = useState(false);
+
      const handleChange = (e, name) => {
         setFormData((prevState) => ({
             ...prevState,
@@ -75,7 +73,23 @@ export const TransactionProvider = ({children}) => {
             if(!ethereum) return alert("Please install metamask");
 
             const {addressTo, amount} = formData;
-            getEthereumContract();
+            const transactionContract = getEthereumContract();
+            const parsedAmount = ethers.utils.parseEther(amount);
+
+            await ethereum.request({
+                method: 'eth_sendTransaction',
+                params: [{
+                    from: currentAccount,
+                    to: addressTo,
+                    gas: '0x5208', //2100 GWEI
+                    value: parsedAmount._hex, //0.00001
+                }]
+            });
+
+            const transactionHash = await transactionContract.addToBlockchain(
+                addressTo, 
+                parsedAmount);
+
         } catch(error) {
             console.log(error);
 
