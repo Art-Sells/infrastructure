@@ -1,37 +1,72 @@
 ------Basic Building Block
 
-(Connect Account One)
+(Metamask)
+(Connect Address One)
 |
 ETH
-Amount:
-Exchange:
+Total Tokens:
+Exchange Tokens:
 (Show Address) | (Hide Address)
+ - - - - 
+\history/---Etherscan
 
-
-
-(Connect Account Two)
+(Metamask)
+(Connect Address Two)
 |
 ETH
-Amount:
-Exchange:
+Total Tokens:
+Exchange Tokens:
 (Show Address) | (Hide Address)
+ - - - - 
+\history/---Etherscan
+
+(EXCHANGE)
 
 
 
 ------Full Building Block
 
-(Connect Account One)
+(Ecare Wallet ETH/WETH/USDC only!)
+(Connect Address One)
 |
-ETH
-Amount:
-Exchange:
-(Show Address) | (Hide Address)
+[ETH]
+Balance (Internal API Call):
+Total Tokens:
+Exchange Tokens:
+(Show Address) | (Hide)
+ - - - - 
+\history/---Etherscan
 
-
-
-(Connect Account Two)
+(Connect Address Two)
 |
-ETH
-Amount:
-Exchange:
+[WETH]
+Balance (Internal API Call):
+Total Tokens:
+Exchange Tokens:
 (Show Address) | (Hide Address)
+ - - - - 
+\history/---Etherscan
+
+(EXCHANGE)
+(Convert [USDC])
+|
+(Message: Once Converted to USDC, cannot be converted back to ETH
+Proceed? (Ok/Cancel)
+|
+|
+|
+[USDC]
+Balance (Internal API Call):
+Total Tokens:
+(Show Address) | (Hide Address)
+(Send)
+ - - - - 
+\history/---Etherscan
+|
+[USDC]
+Balance (Internal API Call):
+Total Tokens:
+(Show Address) | (Hide Address)
+(Send)
+ - - - - 
+\history/---Etherscan
