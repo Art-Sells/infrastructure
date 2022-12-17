@@ -1,0 +1,37 @@
+------Basic Building Block
+
+(Connect Account One)
+|
+ETH
+Amount:
+Exchange:
+(Show Address) | (Hide Address)
+
+
+
+(Connect Account Two)
+|
+ETH
+Amount:
+Exchange:
+(Show Address) | (Hide Address)
+
+
+
+------Full Building Block
+
+(Connect Account One)
+|
+ETH
+Amount:
+Exchange:
+(Show Address) | (Hide Address)
+
+
+
+(Connect Account Two)
+|
+ETH
+Amount:
+Exchange:
+(Show Address) | (Hide Address)
