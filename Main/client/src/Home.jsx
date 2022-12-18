@@ -23,16 +23,16 @@ function Home() {
         </div>
         
           {/* Change below link after test */}
-        <Link to="/prototype" id="prototype">
+        <a href="/prototype" id="prototype">
           Prototype
-        </Link>
+        </a>
         
         <br></br>
         
           {/* Change below link after test */}
-        <Link to="/guide" id="guide">
+        <a href="/guide" id="guide">
           Guide
-        </Link>
+        </a>
       
       </div>
       
@@ -58,8 +58,8 @@ function Home() {
        <div id="infrastructure">
 
         {/* Change below link after test  */}
-        <Link to="/roadmap" id="roadmap">Roadmap
-        </Link>
+        <a href="/roadmap" id="roadmap">Roadmap
+        </a>
         
         <br></br>
               

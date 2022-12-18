@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { BrowserRouter } from 'react-router-dom';
+// import { BrowserRouter } from 'react-router-dom';
 
 import Home from './Home'
 // import Roadmap from './Roadmap'
@@ -13,15 +13,7 @@ import Home from './Home'
 
 import './assets/css/main.css'
 
-ReactDOM.createRoot(
-  <BrowserRouter>
-    {/* <Route exact path="/" component={Home} /> */}
-    {/* <Route path="/roadmap" component={Roadmap} />
-    <Route path="/guide" component={Guide} />
-    <Route path="/prototype" component={Prototype} /> */}
-  </BrowserRouter>, 
-  
-  document.getElementById('root')
+ReactDOM.createRoot(document.getElementById('root')
   ).render(
     <React.StrictMode>
       <Home />
@@ -37,6 +29,12 @@ ReactDOM.createRoot(
       
     </React.StrictMode>,
 
+{/* <BrowserRouter>
+<Route exact path="/" component={Home} /> 
+<Route path="/roadmap" component={Roadmap} />
+<Route path="/guide" component={Guide} />
+<Route path="/prototype" component={Prototype} /> 
+</BrowserRouter> */}
     
 )
 
