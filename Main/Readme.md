@@ -15,7 +15,7 @@
   - [X] Roadmap *[[Completed & Launched]](https://github.com/jeyakatsa/Ecare-Exchange/infrastructure/main/MVP/EcareWebApp)*---------***https://ecare.exchange/roadmap***
 
 - **Aug 2022 - Jan 2023**
-  - [ ] Base AMM-dApp (Automated Market Maker decentralized App) *[[In Development]](https://github.com/Ecare-Exchange/infrastructure/tree/main/MVP/BdApp)*
+  - [ ] Base AMM-dApp (Automated Market Maker decentralized App) *[[In Development]](https://github.com/Ecare-Exchange/infrastructure/tree/main/Main)*
 
 - **Feb 2023 - Jul 2023**
   - [ ] Internalized Market API *[announced]*
