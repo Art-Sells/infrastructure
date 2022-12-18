@@ -1,0 +1,72 @@
+------Basic Building Block for bdApp
+
+(Metamask)
+(Connect Address One)
+|
+ETH
+Total Tokens:
+Exchange Tokens:
+(Show Address) | (Hide Address)
+ - - - - 
+\history/---Etherscan
+
+(Metamask)
+(Connect Address Two)
+|
+ETH
+Total Tokens:
+Exchange Tokens:
+(Show Address) | (Hide Address)
+ - - - - 
+\history/---Etherscan
+
+(EXCHANGE)
+
+
+
+------Full Building Block  for bdApp
+
+(Ecare Wallet ETH/WETH/USDC only!)
+(Connect Address One)
+|
+[ETH]
+Balance (Internal API Call):
+Total Tokens:
+Exchange Tokens:
+(Show Address) | (Hide)
+ - - - - 
+\history/---Etherscan
+
+(Connect Address Two)
+|
+[WETH]
+Balance (Internal API Call):
+Total Tokens:
+Exchange Tokens:
+(Show Address) | (Hide Address)
+ - - - - 
+\history/---Etherscan
+
+(EXCHANGE)
+(Convert [USDC])
+|
+(Message: Once Converted to USDC, cannot be converted back to ETH
+Proceed? (Ok/Cancel)
+|
+|
+|
+[USDC]
+Balance (Internal API Call):
+Total Tokens:
+(Show Address) | (Hide Address)
+(Send)
+ - - - - 
+\history/---Etherscan
+|
+[USDC]
+Balance (Internal API Call):
+Total Tokens:
+(Show Address) | (Hide Address)
+(Send)
+ - - - - 
+\history/---Etherscan
