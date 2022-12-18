@@ -1,20 +1,21 @@
 import { useState } from 'react'
 import './assets/css/Home.css'
 import { Link } from 'react-router-dom';
+import Roadmap from './Roadmap';
 
 function Home() {
   const [count, setCount] = useState(0)
 
   return (
-    <div id="body">
-		  
+    <div id="body">   
+      
       <div id="above">
       
         <img class="icon" src="/icons&images/Icon.png"/>
       
         <h1 id="title">ecare</h1>
         
-         <div id="name">
+        <div id="name">
           <p id="names">ethereum</p> 
           <p id="names">combinatorial</p> 
           <p id="names">auction</p> 
@@ -36,15 +37,15 @@ function Home() {
       
       </div>
       
-   		{/* <div id="about"> 
+      {/* <div id="about"> 
         
           <p id="about-desc">Created to house an ecosystem 
           to lift storytellers out of poverty.</p>
           
-       </div>	  */}
+      </div>	  */}
         
-       <div id="ecosystem">
-       
+      <div id="ecosystem">
+      
         {/* Change below link after test   */}
         <a href="https://arells.com"
           id="eco-link">		      
@@ -52,14 +53,14 @@ function Home() {
         </a>		 
     
     
-       </div>
+      </div>
       
             
-       <div id="infrastructure">
+      <div id="infrastructure">
 
         {/* Change below link after test  */}
-        <a href="/roadmap" id="roadmap">Roadmap
-        </a>
+        <Link to="/roadmap" id="roadmap">Roadmap
+        </Link>
         
         <br></br>
               
@@ -70,10 +71,11 @@ function Home() {
         </a>  	
           
       </div>
-            
-    
+        
     </div>
+    
   )
+  
 }
 
 export default Home
