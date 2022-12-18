@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './assets/css/Guide.css'
+import { Link } from 'react-router-dom';
 
 function Guide() {
   const [count, setCount] = useState(0)
@@ -10,9 +11,9 @@ function Guide() {
       <section id="wrapper">
       
        {/* Change below link after test  */}
-        <a id="homelink" href="/">
-            <img id="img" src="/icons&images/appIcon.png"/>	  
-        </a>	
+        <Link id="homelink" to="/">
+          <img id="img" src="/icons&images/appIcon.png"/>	  
+        </Link>	
         
           <span>Guide</span>
           
@@ -26,16 +27,16 @@ function Guide() {
           <h1 id="step-one-title">Step One</h1>
           <p id="describe-prototype">Launch the Prototype</p>
         {/* Change below link after test */}
-          <a href="/prototype" id="prototype">
-              Prototype
-            </a>
+          <Link to="/prototype" id="prototype">
+            Prototype
+          </Link>
         </div>
         
         <div id="step-two">
           <h1 id="step-title">Step Two</h1>
           <p id="describe">
           Connect Wallet One & Wallet Two:</p> 
-              <img id="connect-wallets" src="/icons&images/steptwo.jpg"/>	  
+            <img id="connect-wallets" src="/icons&images/steptwo.jpg"/>	  
         </div>
         
         <div id="step-three">

@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './assets/css/Prototype.css'
+import { Link } from 'react-router-dom';
 
 function Prototype() {
   const [count, setCount] = useState(0)
@@ -8,9 +9,9 @@ function Prototype() {
     <div id="body">
     
        {/* Change below link after test */}
-      <a href="/" >
+      <Link to="/" >
         <img id="img" src="/icons&images/appIcon.png"/>
-      </a>
+      </Link>
         
       <section class="exchange-grid">
 
@@ -145,9 +146,9 @@ function Prototype() {
       
       <br></br>
            {/* Change below link after test  */}
-      <a href="/guide" target="_blank" id="guide">
+      <Link to="/guide" target="_blank" id="guide">
         Guide
-      </a>
+      </Link>
 
     </div>
   )

@@ -1,9 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import { BrowserRouter } from 'react-router-dom';
 
 import Home from './Home'
 // import Roadmap from './Roadmap'
-// import StayUpdated from './StayUpdated'
+// import Guide from './Guide'
+// import Prototype from './Prototype'
 
 // import HomeTest from './test/HomeTest'
 // import RoadmapTest from './test/RoadmapTest'
@@ -11,17 +13,31 @@ import Home from './Home'
 
 import './assets/css/main.css'
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <Home />
-    {/* <Roadmap />
-    <StayUpdated />
+ReactDOM.createRoot(
+  <BrowserRouter>
+    {/* <Route exact path="/" component={Home} /> */}
+    {/* <Route path="/roadmap" component={Roadmap} />
+    <Route path="/guide" component={Guide} />
+    <Route path="/prototype" component={Prototype} /> */}
+  </BrowserRouter>, 
+  
+  document.getElementById('root')
+  ).render(
+    <React.StrictMode>
+      <Home />
+      {/* <Roadmap />
+      <Guide />
+      <Prototype /> */}
 
- Testing Jsx Below 
-    <HomeTest />
-    <RoadmapTest />
-    <StayUpdatedTest />     */}
-  </React.StrictMode>,
+    {/* Testing Jsx Below 
+      <HomeTest />
+      <RoadmapTest />
+      <GuideTest />    
+      <PrototypeTest /> */}
+      
+    </React.StrictMode>,
+
+    
 )
 
 

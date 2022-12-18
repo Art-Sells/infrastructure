@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './assets/css/Roadmap.css'
+import { Link } from 'react-router-dom';
 
 function Roadmap() {
   const [count, setCount] = useState(0)
@@ -8,9 +9,9 @@ function Roadmap() {
     <div id="body">
 	
      {/* change link below after test */}
-        <a id="homelink" href="/">
+        <Link id="homelink" to="/">
            <img id="img" src="/icons&images/guideIcon.png"/>	  
-        </a>	
+        </Link>	
         <span>Roadmap</span>
         
      	{/* <section id="wrapper-ongoing">
