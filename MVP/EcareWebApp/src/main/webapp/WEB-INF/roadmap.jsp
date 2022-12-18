@@ -106,7 +106,7 @@
 	
 		<h3>Aug 2022 - Jan 2023</h3>
 	
-		<form method="get" target="_blank" action="https://github.com/Ecare-Exchange/infrastructure/tree/main/MVP/BdApp">
+		<form method="get" target="_blank" action="https://github.com/Ecare-Exchange/infrastructure/tree/main/Main">
 		<button id="wrapper-content">
 			<p id="milestone">Base dApp
 			</p>
