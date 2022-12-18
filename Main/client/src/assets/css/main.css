@@ -1,8 +1,4 @@
 :root {
-  text-align: center;
-  font-family: Arial;
-  background-color: #1f1f1f;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -10,9 +6,4 @@
   -webkit-text-size-adjust: 100%;
 }
 
-body {
-  margin-top: 0%;
-  margin-left: 0%;
-  margin-right: 0%;
-  margin-bottom: 0%;
-}
+
