@@ -55,7 +55,7 @@ function Home() {
       
             
        <div id="infrastructure">
-        
+
                  {/* Change below link after test  */}
             <a href="/roadmap" id="roadmap">Roadmap
             </a>
