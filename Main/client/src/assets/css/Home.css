@@ -1,3 +1,4 @@
+
 @media screen and (max-width: 650px) {
   body {
     -webkit-text-size-adjust: none;
@@ -5,9 +6,6 @@
 }
 
 #above {
-  margin-top: 0%;
-  margin-left: 0%;
-  margin-right: 0%;  
 	padding-top: 20px;
 	display: flex;
 	width: 100%;
