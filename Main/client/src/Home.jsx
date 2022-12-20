@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import './assets/css/Home.css'
-import { Link } from 'react-router-dom';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { Link, Route } from 'react-router-dom';
 import Roadmap from './Roadmap';
 
 function Home() {
@@ -72,7 +71,8 @@ function Home() {
         </a>  	
           
       </div>
-        
+      {/* <Route exact path="/" component={Home} />
+      <Route path="/roadmap" component={Roadmap} />   */}
     </div>
     
   )
