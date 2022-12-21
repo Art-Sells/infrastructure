@@ -71,8 +71,8 @@ function Home() {
         </a>  	
           
       </div>
-      {/* <Route exact path="/" component={Home} />
-      <Route path="/roadmap" component={Roadmap} />   */}
+      <Route exact path="/" component={Home} />
+      <Route path="/roadmap" component={Roadmap} /> 
     </div>
     
   )
