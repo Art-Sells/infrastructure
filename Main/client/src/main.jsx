@@ -1,14 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter, Route } from 'react-router-dom';
 import Home from './Home';
+import Roadmap from './Roadmap';
 
-ReactDOM.createRoot(document.getElementById('root')
-  ).render(
-    <Router>
-      <Home />      
-    </Router>
-)
+function main(){
+    return (
+      <BrowserRouter>
+        <Route exact path="/" component={Home} />
+        <Route path="/roadmap" component={Roadmap} />   
+      </BrowserRouter>
+    );
+}
 
 
 

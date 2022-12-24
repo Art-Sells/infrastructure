@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import './assets/css/Home.css'
-import { Link, Route } from 'react-router-dom';
-import Roadmap from './Roadmap';
+import { Link } from 'react-router-dom';
 import { Helmet } from "react-helmet";
 
 function Home() {
@@ -112,8 +111,6 @@ function Home() {
         </a>  	
           
       </div>
-       <Route exact path="/" component={Home} />
-       <Route path="/roadmap" component={Roadmap} />
     </div>
     
   )
