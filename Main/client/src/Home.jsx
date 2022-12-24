@@ -11,43 +11,43 @@ function Home() {
     
     <div>   
       <Helmet>
-        <link rel="stylesheet" href="/assets/css/Home.css" >
-    
-      <meta charset="UTF-8">
-      
-  <!-- Below information for social media sharing and search-engine/browser optimization -->		
-      <meta name="title" content="Ecare">
-      <meta name="description" content="Ethereum Combinatorial Auction Rate Exchange">
-      <meta name="google" content="nositelinkssearchbox">
-      <meta name="keywords" content="Ecare, Ethereum">
-      <meta name="author" content="Ecare">
-      <meta name="viewport" id="viewport" content="width=device-width,user-scalable=yes,initial-scale=1" >
-      
-      <link rel="icon" type="image/x-icon" href="/icons&images/Iconic.ico" sizes="156x156">
-          <!-- Change below link after test -->
-      <link rel="canonical" href="https://ecare.exchange">
-      
-      <meta property="og:image" content="https://user-images.githubusercontent.com/51394348/197364687-453880c9-aee3-4880-a36b-be917e28e046.jpg">	
-      <meta property="og:site_name" content="Ecare">	
-      <meta property="og:type" content="object">				
-      <meta property="og:title" content="Ecare">
-          <!-- Change below link after test -->
-      <meta propety="og:url" content="https://ecare.exchange">
-      <meta property="og:description" content="Ethereum Combinatorial Auction Rate Exchange">
-      <meta property="og:image:type" content="image/jpg">
-      <meta property="og:image:width" content="700">
-      <meta property="og:image:height" content="400">
-      
-      <meta name="twitter:title" content="Ecare">
-      <meta name="twitter:image" content="https://user-images.githubusercontent.com/51394348/197364687-453880c9-aee3-4880-a36b-be917e28e046.jpg">
-          <!-- Change below link after test -->
-      <meta name="twitter:url" content="https://ecare.exchange">
-      <meta name="twitter:card" content="summary_large_image">
-      <meta name="twitter:description" content="Ethereum Combinatorial Auction Rate Exchange">
-      <meta name="description" content="Ethereum Combinatorial Auction Rate Exchange">
-  <!-- Above information for social media sharing and search-engine/browser optimization -->	
+	   {/* <link rel="stylesheet" href="/assets/css/Home.css" /> */}
+	
+		<meta charset="UTF-8"/>
+		
+ {/* Below information for social media sharing and search-engine/browser optimization 	 */}
+		<meta name="title" content="Ecare"/>
+		<meta name="description" content="Ethereum Combinatorial Auction Rate Exchange"/>
+		<meta name="google" content="nositelinkssearchbox"/>
+		<meta name="keywords" content="Ecare, Ethereum"/>
+		<meta name="author" content="Ecare"/>
+		<meta name="viewport" id="viewport" content="width=device-width,user-scalable=yes,initial-scale=1" />
+		
+		<link rel="icon" type="image/x-icon" href="/icons&images/Iconic.ico" sizes="156x156"/>
+				 {/* Change below link after test */}
+		<link rel="canonical" href="https://ecare.exchange"/>
+		
+		<meta property="og:image" content="https://user-images.githubusercontent.com/51394348/197364687-453880c9-aee3-4880-a36b-be917e28e046.jpg"/>	
+		<meta property="og:site_name" content="Ecare"/>	
+		<meta property="og:type" content="object"/>				
+		<meta property="og:title" content="Ecare"/>
+				 {/* Change below link after test */}
+		<meta propety="og:url" content="https://ecare.exchange"/>
+		<meta property="og:description" content="Ethereum Combinatorial Auction Rate Exchange"/>
+		<meta property="og:image:type" content="image/jpg"/>
+		<meta property="og:image:width" content="700"/>
+		<meta property="og:image:height" content="400"/>
+		
+		<meta name="twitter:title" content="Ecare"/>
+		<meta name="twitter:image" content="https://user-images.githubusercontent.com/51394348/197364687-453880c9-aee3-4880-a36b-be917e28e046.jpg"/>
+				 {/* Change below link after test  */}
+		<meta name="twitter:url" content="https://ecare.exchange"/>
+		<meta name="twitter:card" content="summary_large_image"/>
+		<meta name="twitter:description" content="Ethereum Combinatorial Auction Rate Exchange"/>
+		<meta name="description" content="Ethereum Combinatorial Auction Rate Exchange"/>
+ {/* Above information for social media sharing and search-engine/browser optimization */}
 
-      <title>Ecare</title>
+		<title>Ecare</title>
       </Helmet>
       
       <div id="above">
@@ -112,8 +112,8 @@ function Home() {
         </a>  	
           
       </div>
-       {/* <Route exact path="/" component={Home} /> */}
-      {/* <Route path="/roadmap" component={Roadmap} />  */}
+       {/* <Route exact path="/" component={Home} />
+       <Route path="/roadmap" component={Roadmap} /> */}
     </div>
     
   )
