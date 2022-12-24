@@ -15,8 +15,8 @@ function App() {
           </li>
         </ul>
       </nav>      
-      <Route exact path="/" component={Home} />
-      <Route path="/roadmap" component={Roadmap} />    
+      {/* <Route exact path="/" component={Home} />
+      <Route path="/roadmap" component={Roadmap} />     */}
     </div>
   );
 }
