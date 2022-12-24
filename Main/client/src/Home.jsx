@@ -2,6 +2,27 @@ import React from 'react';
 import './assets/css/Home.css';
 import { Link } from 'react-router-dom';
 import { Helmet } from "react-helmet";
+import styled from "styled-components";
+
+const NavUnlisted = styled.ul`
+  text-decoration: none;
+`;
+
+const above = {
+    padding-top: 20px,
+    display: flex,
+    width: 100%,
+    flex-direction: column,
+    justify-content: center,
+    align-items: center,
+    background-color: #f8f8fc,
+    height: 420px,
+    position: sticky,
+    z-index: 2
+  /* 	box-shadow: 0px 0px 8px 0px black; */
+      
+};
+
 
 function Home() {
 
@@ -48,7 +69,7 @@ function Home() {
 		<title>Ecare</title>
       </Helmet>
       
-      <div id="above">
+      <NavUnlisted style={above}>
       
         <img class="icon" src="/icons&images/Icon.png"/>
       
@@ -74,7 +95,7 @@ function Home() {
           Guide
         </a>
       
-      </div>
+      </above>
       
       {/* <div id="about"> 
         
