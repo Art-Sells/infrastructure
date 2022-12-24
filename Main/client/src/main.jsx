@@ -7,7 +7,9 @@ import Roadmap from './Roadmap';
 function main(){
     return (
       <BrowserRouter>
-        <Route exact path="/" component={Home} />
+        <Route exact path="/">
+          <Home />
+        </Route>
         {/* <Route path="/roadmap" component={Roadmap} />    */}
       </BrowserRouter>
     );
