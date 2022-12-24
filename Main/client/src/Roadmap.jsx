@@ -1,12 +1,11 @@
-import { useState } from 'react'
-import './assets/css/Roadmap.css'
+import React from 'react';
+import './assets/css/Roadmap.css';
 import { Link } from 'react-router-dom';
 
 function Roadmap() {
-  const [count, setCount] = useState(0)
 
   return (
-    <div id="body">
+    <div>
 	
      {/* change link below after test */}
         <Link id="homelink" to="/">

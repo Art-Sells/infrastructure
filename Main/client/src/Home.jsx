@@ -1,10 +1,9 @@
-import { useState } from 'react'
-import './assets/css/Home.css'
+import React from 'react';
+import './assets/css/Home.css';
 import { Link } from 'react-router-dom';
 import { Helmet } from "react-helmet";
 
 function Home() {
-  const [count, setCount] = useState(0)
 
   return (
     

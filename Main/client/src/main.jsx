@@ -8,10 +8,12 @@ function main(){
     return (
       <BrowserRouter>
         <Route exact path="/" component={Home} />
-        <Route path="/roadmap" component={Roadmap} />   
+        {/* <Route path="/roadmap" component={Roadmap} />    */}
       </BrowserRouter>
     );
 }
+
+export default main
 
 
 
