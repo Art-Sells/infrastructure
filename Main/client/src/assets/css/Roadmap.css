@@ -1,5 +1,4 @@
-/* Change Below after Route Error Resolved */
-#body {
+.body {
   text-align: center;
   font-family: Arial;
   margin-left: 0%;
@@ -10,7 +9,7 @@
 }
 
 @media screen and (max-width: 700px) {
-  #body {
+  .body {
     -webkit-text-size-adjust: none;
   }
 }

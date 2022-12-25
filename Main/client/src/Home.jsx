@@ -4,13 +4,14 @@ import { Link } from 'react-router-dom';
 import { Helmet } from "react-helmet";
 
 
-// Most likely have to individually style via dApp specifics
+// Most likely have to individually style via dApp
 
 function Home() {
 
   return (
     
-    <div>   
+    <div className="body"> 
+
       <Helmet>
 	   {/* <link rel="stylesheet" href="/assets/css/Home.css" /> */}
 	
