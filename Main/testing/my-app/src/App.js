@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter, Route, Link } from 'react-router-dom';
+import {Roadmap} from './Roadmap.jsx';
+import {Home} from './Home.jsx';
 
 function App() {
   return (
@@ -23,8 +25,7 @@ function App() {
     </div>
 
         <Route exact path="/" component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/contact" component={Contact} />    
+        <Route path="/about" component={Roadmap} />   
     </BrowserRouter>
   );
 }
