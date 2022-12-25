@@ -1,5 +1,4 @@
 import React from 'react';
-import './assets/css/Roadmap.css';
 import { Link } from 'react-router-dom';
 
 function Roadmap() {

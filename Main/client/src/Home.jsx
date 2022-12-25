@@ -4,13 +4,14 @@ import { Link } from 'react-router-dom';
 import { Helmet } from "react-helmet";
 
 
-// Most likely have to individually style via dApp
+// Tested Against normal ReactApp implementation, BroswerRouter
+// does not complement css files well
 
 function Home() {
 
   return (
     
-    <div className="body"> 
+    <div> 
 
       <Helmet>
 	   {/* <link rel="stylesheet" href="/assets/css/Home.css" /> */}
@@ -52,7 +53,7 @@ function Home() {
 		<title>Ecare</title>
       </Helmet>
       
-      <div className="above">
+      <div id="above">
       
         <img class="icon" src="/icons&images/Icon.png"/>
       

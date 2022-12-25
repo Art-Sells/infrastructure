@@ -1,8 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter, Route, Link } from 'react-router-dom';
-import {Roadmap} from './Roadmap.jsx';
-import {Home} from './Home.jsx';
+import Roadmap from './Roadmap.jsx';
+import Home from './Home.jsx';
 
 function App() {
   return (

@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function Roadmap() {
 
   return (
-    <div className="body">
+    <div>
 	
      {/* change link below after test */}
         <Link id="homelink" to="/">
