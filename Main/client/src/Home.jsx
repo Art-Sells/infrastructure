@@ -52,7 +52,7 @@ function Home() {
 		<title>Ecare</title>
       </Helmet>
       
-      <div id="above">
+      <div className="above">
       
         <img class="icon" src="/icons&images/Icon.png"/>
       
