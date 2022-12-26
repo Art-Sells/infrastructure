@@ -1,16 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter, Route, Link } from 'react-router-dom';
+import { BrowserRouter} from 'react-router-dom';
+import {Routes, Route} from 'react-router-dom';
 import Roadmap from './Roadmap.jsx';
 import Home from './Home.jsx';
+import Navbar from './Navbar';
 
 function App() {
   return (
     <BrowserRouter>
       <Navbar/>
-      <Switch>
+      <Routes>
         <Route path='/' exact/>
-      </Switch>
+      </Routes>
       {/* <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />

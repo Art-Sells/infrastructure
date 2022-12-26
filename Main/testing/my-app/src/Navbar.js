@@ -7,10 +7,12 @@ function Navbar() {
             <nav>
                 <div>
                     <Link to='/'>
-                        
+                       TRVL 
                     </Link>
                 </div>
             </nav>
         </>
     )
 }
+
+export default Navbar;
