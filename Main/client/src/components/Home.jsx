@@ -11,7 +11,7 @@ function Home() {
 
   return (
     
-    <div> 
+    <div className='home-container'> 
 
       <Helmet>
 	   {/* <link rel="stylesheet" href="/assets/css/Home.css" /> */}
@@ -53,9 +53,9 @@ function Home() {
 		<title>Ecare</title>
       </Helmet>
       
-      <div id="above">
+      <div className="above">
       
-        <img class="icon" src="/icons&images/Icon.png"/>
+        {/* <img class="icon" src="/icons&images/Icon.png"/>
       
         <h1 id="title">ecare</h1>
         
@@ -67,17 +67,17 @@ function Home() {
           <p id="names">exchange</p>
         </div>
         
-          {/* Change below link after test */}
+           Change below link after test 
         <a href="/prototype" id="prototype">
           Prototype
         </a>
         
         <br></br>
         
-          {/* Change below link after test */}
+           Change below link after test 
         <a href="/guide" id="guide">
           Guide
-        </a>
+        </a> */}
       
       </div>
       
@@ -88,9 +88,9 @@ function Home() {
           
       </div>	  */}
         
-      <div id="ecosystem">
+      {/* <div id="ecosystem">
       
-        {/* Change below link after test   */}
+         Change below link after test   
         <a href="https://arells.com"
           id="eco-link">		      
           <img id="letter-logo" src="/icons&images/Arells-Logo.png"></img>	      
@@ -102,7 +102,7 @@ function Home() {
             
       <div id="infrastructure">
 
-        {/* Change below link after test  */}
+         Change below link after test 
         <Link to="/roadmap" id="roadmap">Roadmap
         </Link>
         
@@ -114,7 +114,7 @@ function Home() {
           <img id="github" src="/icons&images/GithubBright.png"></img>
         </a>  	
           
-      </div>
+      </div> */}
     </div>
     
   )

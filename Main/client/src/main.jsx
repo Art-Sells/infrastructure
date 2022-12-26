@@ -8,8 +8,11 @@ function main(){
     return (
       <>
       <Router>
-        <Route exact path="/" component={Home} />
-        {/* <Route path="/roadmap" component={Roadmap} />    */}
+        <Home/>
+        <Routes>
+          <Route exact path="/" component={Home} />
+          {/* <Route path="/roadmap" component={Roadmap} />    */}
+        </Routes>
       </Router>      
       </>
     );
