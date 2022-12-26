@@ -1,4 +1,4 @@
-#home-container {
+.home-container {
 	text-align: center;
 	font-family: Arial;
 	background-color: #1f1f1f;	
@@ -9,12 +9,12 @@
 }
 
 @media screen and (max-width: 650px) {
-  #home-container {
+  .home-container {
     -webkit-text-size-adjust: none;
   }
 }
 
-#above {
+.above {
 	padding-top: 20px;
 	display: flex;
 	width: 100%;

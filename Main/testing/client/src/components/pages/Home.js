@@ -1,9 +1,9 @@
 import React from 'react';
-import '../assets/css/HomePage.css';
+// import '../assets/css/HomePage.css';
 import { Link } from 'react-router-dom';
 import { Helmet } from "react-helmet";
 
-function HomePage() {
+function Home() {
 
   return (
     
@@ -117,4 +117,4 @@ function HomePage() {
   
 }
 
-export default HomePage
+export default Home
