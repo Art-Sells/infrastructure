@@ -1,14 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter as Router } from 'react-router-dom';
-import Home from './Home';
-import Roadmap from './Roadmap';
+import Home from './components/pages/Home';
+// import Roadmap from './components/pages/Roadmap';
 
-function main(){
+function App(){
     return (
       <>
       <Router>
-        <Home/>
         <Routes>
           <Route exact path="/" component={Home} />
           {/* <Route path="/roadmap" component={Roadmap} />    */}
@@ -18,7 +17,7 @@ function main(){
     );
 }
 
-export default main
+export default App
 
 
 
