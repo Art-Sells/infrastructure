@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
+import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
 
 const Test = () => {
   return (
@@ -20,11 +20,11 @@ const App = () => {
 
 
 
-        <Switch>
+        <Routes>
           <Route path='/'exact> 
             <Test/>          
           </Route>
-        </Switch>
+        </Routes>
       </Router>
       {/* <div id="App">
         <h1>
