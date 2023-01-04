@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
-// import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
-// Migrating from Windows to MacOS
+
+// Code ready to be tested agains MacOs
+
 const Test = () => {
   return (
     <div>
@@ -13,7 +14,7 @@ const Test = () => {
 const App = () => {
   return (
     <>
-      {/* <Router>
+      <Router>
         <div>
           <Link to="/">Test</Link>
         </div> 
@@ -25,12 +26,12 @@ const App = () => {
             <Test/>          
           </Route>
         </Routes>
-      </Router> */}
-       <div id="App">
+      </Router> 
+       {/* <div id="App">
         <h1>
           Testing , 1,2,3
         </h1>
-      </div>      
+      </div>       */}
     </>
   );
 }
