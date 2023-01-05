@@ -1,45 +1,25 @@
-import React from 'react';
+import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter as Router, 
-  Routes, 
-  Route,
-Link } from 'react-router-dom';
 
-
-// Code ready to be tested agains MacOs
-
-const Test = () => {
+function App() {
   return (
-    <div>
-      <h1>Test</h1>
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
     </div>
   );
-};
-//RE INSTALLATION OF VSCODE POSSIBLE
-const App = () => {
-  return (
-    <>
-      <Router>
-        <div>
-          <Link to="/">Test</Link>
-        </div> 
-
-
-
-        <Routes>
-          <Route path='/'exact> 
-            <Test/>          
-          </Route>
-        </Routes>
-      </Router> 
-       {/* <div id="App">
-        <h1>
-          Testing , 1,2,3
-        </h1>
-      </div>       */}
-    </>
-  );
 }
-
 
 export default App;
