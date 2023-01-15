@@ -1,11 +1,11 @@
 import React from "react";
-// Change below link after test
-import './assets/css/Home.css';
+// change below link after test
+import '../assets/css/test/HomeTest.css';
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 
 
-const Home = () => {
+const HomeTest = () => {
     return (
     <>
     <Helmet>	
@@ -113,4 +113,4 @@ const Home = () => {
     );
 }
 
-export default Home;
+export default HomeTest;
