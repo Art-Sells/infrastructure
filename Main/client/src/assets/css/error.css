@@ -1,4 +1,4 @@
-body {
+#container {
   text-align: center;
   font-family: 'MyWebFont', Bahnschrift, sans-serif;
   margin-left: 0%;
@@ -7,7 +7,7 @@ body {
   margin-bottom: 0%;
 }
 
-.welcome-section {
+#welcome-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -16,7 +16,7 @@ body {
   height: 100vh;
 }
 
-h1 {
+#oops {
   margin-top: 100px;
   font-size: 120pt;
   font-weight: 900;
@@ -27,7 +27,7 @@ h1 {
   z-index: 2;
 }
 
-#name {
+#oops-message {
   font-size: 25pt;
   font-weight: 900;
   opacity: .4;
@@ -37,14 +37,14 @@ h1 {
 
 
 @media (max-width: 950px) {
-  h1 {
+  #oops {
     margin-top: -140px;
     font-size: 85pt;
     letter-spacing: -25px;
     margin-left: -25px;
   }
 
-  #name {
+  #oops-message {
     font-size: 18pt;
     font-weight: 900;
     opacity: .4;

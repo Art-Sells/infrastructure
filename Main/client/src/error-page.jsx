@@ -6,9 +6,12 @@ export default function ErrorPage() {
   console.error(error);
 
   return (
-    <div className="welcome-section">
-      <h1>Oops!</h1>
-      <p id="name">An error has occurred.</p>
+    <div id="container">
+        <div id="welcome-section">
+        <h1 id="oops">Oops!</h1>
+        <p id="name">An error has occurred.</p>
+        </div>
     </div>
+
   );
 }
