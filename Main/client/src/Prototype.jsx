@@ -51,7 +51,7 @@ const Prototype = () => {
         <img id="img" src="/icons&images/appIcon.png"/>
       </Link>
         
-        <section class="exchange-grid">
+        <section id="exchange-grid">
 
             <div id="left-top-wallet">
             

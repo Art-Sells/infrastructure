@@ -47,29 +47,29 @@ const Home = () => {
                 <title>Ecare</title>
         </Helmet>
 
-        <div id="above">
+        <div id="home-above">
                 
-        <img class="icon" src="/icons&images/Icon.png"/>
+        <img id="home-icon" src="/icons&images/Icon.png"/>
         
-        <h1 id="title">ecare</h1>
+        <h1 id="home-title">ecare</h1>
         
-        <div id="name">
-                <p id="names">ethereum</p> 
-                <p id="names">combinatorial</p> 
-                <p id="names">auction</p> 
-                <p id="names">rate</p> 
-                <p id="names">exchange</p>
+        <div id="home-name">
+                <p id="home-names">ethereum</p> 
+                <p id="home-names">combinatorial</p> 
+                <p id="home-names">auction</p> 
+                <p id="home-names">rate</p> 
+                <p id="home-names">exchange</p>
         </div>
         
                 {/* <!-- Change below link after test --> */}
-        <Link to="/prototype" id="prototype">
+        <Link to="/prototype" id="home-prototype">
                 Prototype
         </Link>
         
         <br/>
         
                 {/* <!-- Change below link after test --> */}
-        <Link to="/about" id="guide">
+        <Link to="/about" id="home-guide">
                 Guide
         </Link>
         
@@ -82,30 +82,30 @@ const Home = () => {
                 
                 </div>	  -->  */}
                 
-                <div id="ecosystem">
+                <div id="home-ecosystem">
                 
                         {/* <!-- Change below link after test -->		  */}
                 <a href="https://arells.com"
-                        id="eco-link">		      
-                <img id="letter-logo" src="/icons&images/Arells-Logo.png"/>	      
+                        id="home-eco-link">		      
+                <img id="home-letter-logo" src="/icons&images/Arells-Logo.png"/>	      
                 </a>		 
 
 
                 </div>
         
                 
-                <div id="infrastructure">
+                <div id="home-infrastructure">
                         {/* <!-- Change below link after test --> */}
                         
-                <Link to="/about" id="roadmap">Roadmap
+                <Link to="/about" id="home-roadmap">Roadmap
                 </Link>
                 
                 <br/>
                         
                 <a href="https://github.com/orgs/Ecare-Exchange"
                         target="_blank"
-                        id="contact">
-                        <img id="github" src="/icons&images/GithubBright.png"/>
+                        id="home-contact">
+                        <img id="home-github" src="/icons&images/GithubBright.png"/>
                 </a>  	
                 
         </div>

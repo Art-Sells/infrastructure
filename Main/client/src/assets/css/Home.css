@@ -14,7 +14,7 @@
   }
 }
 
-#above {
+#home-above {
 	padding-top: 20px;
 	display: flex;
 	width: 100%;
@@ -29,13 +29,13 @@
 	  
 }
 
-	.icon {
+	#home-icon {
 	  width: 50px;
 	  margin-left: auto;
 	  margin-right: auto;
 	}
 	
-	#title {
+	#home-title {
 	  font-size: 40pt;
 	  font-weight: 700;
 	  color: gray;   
@@ -44,7 +44,7 @@
 	  opacity: .8;
 	}
 	
-	#name {
+	#home-name {
 	  display: flex;
 	  font-size: 12pt;
 	  color: gray;
@@ -54,12 +54,12 @@
 	  opacity: .8;
 	}
 	
-	#names {
+	#home-names {
 	  margin-right: 7px;
 	  margin-left: 7px;
 	}
 	
-	#prototype {
+	#home-prototype {
 	  background: rgb(169, 166, 211);
 	  margin-top: 10px;
 	  text-decoration: none;
@@ -73,14 +73,14 @@
 	  width: 150px;
 	  box-shadow: 0px 5px 15px 0px rgb(169, 166, 211);
 	}
-	#prototype:hover,
-	#prototype:focus {
+	#home-prototype:hover,
+	#home-prototype:focus {
 	  opacity: .7;
 	  transition: 1s;
 	  cursor: pointer;
 	}	
 	
-	#guide {
+	#home-guide {
 	  background: #f8f8fc;
 	  margin-top: 10px;
 	  text-decoration: none;
@@ -94,8 +94,8 @@
 	  width: 100px;
 	  box-shadow: 0px 3px 8px 0px rgb(169, 166, 211);
 	}
-	#guide:hover,
-	#guide:focus {
+	#home-guide:hover,
+	#home-guide:focus {
 	  opacity: .7;
 	  transition: 1s;
 	  cursor: pointer;
@@ -122,7 +122,7 @@
 		font-size: 12px;
 	} */
 
-#ecosystem {
+#home-ecosystem {
 	padding-top: 45px;	
 	margin-left: auto;
     margin-right: auto;
@@ -163,7 +163,7 @@
      background-position: 0% 50%;
   }
 }	
-		#eco-link {
+		#home-eco-link {
 		  text-decoration: none;
 			color: white;	
 			opacity: 1;
@@ -176,17 +176,17 @@
 			  border-width: 1px;
 			  width: 200px;	 	  
 		}
-		#eco-link:hover,
-		#eco-link:focus {
+		#home-eco-link:hover,
+		#home-eco-link:focus {
 		  opacity: .3;
 		  transition: 1s;
 		  cursor: pointer;
 		}
-		#letter-logo {
+		#home-letter-logo {
 			width: 58px;
 		}	
 
-#infrastructure {
+#home-infrastructure {
 	margin-left: auto;
     margin-right: auto;
     padding-top: 5px;
@@ -196,7 +196,7 @@
 	background-color: #1f1f1f;
 }
 	
-		#roadmap {
+		#home-roadmap {
 		  background: #1f1f1f;
 		  text-decoration: none;
 		  color: white;
@@ -209,22 +209,22 @@
 		  border-radius: 3px;
 		  opacity: .75;
 		}
-		#roadmap:hover,
-		#roadmap:focus {
+		#home-roadmap:hover,
+		#home-roadmap:focus {
 		  transition: 1s;
 		  cursor: pointer;
 		  opacity: .3;
 		}	
 	
-		#contact {
+		#home-contact {
 			opacity: .75;	
 		}
-		#contact:hover {
+		#home-contact:hover {
 			opacity: .3;
 		    cursor: pointer;
 			transition: 1s;
 		}
-		#github {
+		#home-github {
 			margin-top: 55px;
 			width: 30px;
 		}
@@ -234,32 +234,32 @@
 
 @media screen and (max-width: 650px){
 	
-	#above {
+	#home-above {
 		padding-top: 40px;
 		height: 415px;
 	}	
-		.icon {
+		#home-icon {
 		  width: 40px;
 		}
 		
-		#title {
+		#home-title {
 		  font-size: 25pt;
 		  letter-spacing: 1px;
 		  margin-top: 15px;
 		}
 		
-		#name {
+		#home-name {
 		  display: block;
 		  font-size: 9pt;
 	      margin-top: -20px; 
 	      letter-spacing: 0px;
 		}
 		
-		#names {
+		#home-names {
 		  line-height: 10px;
 		}
 		
-		#prototype {
+		#home-prototype {
 		  font-size: 11px;
 		  width: 120px;
 		  padding: 17px;
@@ -267,7 +267,7 @@
 		  border-radius: 17px;
 		}
 		
-		#guide {
+		#home-guide {
 		  font-weight:600;
 		  font-size: 11px;
 		  width: 80px;
@@ -276,32 +276,32 @@
 		  margin-top: 10px;
 		}
 		
-	#ecosystem {
+	#home-ecosystem {
 		padding-top: 40px;	
 	    height: 57px; 
 	    margin-bottom: 30px;     
 	}
-			#eco-link {	
+			#home-eco-link {	
 			    padding-top: 15px;
 				  padding-bottom: 13px;
 				  padding-right: 27px;
 				  padding-left: 27px;	  
 				  width: 150px;	 		  
 			}	
-			#letter-logo {
+			#home-letter-logo {
 				width: 42px;
 			}		
 	
-	#infrastructure {
+	#home-infrastructure {
 		padding-top: 5px;
 		height: 60px;
 	}
-		#roadmap {
+		#home-roadmap {
 		  font-size: 11px;
 		  padding: 15px;	
 		}
 		
-		#github {
+		#home-github {
 			margin-top: 40px;
 			width: 25px;
 		}
