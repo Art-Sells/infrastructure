@@ -21,14 +21,14 @@ const Home = () => {
             
             <link rel="icon" type="image/x-icon" href="/icons&images/Iconic.ico" sizes="156x156"/>
                     {/* <!-- Change below link after test --> */}
-            <link rel="canonical" href="https://ecare.exchange/test"/>
+            <link rel="canonical" href="https://ecare.exchange"/>
             
             <meta property="og:image" content="https://user-images.githubusercontent.com/51394348/169722650-92d9cef2-3288-433d-8a9f-9bebb8911c38.jpg"/>	
             <meta property="og:site_name" content="Ecare"/>	
             <meta property="og:type" content="object"/>				
             <meta property="og:title" content="Ecare"/>
                     {/* <!-- Change below link after test --> */}
-            <meta propety="og:url" content="https://ecare.exchange/test"/>
+            <meta propety="og:url" content="https://ecare.exchange"/>
             <meta property="og:description" content="Ethereum Combinatorial Auction Rate Exchange"/>
             <meta property="og:image:type" content="image/jpg"/>
             <meta property="og:image:width" content="700"/>
@@ -37,7 +37,7 @@ const Home = () => {
             <meta name="twitter:title" content="Ecare"/>
             <meta name="twitter:image" content="https://user-images.githubusercontent.com/51394348/169722650-92d9cef2-3288-433d-8a9f-9bebb8911c38.jpg"/>
                     {/* <!-- Change below link after test --> */}
-            <meta name="twitter:url" content="https://ecare.exchange/test"/>
+            <meta name="twitter:url" content="https://ecare.exchange"/>
             <meta name="twitter:card" content="summary_large_image"/>
             <meta name="twitter:description" content="Ethereum Combinatorial Auction Rate Exchange"/>
             <meta name="description" content="Ethereum Combinatorial Auction Rate Exchange"/>
@@ -61,16 +61,16 @@ const Home = () => {
      </div>
      
              {/* <!-- Change below link after test --> */}
-      <a href="/prototype" id="prototype">
+      <Link to="/about" id="prototype">
          Prototype
-     </a>
+     </Link>
      
      <br/>
      
              {/* <!-- Change below link after test --> */}
-     <a href="/guide" id="guide">
+     <Link to="/about" id="guide">
          Guide
-     </a>
+     </Link>
  
     </div>
     
@@ -96,8 +96,8 @@ const Home = () => {
         <div id="infrastructure">
                     {/* <!-- Change below link after test --> */}
                     
-            <a href="/roadmap" id="roadmap">Roadmap
-            </a>
+            <Link to="/about" id="roadmap">Roadmap
+            </Link>
             
             <br/>
                 
