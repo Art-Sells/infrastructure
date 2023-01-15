@@ -9,7 +9,8 @@ export default function ErrorPage() {
     <div id="container">
         <div id="welcome-section">
         <h1 id="oops">Oops!</h1>
-        <p id="name">An error has occurred.</p>
+        <p id="oops-name">An error has occurred.</p>
+        <i id="oops-message">{error.statusText || error.message}</i>
         </div>
     </div>
 
