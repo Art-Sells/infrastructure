@@ -46,12 +46,9 @@ const Home = () => {
             <title>Ecare</title>
     </Helmet>
 
-
-
-
-	<div id="above">
+    <div id="above">
 	  
-    <img class="icon" src="/icons&images/Icon.png"/>
+      <img class="icon" src="/icons&images/Icon.png"/>
  
      <h1 id="title">ecare</h1>
      
@@ -63,59 +60,53 @@ const Home = () => {
             <p id="names">exchange</p>
      </div>
      
-             {/* Change below link after test */}
-      <Link to="/about" id="prototype">
+             {/* <!-- Change below link after test --> */}
+      <a href="/prototype" id="prototype">
          Prototype
-     </Link>
+     </a>
      
      <br/>
      
              {/* <!-- Change below link after test --> */}
-     <Link to="/about" id="guide">
+     <a href="/guide" id="guide">
          Guide
-     </Link>
+     </a>
  
     </div>
     
-    <div id="about">
-    
-        <h3 id="about-title">About</h3>	  
-    
-        <p id="about-desc">Ecare is the infrastructure created
-        to house an ecosystem to lift storytellers 
-        out of poverty.</p>
+    {/* <!-- 		<div id="about"> 
         
-        <section id="ecosystem">
-        
-            <img class="eco-icon" src="/icons&images/Icon.png"/>
-        
-            <h3 id="eco-title">Ecosystem</h3>
+            <p id="about-desc">Created to house an ecosystem 
+            to lift storytellers out of poverty.</p>
             
-            <h4>Coming Soon</h4>
-
-        </section>
-
+        </div>	  -->  */}
         
-        <section id="infrastructure">
+        <div id="ecosystem">
         
-            <img class="infra-icon" src="/icons&images/Icon.png"/>
-        
-            <h3 id="infra-title">Infrastructure</h3>
+                {/* <!-- Change below link after test -->		  */}
+            <a href="https://arells.com"
+                id="eco-link">		      
+            <img id="letter-logo" src="/icons&images/Arells-Logo.png"/>	      
+            </a>		 
 
-                    {/* <!-- Change below link after test --> */}        
-            <a href="/roadmap-test" id="roadmap">Roadmap
+
+        </div>
+    
+            
+        <div id="infrastructure">
+                    {/* <!-- Change below link after test --> */}
+                    
+            <a href="/roadmap" id="roadmap">Roadmap
             </a>
             
             <br/>
                 
-            <a href="https://github.com/jeyakatsa/Ecare"
+            <a href="https://github.com/orgs/Ecare-Exchange"
                 target="_blank"
                 id="contact">
                 <img id="github" src="/icons&images/GithubBright.png"/>
             </a>  	
             
-    </section>		  
-
     </div>
     </>
     );
