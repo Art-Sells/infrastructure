@@ -62,7 +62,7 @@ const Home = () => {
         </div>
         
                 {/* <!-- Change below link after test --> */}
-        <Link to="/about" id="prototype">
+        <Link to="/prototype" id="prototype">
                 Prototype
         </Link>
         
