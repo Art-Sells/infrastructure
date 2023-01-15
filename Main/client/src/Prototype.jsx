@@ -6,7 +6,7 @@ import { Helmet } from 'react-helmet';
 
 const Prototype = () => {
     return (
-    <>
+    <div id="prototype-body">
         <Helmet>	
                 
             <meta charset="UTF-8"/>
@@ -187,7 +187,7 @@ const Prototype = () => {
       <a href="/guide" target="_blank" id="guide">
       	Guide
       </a>
-    </>
+    </div>
     );
 }
 

@@ -1,4 +1,4 @@
-body {
+#prototype-body {
     text-align: center;
     font-family: Arial;
     margin-left: 0%;
@@ -11,7 +11,7 @@ body {
     padding-bottom: 50px;
   }
   @media screen and (max-width: 690px) {
-    body {
+    #prototype-body {
       -webkit-text-size-adjust: none;
     }
   }

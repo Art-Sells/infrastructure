@@ -1,11 +1,11 @@
 #container {
   text-align: center;
   font-family: 'MyWebFont', Arial;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
   background-color: white;
-  margin-bottom: 5%;
-  margin-top: 5%;
+  margin-bottom: 10%;
+  margin-top: 10%;
   padding: 100px;
   border-radius: 10px;
 }

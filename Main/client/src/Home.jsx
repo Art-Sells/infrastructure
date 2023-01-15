@@ -7,7 +7,7 @@ import { Helmet } from 'react-helmet';
 
 const Home = () => {
     return (
-    <>
+    <div id="home-body">
         <Helmet>	
                                                         
                 <meta charset="UTF-8"/>
@@ -109,7 +109,7 @@ const Home = () => {
                 </a>  	
                 
         </div>
-    </>
+    </div>
     );
 }
 

@@ -1,4 +1,4 @@
-body {
+#home-body {
   text-align: center;
   font-family: Arial;
   margin-top: 0%;
@@ -9,7 +9,7 @@ body {
 }
 
 @media screen and (max-width: 650px) {
-  body {
+  #home-body {
     -webkit-text-size-adjust: none;
   }
 }
