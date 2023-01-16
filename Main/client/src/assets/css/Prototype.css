@@ -325,6 +325,7 @@
 	
 	hr {
 	  margin-top: 20px;
+	  margin-bottom: 50px;
 	  background-color: silver;
 	  border: none;
 	  height: 6px;
@@ -335,10 +336,10 @@
 	
 	#name {
 	  display: inline-flex;
+	  margin: auto;
 	  font-size: 10pt;
 	  color: gray;
 	  font-weight: 700;
-	  margin-top: -10px; 
 	  opacity: .8;
 	  margin-bottom: 15px;
 	}

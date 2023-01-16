@@ -51,18 +51,18 @@ const Prototype = () => {
         <img id="img" src="/icons&images/appIcon.png"/>
       </Link>
         
-        <section id="exchange-grid">
+        <section class="exchange-grid">
 
             <div id="left-top-wallet">
             
-                <section id="wallet-one-not-connected" style="display:block">
+                <section id="wallet-one-not-connected" style={{display:"block"}}>
                     <button onclick="connectWalletOne()" 
                     id="connect-wallet-one" type="button">
                     Connect Wallet One
                     </button>  
                 </section>
             
-                <section id="wallet-one-connected" style="display:none">
+                <section id="wallet-one-connected" style={{display:"none"}}>
                     <button class="eth" id="choose-token">
                         <img id="ethicon" src="/icons&images/eth-icon.png"/>
                         <p id="eth-name">ETH</p>
@@ -72,17 +72,17 @@ const Prototype = () => {
                     <label id="label">Balance</label>
                     <br/>
                     <p id="dllr-connected">$
-                        <span id="balance-one-connected" style="display:inline">100,000.00
+                        <span id="balance-one-connected" style={{display:"inline"}}>100,000.00
                         </span>
-                        <span id="balance-one-connected-value" style="display:none"></span>
+                        <span id="balance-one-connected-value" style={{display:"none"}}></span>
                     </p>
                     </div>
                     
                     <div class="form-group-tokens">
                     <label id="label">Total Tokens</label>					
                     <br/>
-                    <p id="tokens-one-connected" style="display:inline">100.00</p>
-                    <p id="tokens-one-connected-value" style="display:none"></p>
+                    <p id="tokens-one-connected" style={{display:"inline"}}>100.00</p>
+                    <p id="tokens-one-connected-value" style={{display:"none"}}></p>
                     </div>
                     
                     <div class="form-group-exchange">
@@ -107,14 +107,14 @@ const Prototype = () => {
 
             <div id="right-bottom-wallet">
             
-                <section id="wallet-two-not-connected" style="display:block">
+                <section id="wallet-two-not-connected" style={{display:"block"}}>
                     <button onclick="connectWalletTwo()" 
                         id="connect-wallet-two" type="button">
                         Connect Wallet Two
                     </button>
                 </section>
             
-                <section id="wallet-two-connected" style="display:none">
+                <section id="wallet-two-connected" style={{display:"none"}}>
 
                     <button class="weth" id="choose-token">
                     <img id="ethicon" src="/icons&images/weth-icon.png"/>
@@ -125,17 +125,17 @@ const Prototype = () => {
                     <label id="label">Balance</label>
                     <br/>
                     <p id="dllr-connected">$
-                        <span id="balance-two-connected" style="display:inline">90,000.00
+                        <span id="balance-two-connected" style={{display:"inline"}}>90,000.00
                         </span>
-                        <span id="balance-two-connected-value" style="display:none"></span>
+                        <span id="balance-two-connected-value" style={{display:"none"}}></span>
                     </p>  
                     </div>
                     
                     <div class="form-group-tokens">
                     <label id="label">Total Tokens</label>					
                     <br/>
-                    <p id="tokens-two-connected" style="display:inline">90.00</p>
-                    <p id="tokens-two-connected-value" style="display:none"></p>              
+                    <p id="tokens-two-connected" style={{display:"inline"}}>90.00</p>
+                    <p id="tokens-two-connected-value" style={{display:"none"}}></p>              
                     </div>
                     
                     <div class="form-group-exchange">
@@ -161,17 +161,17 @@ const Prototype = () => {
       
       
       
-      <a id="reset" onclick="resetWallets()" style="display:none">
+      <a id="reset" onclick="resetWallets()" style={{display:"none"}}>
         <img id="refresh" src="/icons&images/refreshIcon.png"/>
       </a>      
       
       <br/>
       
-      <a onclick="exchange()" id="exchange" style="display:block">
+      <a onclick="exchange()" id="exchange" style={{display:"block"}}>
           EXCHANGE
       </a>
       
-      <hr></hr>
+      <hr/>
 
       <h3 id="name">
         <p id="names">ethereum</p>
