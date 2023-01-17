@@ -7,7 +7,7 @@ import { Helmet } from 'react-helmet';
 
 const Home = () => {
     return (
-    <div id="home-body">
+    <>
         <Helmet>	
                                                         
                 <meta charset="UTF-8"/>
@@ -45,6 +45,29 @@ const Home = () => {
         {/* <!-- Above information for social media sharing and search-engine/browser optimization -->	 */}
         
                 <title>Ecare</title>
+
+        {/* body styling element */}
+        <style>
+        {`
+                body {
+                        text-align: center;
+                        font-family: Arial;
+                        margin-top: 0%;
+                        margin-left: 0%;
+                        margin-right: 0%;
+                        background-color: #1f1f1f;
+                        margin-bottom: 0%;
+                }
+
+                @media screen and (max-width: 650px) {
+                        body {
+                          -webkit-text-size-adjust: none;
+                        }
+                }
+        `}
+        </style>        
+
+
         </Helmet>
 
         <div id="home-above">
@@ -109,7 +132,7 @@ const Home = () => {
                 </a>  	
                 
         </div>
-    </div>
+    </>
     );
 }
 

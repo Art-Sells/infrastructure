@@ -11,8 +11,7 @@ import Prototype from "./Prototype.jsx";
 import ErrorPage from "./error-page.jsx";
 
 //Testing components
-import HomeTest from "./test/HomeTest.jsx";
-import About from "./About.jsx";
+// import HomeTest from "./test/HomeTest.jsx";
 
 const router = createBrowserRouter([
   {
@@ -28,15 +27,11 @@ const router = createBrowserRouter([
 
 
   //Test routes below (comment out after tests)
-  {
-    path: "/test",
-    element: <HomeTest/>,
-    errorElement: <ErrorPage />,
-  },
-  {
-    path: "/about",
-    element: <About/>,
-  },
+  // {
+  //   path: "/test",
+  //   element: <HomeTest/>,
+  //   errorElement: <ErrorPage />,
+  // },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

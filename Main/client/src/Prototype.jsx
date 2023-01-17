@@ -6,7 +6,7 @@ import { Helmet } from 'react-helmet';
 
 const Prototype = () => {
     return (
-    <div id="prototype-body">
+    <>
         <Helmet>	
                 
             <meta charset="UTF-8"/>
@@ -44,6 +44,30 @@ const Prototype = () => {
     {/* <!-- Above information for social media sharing and search-engine/browser optimization -->	 */}
 
             <title>Prototype</title>
+
+
+        {/* body styling element */}
+        <style>
+        {`
+            body {
+                text-align: center;
+                font-family: Arial;
+                margin-left: 0%;
+                margin-right: 0%;
+                margin-top: 0%;
+                margin-bottom: 0%;
+                background-color: #f8f8fc;
+                padding-left: 40px;
+                padding-right: 40px;
+                padding-bottom: 50px;
+            }
+            @media screen and (max-width: 690px) {
+                #body {
+                -webkit-text-size-adjust: none;
+                }
+            }
+        `}
+        </style>              
        </Helmet>
 
        {/* <!-- Change below link after test --> */}
@@ -187,7 +211,7 @@ const Prototype = () => {
       <a href="/guide" target="_blank" id="guide">
       	Guide
       </a>
-    </div>
+    </>
     );
 }
 

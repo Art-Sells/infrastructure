@@ -1,15 +1,3 @@
-#container {
-  text-align: center;
-  font-family: 'MyWebFont', Arial;
-  margin-left: 10%;
-  margin-right: 10%;
-  background-color: white;
-  margin-bottom: 10%;
-  margin-top: 10%;
-  padding: 100px;
-  border-radius: 10px;
-}
-
 #welcome-section {
   display: flex;
   flex-direction: column;
