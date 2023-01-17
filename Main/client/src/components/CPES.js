@@ -1,4 +1,4 @@
-import './modals/RWmodal.min.js';
+// import './modals/RWmodal.min.js';
 
 //CPES (Cross Pollination Exchange System)
 

@@ -3,7 +3,8 @@ import React from "react";
 
 
 // import './components/CPES.js';
-// import './css/Prototype.css';
+import './components/modals/RWmodal.js';
+import './css/Prototype.css';
 // import './css/components/RWmodalani.css';
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
@@ -11,7 +12,7 @@ import { Helmet } from 'react-helmet';
 const Prototype = () => {
     return (
     <>
-        <Helmet>	
+        <Helmet>
                 
             <meta charset="UTF-8"/>
             
