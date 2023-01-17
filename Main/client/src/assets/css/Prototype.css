@@ -3,6 +3,7 @@
   font-family: Arial;
   margin-left: 0%;
   margin-right: 0%;
+  height: 100%;
   margin-top: 0%;
   margin-bottom: 0%;
   background-color: #f8f8fc;
@@ -335,7 +336,7 @@
 	}
 	
 	#name {
-	  display: inline-flex;
+	  display: inline;
 	  margin: auto;
 	  font-size: 10pt;
 	  color: gray;
