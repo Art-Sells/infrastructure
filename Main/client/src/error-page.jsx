@@ -1,5 +1,5 @@
 import { useRouteError } from "react-router-dom";
-import "./assets/css/error.css";
+import "./css/error.css";
 import { Helmet } from 'react-helmet';
 
 export default function ErrorPage() {

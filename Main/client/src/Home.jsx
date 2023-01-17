@@ -1,6 +1,6 @@
 import React from "react";
 // Change below link after test
-import './assets/css/Home.css';
+import './css/Home.css';
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 
