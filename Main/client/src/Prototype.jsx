@@ -3,15 +3,15 @@ import React from "react";
 
 
 // import './components/CPES.js';
-import './components/modals/RWmodal.js';
+import './components/modals/RWmodal.min.js';
 import './css/Prototype.css';
-// import './css/components/RWmodalani.css';
+import './css/components/RWmodalani.css';
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 
 const Prototype = () => {
     return (
-    <>
+    <div id="prototype-wrapper">
         <Helmet>
                 
             <meta charset="UTF-8"/>
@@ -67,7 +67,7 @@ const Prototype = () => {
                 padding-bottom: 50px;
             }
             @media screen and (max-width: 690px) {
-                #body {
+                body {
                 -webkit-text-size-adjust: none;
                 }
             }
@@ -216,7 +216,7 @@ const Prototype = () => {
       <a href="/guide" target="_blank" id="guide">
       	Guide
       </a>
-    </>
+    </div>
     );
 }
 

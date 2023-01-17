@@ -1,4 +1,3 @@
-import '../../css/components/RWmodal.css';
 import '../../css/components/RWmodalani.css';
 
 const RWmodal = {
@@ -8,7 +7,7 @@ const RWmodal = {
   
     // on document ready
     init : function() {
-      document.getElementsByTagName("body")[0].innerHTML += `
+      document.getElementById('prototype-wrapper')[0].innerHTML += `
         <div id="RWmodal" class="RWmodal">
           <div class="RWmodal-content">
             <p class="RWclose" onclick="RWmodal.close();">Ok</p>
