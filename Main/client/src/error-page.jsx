@@ -1,6 +1,7 @@
 import { useRouteError } from "react-router-dom";
 import "./css/error.css";
 import { Helmet } from 'react-helmet';
+import { Link } from 'react-router-dom';
 
 export default function ErrorPage() {
   const error = useRouteError();
@@ -53,11 +54,11 @@ export default function ErrorPage() {
         body {
           text-align: center;
           font-family: 'MyWebFont', Arial;
-          margin-left: 10%;
-          margin-right: 10%;
-          background-color: white;
-          margin-bottom: 10%;
-          margin-top: 10%;
+          margin-left: 0%;
+          margin-right: 0%;
+          background-color: #f8f8fc;
+          margin-bottom: 0%;
+          margin-top: 0%;
           padding: 100px;
           border-radius: 10px;
         }
@@ -67,9 +68,12 @@ export default function ErrorPage() {
 
     <div id="container">
         <div id="welcome-section">
-        <h1 id="oops">Oops!</h1>
-        <p id="oops-name">An error has occurred.</p>
-        <i id="oops-message">{error.statusText || error.message}</i>
+          <Link to="/">
+            <img id="oops-img" src="/icons&images/appIcon.png"/>
+          </Link>          
+          <h1 id="oops">Oops!</h1>
+          <p id="oops-name">An error has occurred.</p>
+          <i id="oops-message">{error.statusText || error.message}</i>
         </div>
     </div>
     </>
