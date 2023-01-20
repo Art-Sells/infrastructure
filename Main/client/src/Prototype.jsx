@@ -1,8 +1,7 @@
 import React from "react";
-// Change below link after test
+import {connectWalletOne} from './components/MainAlgorithms';
 
-
-import './components/MainAlgorithms.js';
+// Change below links after test
 import './components/modals/RWmodal.min.js';
 import './css/Prototype.css';
 import './css/components/RWmodalani.css';
@@ -85,7 +84,7 @@ const Prototype = () => {
             <div id="left-top-wallet">
             
                 <section id="wallet-one-not-connected" style={{display:"block"}}>
-                    <button onclick="connectWalletOne()" 
+                    <button onclick={connectWalletOne} 
                     id="connect-wallet-one" type="button">
                     Connect Wallet One
                     </button>  
