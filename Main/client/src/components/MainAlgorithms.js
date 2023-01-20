@@ -1,8 +1,8 @@
 // import './modals/RWmodal.min.js';
-import { useRef } from 'react';
+import { walletOneConnect } from "../Prototype";
+import { walletOneConnector } from "../Prototype";
 
-export const walletOneConnect = useRef(null);
-export const walletOneConnector = useRef(null);
+
 //Connect Wallet Functions
     var connectedWalletOne = false;
     export function connectWalletOne() {

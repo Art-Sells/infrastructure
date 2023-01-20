@@ -1,18 +1,20 @@
 import React from "react";
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
-import { walletOneConnect } from "./components/MainAlgorithms";
-import { walletOneConnector } from "./components/MainAlgorithms";
+import { useRef } from 'react';
+
 //Main Algorithm Functions
-import {connectWalletOne} from './components/MainAlgorithms';
+import { connectWalletOne } from "./components/MainAlgorithms";
 
 // Change below links after test
-import './components/MainAlgorithms';
 import './components/modals/RWmodal.min.js';
 import './css/Prototype.css';
 import './css/components/RWmodalani.css';
 
 const Prototype = () => {
+
+    const walletOneConnect = useRef(null);
+    const walletOneConnector = useRef(null);
 
     return (
     <div id="prototype-wrapper">
