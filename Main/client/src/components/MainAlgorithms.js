@@ -1,11 +1,15 @@
 // import './modals/RWmodal.min.js';
+import { useRef } from 'react';
 
+const myRef = useRef(null);
 //Connect Wallet Functions
     var connectedWalletOne = false;
     export function connectWalletOne() {
-            document.getElementById('wallet-one-connected').style.display = "block";
-            document.getElementById('wallet-one-not-connected').style.display = "none";
-            connectedWalletOne = true;
+        const walletOneConnected = document.getElementById('wallet-one-connected');
+        walletOneConnected.style.display = "block";
+        const walletOneNotConnected = document.getElementById('wallet-one-not-connected');
+        walletOneNotConnected.style.display = "none";
+        connectedWalletOne = true;
     }
     var connectedWalletTwo = false;
     function connectWalletTwo() {

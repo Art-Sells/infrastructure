@@ -1,14 +1,20 @@
 import React from "react";
+import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
+import { useRef } from 'react';
+
+//Main Algorithm Functions
 import {connectWalletOne} from './components/MainAlgorithms';
 
 // Change below links after test
 import './components/modals/RWmodal.min.js';
 import './css/Prototype.css';
 import './css/components/RWmodalani.css';
-import { Link } from 'react-router-dom';
-import { Helmet } from 'react-helmet';
 
 const Prototype = () => {
+
+    const myRef = useRef(null);
+
     return (
     <div id="prototype-wrapper">
         <Helmet>
@@ -83,7 +89,7 @@ const Prototype = () => {
 
             <div id="left-top-wallet">
             
-                <section id="wallet-one-not-connected" style={{display:"block"}}>
+                <section id="wallet-one-not-connected" ref={myRef} style={{display:"block"}}>
                     <button onclick={connectWalletOne} 
                     id="connect-wallet-one" type="button">
                     Connect Wallet One
