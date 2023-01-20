@@ -1,13 +1,14 @@
 // import './modals/RWmodal.min.js';
 import { useRef } from 'react';
 
-const myRef = useRef(null);
+export const walletOneConnect = useRef(null);
+export const walletOneConnector = useRef(null);
 //Connect Wallet Functions
     var connectedWalletOne = false;
     export function connectWalletOne() {
-        const walletOneConnected = document.getElementById('wallet-one-connected');
+        const walletOneConnected = walletOneConnector.current;
         walletOneConnected.style.display = "block";
-        const walletOneNotConnected = document.getElementById('wallet-one-not-connected');
+        const walletOneNotConnected = walletOneConnect.current;
         walletOneNotConnected.style.display = "none";
         connectedWalletOne = true;
     }
