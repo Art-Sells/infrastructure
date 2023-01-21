@@ -1,13 +1,11 @@
 import React from "react";
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
-import {useRef} from 'react';
 
 //Main Algorithm Functions
-// import { connectWalletOne } from "./components/MainAlgorithms";
-// import { walletOneConnect } from "./components/MainAlgorithms";
-// import { walletOneConnector } from "./components/MainAlgorithms";
-import {isNumberKey} from './components/MainAlgorithms';
+import { connectWalletOne } from "./components/MainAlgorithms";
+import { walletOneConnect } from "./components/MainAlgorithms";
+import { walletOneConnector } from "./components/MainAlgorithms";
 
 // Change below links after test
 import './components/modals/RWmodal.min.js';
@@ -15,18 +13,6 @@ import './css/Prototype.css';
 import './css/components/RWmodalani.css';
 
 const Prototype = () => {
-
-    const walletOneConnect = useRef(null);
-    const walletOneConnector = useRef(null);
-
-    var connectedWalletOne = false;
-    function connectWalletOne() {
-        const walletOneConnected = walletOneConnector.current;
-        walletOneConnected.style.display = "block";
-        const walletOneNotConnected = walletOneConnect.current;
-        walletOneNotConnected.style.display = "none";
-        connectedWalletOne = true;
-    }
 
     return (
     <div id="prototype-wrapper">
@@ -136,7 +122,7 @@ const Prototype = () => {
                     <label id="label">Exchange Tokens</label>						
                     <br/>
                     <input id="input-one" type="text" 
-                            onKeyDown={isNumberKey(event,this)}
+                            onkeypress="return isNumberKey(event,this)"
                             pattern="^[0-9]*[.]?[0-9]*"
                             inputmode="decimal"	
                             step="any" value="1.01" />
