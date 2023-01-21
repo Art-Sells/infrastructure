@@ -13,8 +13,8 @@ import './css/components/RWmodalani.css';
 
 const Prototype = () => {
 
-    const walletOneConnect = useRef(null);
-    const walletOneConnector = useRef(null);
+    // const walletOneConnect = useRef(null);
+    // const walletOneConnector = useRef(null);
 
     return (
     <div id="prototype-wrapper">
