@@ -1,6 +1,8 @@
 // import './modals/RWmodal.min.js';
-import { walletOneConnect } from "../Prototype";
-import { walletOneConnector } from "../Prototype";
+import React, { useRef } from 'react'
+
+export const walletOneConnect = useRef(null);
+export const walletOneConnector = useRef(null);
 
 
 //Connect Wallet Functions
@@ -478,7 +480,7 @@ function crossPollinationExchangeSystem(){
 //CPES (Cross Pollination Exchange Systen) (Above)		
 
 //Input Format Function	
-function isNumberKey(evt, obj) {
+export function isNumberKey(evt, obj) {
 
     var charCode = (evt.which) ? evt.which : event.keyCode
     var value = obj.value;
@@ -491,7 +493,7 @@ function isNumberKey(evt, obj) {
     return true;
 }
 
-function resetWallets(){
+export function resetWallets(){
         
         var walletOneBalance = 100000.00;
          var walletOneFormat = new Intl.NumberFormat('en-US',
@@ -517,7 +519,7 @@ function resetWallets(){
 
 
 
-function exchange(){
+export function exchange(){
     if (connectedWalletOne == false || connectedWalletTwo == false){
         RWmodal.open(1, 'Connect Both Wallets');
         }

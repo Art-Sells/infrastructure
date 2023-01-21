@@ -1,10 +1,13 @@
 import React from "react";
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
-import { useRef } from 'react';
+import {useRef} from 'react';
 
 //Main Algorithm Functions
-import { connectWalletOne } from "./components/MainAlgorithms";
+// import { connectWalletOne } from "./components/MainAlgorithms";
+// import { walletOneConnect } from "./components/MainAlgorithms";
+// import { walletOneConnector } from "./components/MainAlgorithms";
+import {isNumberKey} from './components/MainAlgorithms';
 
 // Change below links after test
 import './components/modals/RWmodal.min.js';
@@ -13,8 +16,17 @@ import './css/components/RWmodalani.css';
 
 const Prototype = () => {
 
-    // const walletOneConnect = useRef(null);
-    // const walletOneConnector = useRef(null);
+    const walletOneConnect = useRef(null);
+    const walletOneConnector = useRef(null);
+
+    var connectedWalletOne = false;
+    function connectWalletOne() {
+        const walletOneConnected = walletOneConnector.current;
+        walletOneConnected.style.display = "block";
+        const walletOneNotConnected = walletOneConnect.current;
+        walletOneNotConnected.style.display = "none";
+        connectedWalletOne = true;
+    }
 
     return (
     <div id="prototype-wrapper">
@@ -91,7 +103,7 @@ const Prototype = () => {
             <div id="left-top-wallet">
             
                 <section id="wallet-one-not-connected" ref={walletOneConnect} style={{display:"block"}}>
-                    <button onclick={connectWalletOne} 
+                    <button onClick={connectWalletOne} 
                     id="connect-wallet-one" type="button">
                     Connect Wallet One
                     </button>  
@@ -124,7 +136,7 @@ const Prototype = () => {
                     <label id="label">Exchange Tokens</label>						
                     <br/>
                     <input id="input-one" type="text" 
-                            onkeypress="return isNumberKey(event,this)"
+                            onKeyDown={isNumberKey(event,this)}
                             pattern="^[0-9]*[.]?[0-9]*"
                             inputmode="decimal"	
                             step="any" value="1.01" />
