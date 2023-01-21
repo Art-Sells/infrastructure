@@ -1,18 +1,16 @@
 // import './modals/RWmodal.min.js';
 import { useRef } from 'react';
 
-export const walletOneConnect = useRef(null);
-export const walletOneConnector = useRef(null);
-
+export const walletOneConnected = useRef(null);
+export const walletOneNotConnected = useRef(null);
+const [isVisible, setIsVisible] = useState(false);
 
 //Connect Wallet Functions
-    var connectedWalletOne = false;
     export function connectWalletOne() {
-        const walletOneConnected = walletOneConnector.current;
-        walletOneConnected.style.display = "block";
-        const walletOneNotConnected = walletOneConnect.current;
-        walletOneNotConnected.style.display = "none";
-        connectedWalletOne = true;
+        setIsVisible(!isVisible);
+        walletOneConnected.current.style.display = isVisible ? 'none' : 'block';
+        setIsVisible(isVisible);
+        walletOneNotConnected.current.style.display = isVisible ? 'block' : 'none';        
     }
     var connectedWalletTwo = false;
     function connectWalletTwo() {

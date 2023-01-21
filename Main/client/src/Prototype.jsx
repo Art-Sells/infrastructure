@@ -4,8 +4,8 @@ import { Helmet } from 'react-helmet';
 
 //Main Algorithm Functions
 import { connectWalletOne } from "./components/MainAlgorithms";
-import { walletOneConnect } from "./components/MainAlgorithms";
-import { walletOneConnector } from "./components/MainAlgorithms";
+import { walletOneConnected } from "./components/MainAlgorithms";
+import { walletOneNotConnected } from "./components/MainAlgorithms";
 
 // Change below links after test
 import './components/modals/RWmodal.min.js';
@@ -88,14 +88,14 @@ const Prototype = () => {
 
             <div id="left-top-wallet">
             
-                <section id="wallet-one-not-connected" ref={walletOneConnect} style={{display:"block"}}>
+                <section id="wallet-one-not-connected" ref={walletOneNotConnected} style={{display:"block"}}>
                     <button onClick={connectWalletOne} 
                     id="connect-wallet-one" type="button">
                     Connect Wallet One
                     </button>  
                 </section>
             
-                <section id="wallet-one-connected" ref={walletOneConnector} style={{display:"none"}}>
+                <section id="wallet-one-connected" ref={walletOneConnected} style={{display:"none"}}>
                     <button class="eth" id="choose-token">
                         <img id="ethicon" src="/icons&images/eth-icon.png"/>
                         <p id="eth-name">ETH</p>
