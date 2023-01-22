@@ -2,15 +2,14 @@ import React, { useState } from "react";
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 
-import { exchange } from "./components/MainAlgorithms";
+import { exchange, walletOne, walletOneConnect,
+    connectWalletOne } from "./components/MainAlgorithms";
 
 // Change below links after test
 import './css/Prototype.css';
 
 const Prototype = () => {
 
-    //wallet connection functions
-    const [walletOne, connectWalletOne] = useState(false);
     const [walletTwo, connectWalletTwo] = useState(false);
 
     return (
@@ -87,14 +86,14 @@ const Prototype = () => {
 
             <div id="left-top-wallet">
             
-                <section id="wallet-one-not-connected" style={{display: !walletOne ? 'block' : 'none'}}>
-                    <button onClick={() => connectWalletOne(!walletOne)} 
+                <section id="wallet-one-not-connected" style={{ walletOneConnect }}>
+                    <button onClick={connectWalletOne} 
                     id="connect-wallet-one" type="button">
                     Connect Wallet One
                     </button>  
                 </section>
             
-                <section id="wallet-one-connected" style={{display: !walletOne ? 'none' : 'block'}}>
+                <section id="wallet-one-connected" style={{ walletOne }}>
                     <button className="eth" id="choose-token">
                         <img id="ethicon" src="/icons&images/eth-icon.png"/>
                         <p id="eth-name">ETH</p>
