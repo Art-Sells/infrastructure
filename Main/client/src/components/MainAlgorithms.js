@@ -1,18 +1,4 @@
 import { RWmodal } from "./modals/RWmodal.min";
-import { useState } from "react";
-    
-
-//Connect Wallet Functions
-const [walletOneConnect, setWalletOneConnect] = useState(false);
-const [walletOne, setWalletOne] = useState(false);
-export const connectWalletOne = () => {
-    setWalletOneConnect(display = !walletOneConnect ? 'block' : 'none');
-    setWalletOneConnect(true);
-    setWalletOne(display = !walletOne ? 'none' : 'block');
-    setWalletOne(true);
-}
-export {walletOneConnect};
-export {walletOne};
 
 // CPES Tests (Below):
     
