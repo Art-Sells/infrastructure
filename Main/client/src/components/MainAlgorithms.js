@@ -1,26 +1,7 @@
-// import './modals/RWmodal.min.js';
-import { useRef } from 'react';
-
-export const walletOneConnected = useRef(null);
-export const walletOneNotConnected = useRef(null);
-const [isVisible, setIsVisible] = useState(false);
-
-//Connect Wallet Functions
-    export function connectWalletOne() {
-        setIsVisible(!isVisible);
-        walletOneConnected.current.style.display = isVisible ? 'none' : 'block';
-        setIsVisible(isVisible);
-        walletOneNotConnected.current.style.display = isVisible ? 'block' : 'none';        
-    }
-    var connectedWalletTwo = false;
-    function connectWalletTwo() {
-            document.getElementById('wallet-two-connected').style.display = "block";
-            document.getElementById('wallet-two-not-connected').style.display = "none";
-            connectedWalletTwo = true;
-    }
+import { RWmodal } from "./modals/RWmodal.min";
 
     
-// Combinatorial Mechanism Tests (Below):
+// CPES Tests (Below):
     
     //Wallet One Balance/Tokens/Inputs
 /* 			var walletOneBalance = 10000.00;
@@ -518,10 +499,16 @@ export function resetWallets(){
 
 
 export function exchange(){
-    if (connectedWalletOne == false || connectedWalletTwo == false){
+    if (document.getElementById('wallet-one-connected').style.display == 
+    "none" 
+    || cdocument.getElementById('wallet-two-connected').style.display == 
+    "none" ){
         RWmodal.open(1, 'Connect Both Wallets');
         }
-    else if (connectedWalletOne == true && connectedWalletTwo == true){
+    else if (document.getElementById('wallet-one-connected').style.display == 
+    "block" 
+    || cdocument.getElementById('wallet-two-connected').style.display == 
+    "block" ){
         //RWmodal.open(1, 'In Development');	
         
         crossPollinationExchangeSystem();

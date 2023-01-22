@@ -166,7 +166,7 @@
   #balance-one-connected-value,
   #balance-two-connected-value {
     color: gray;
-    margin-left: -6px;
+    margin-left: 0.5px;
     font-family: Arial;
     font-weight: 700;
     -webkit-animation-name: numbers;

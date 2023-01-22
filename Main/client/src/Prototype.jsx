@@ -1,18 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 
-//Main Algorithm Functions
-import { connectWalletOne } from "./components/MainAlgorithms";
-import { walletOneConnected } from "./components/MainAlgorithms";
-import { walletOneNotConnected } from "./components/MainAlgorithms";
+import { exchange } from "./components/MainAlgorithms";
 
 // Change below links after test
-import './components/modals/RWmodal.min.js';
 import './css/Prototype.css';
-import './css/components/RWmodalani.css';
 
 const Prototype = () => {
+
+    //wallet connection functions
+    const [walletOne, connectWalletOne] = useState(false);
+    const [walletTwo, connectWalletTwo] = useState(false);
 
     return (
     <div id="prototype-wrapper">
@@ -84,24 +83,24 @@ const Prototype = () => {
         <img id="img" src="/icons&images/appIcon.png"/>
       </Link>
         
-        <section class="exchange-grid">
+        <section className="exchange-grid">
 
             <div id="left-top-wallet">
             
-                <section id="wallet-one-not-connected" ref={walletOneNotConnected} style={{display:"block"}}>
-                    <button onClick={connectWalletOne} 
+                <section id="wallet-one-not-connected" style={{display: !walletOne ? 'block' : 'none'}}>
+                    <button onClick={() => connectWalletOne(!walletOne)} 
                     id="connect-wallet-one" type="button">
                     Connect Wallet One
                     </button>  
                 </section>
             
-                <section id="wallet-one-connected" ref={walletOneConnected} style={{display:"none"}}>
-                    <button class="eth" id="choose-token">
+                <section id="wallet-one-connected" style={{display: !walletOne ? 'none' : 'block'}}>
+                    <button className="eth" id="choose-token">
                         <img id="ethicon" src="/icons&images/eth-icon.png"/>
                         <p id="eth-name">ETH</p>
                     </button>
                     
-                    <div class="form-group">
+                    <div className="form-group">
                     <label id="label">Balance</label>
                     <br/>
                     <p id="dllr-connected">$
@@ -111,14 +110,14 @@ const Prototype = () => {
                     </p>
                     </div>
                     
-                    <div class="form-group-tokens">
+                    <div className="form-group-tokens">
                     <label id="label">Total Tokens</label>					
                     <br/>
                     <p id="tokens-one-connected" style={{display:"inline"}}>100.00</p>
                     <p id="tokens-one-connected-value" style={{display:"none"}}></p>
                     </div>
                     
-                    <div class="form-group-exchange">
+                    <div className="form-group-exchange">
                     <label id="label">Exchange Tokens</label>						
                     <br/>
                     <input id="input-one" type="text" 
@@ -134,27 +133,27 @@ const Prototype = () => {
                         Connected
                         </button>  
             
-                </section>
+                </section>                
             
             </div>
 
             <div id="right-bottom-wallet">
             
-                <section id="wallet-two-not-connected" style={{display:"block"}}>
-                    <button onclick="connectWalletTwo()" 
-                        id="connect-wallet-two" type="button">
-                        Connect Wallet Two
+                <section id="wallet-two-not-connected" style={{display: !walletTwo ? 'block' : 'none'}}>
+                    <button onClick={() => connectWalletTwo(!walletTwo)}  
+                    id="connect-wallet-two" type="button">
+                    Connect Wallet Two
                     </button>
                 </section>
             
-                <section id="wallet-two-connected" style={{display:"none"}}>
+                <section id="wallet-two-connected" style={{display: !walletTwo ? 'none' : 'block'}}>
 
-                    <button class="weth" id="choose-token">
+                    <button className="weth" id="choose-token">
                     <img id="ethicon" src="/icons&images/weth-icon.png"/>
                     <p id="weth-name">WETH</p>
                     </button>
 
-                    <div class="form-group">
+                    <div className="form-group">
                     <label id="label">Balance</label>
                     <br/>
                     <p id="dllr-connected">$
@@ -164,14 +163,14 @@ const Prototype = () => {
                     </p>  
                     </div>
                     
-                    <div class="form-group-tokens">
+                    <div className="form-group-tokens">
                     <label id="label">Total Tokens</label>					
                     <br/>
                     <p id="tokens-two-connected" style={{display:"inline"}}>90.00</p>
                     <p id="tokens-two-connected-value" style={{display:"none"}}></p>              
                     </div>
                     
-                    <div class="form-group-exchange">
+                    <div className="form-group-exchange">
                     <label id="label">Exchange Tokens</label>						
                     <br/>
                     <input id="input-two" type="tel" 
@@ -200,7 +199,7 @@ const Prototype = () => {
       
       <br/>
       
-      <a onclick="exchange()" id="exchange" style={{display:"block"}}>
+      <a onClick={exchange()} id="exchange" style={{display:"block"}}>
           EXCHANGE
       </a>
       
