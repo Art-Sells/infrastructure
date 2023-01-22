@@ -286,6 +286,7 @@
 	}
 	
 	#exchange {
+	  display: block;
 	  margin: auto;
 	  margin-top: 0px;
 	  background: rgb(18, 18, 18);

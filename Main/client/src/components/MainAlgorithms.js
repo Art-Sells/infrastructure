@@ -499,16 +499,10 @@ export function resetWallets(){
 
 
 export function exchange(){
-    if (document.getElementById('wallet-one-connected').style.display == 
-    "none" 
-    || cdocument.getElementById('wallet-two-connected').style.display == 
-    "none" ){
+    if (connectedWalletOne == false || connectedWalletTwo == false){
         RWmodal.open(1, 'Connect Both Wallets');
         }
-    else if (document.getElementById('wallet-one-connected').style.display == 
-    "block" 
-    || cdocument.getElementById('wallet-two-connected').style.display == 
-    "block" ){
+    else if (connectedWalletOne == true && connectedWalletTwo == true){
         //RWmodal.open(1, 'In Development');	
         
         crossPollinationExchangeSystem();
