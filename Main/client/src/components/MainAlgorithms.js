@@ -1,4 +1,4 @@
-import { RWmodal } from "./modals/RWmodal.min";
+
 
 // CPES Tests (Below):
     
@@ -497,7 +497,7 @@ export function resetWallets(){
 
 
 
-export function exchange(){
+function exchange(){
     if (connectedWalletOne == false || connectedWalletTwo == false){
         RWmodal.open(1, 'Connect Both Wallets');
         }

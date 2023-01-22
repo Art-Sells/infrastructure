@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
-
-import { exchange } from "./components/MainAlgorithms";
+import { RWmodal } from "./components/modals/RWmodal.min";
 
 // Change below links after test
 import './css/Prototype.css';
@@ -10,8 +9,27 @@ import './css/Prototype.css';
 const Prototype = () => {
 
     //wallet connection functions
-    const [walletOne, connectWalletOne] = useState(false);
+    const [walletOneConnect, setWalletOneConnect] = useState(false);
+    const [walletOne, setWalletOne] = useState(false);
+    function connectWalletOne (useState) {
+        setWalletOneConnect(display = !walletOneConnect ? 'block' : 'none');
+        setWalletOneConnect(true);
+        setWalletOne(display = !walletOne ? 'none' : 'block');
+        setWalletOne(true);
+    }
     const [walletTwo, connectWalletTwo] = useState(false);
+
+    function exchange(){
+        if (walletOne == false){
+            RWmodal.open(1, 'Connect Both Wallets');
+            }
+        else if (walletOne == true){
+            RWmodal.open(1, 'In Development');	
+            
+            // crossPollinationExchangeSystem();
+        }
+            
+    }    
 
     return (
     <div id="prototype-wrapper">
@@ -87,14 +105,14 @@ const Prototype = () => {
 
             <div id="left-top-wallet">
             
-                <section id="wallet-one-not-connected" style={{display: !walletOne ? 'block' : 'none'}}>
-                    <button onClick={() => connectWalletOne(!walletOne)} 
+                <section id="wallet-one-not-connected" style={{walletOneConnect}}>
+                    <button onClick={connectWalletOne} 
                     id="connect-wallet-one" type="button">
                     Connect Wallet One
                     </button>  
                 </section>
             
-                <section id="wallet-one-connected" style={{display: !walletOne ? 'none' : 'block'}}>
+                <section id="wallet-one-connected" style={{walletOne}}>
                     <button className="eth" id="choose-token">
                         <img id="ethicon" src="/icons&images/eth-icon.png"/>
                         <p id="eth-name">ETH</p>
