@@ -1,11 +1,12 @@
 import '../../css/components/Modal.css';
 
 import React, {useState} from 'react';
-const [modalOpen, setModalOpen] = useState(false);
-export const toggleModal = () => {
-  setModalOpen(!modalOpen);
-}
+
 const Modal = () => {
+  const [modalOpen, setModalOpen] = useState(false);
+  const toggleModal = () => {
+    setModalOpen(!modalOpen);
+  }
   return (
     <div id="Modal-Container">
         {modalOpen && (
