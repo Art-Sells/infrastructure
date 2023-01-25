@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
-import { RWmodal } from "./components/modals/RWmodal.min";
+import { toggleModal } from "./components/modals/Modal";
 
 // Change below links after test
 import './css/Prototype.css';
@@ -21,10 +21,10 @@ const Prototype = () => {
 
     function exchange(){
         if (walletOne == false){
-            RWmodal.open(1, 'Connect Both Wallets');
+            toggleModal;;
             }
         else if (walletOne == true){
-            RWmodal.open(1, 'In Development');	
+            toggleModal;;	
             
             // crossPollinationExchangeSystem();
         }

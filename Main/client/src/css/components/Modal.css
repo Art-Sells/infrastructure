@@ -55,8 +55,8 @@
     letter-spacing: 1px;
     width: 40px;
   }
-  .RWclose:hover,
-  .RWclose:focus {
+  #Modal-Close:hover,
+  #Modal-Close:focus {
     cursor: pointer;
     opacity: .4;
     transition: 1s;
