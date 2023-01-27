@@ -9,22 +9,21 @@ import './css/Prototype.css';
 const Prototype = () => {
 
 
-//To Ask chatGPT tomorrow:
-// creating a react button that displays none when clicked and displays block of another div
-
 //2nd Question:
 //creating a react button that toggles a Modal after checking if a div display is block or none 
 
     //wallet connection functions
-    const [walletOne, setWalletOne] = useState('none');
+    const [walletOne = style, setWalletOne] = useState({display: 'none'});
+    const [walletOneConnector = style, setWalletOneConnector] = useState({display: 'block'});
     function connectWalletOne() {
-        setWalletOne(display === 'none' ? 'block' : 'block');
-      }
+        setWalletOneConnector({display: 'none'});
+        setWalletOne({display: 'block'});
+    }
 
     const [walletTwo, connectWalletTwo] = useState(false);
 
     // function exchange(){
-    //     if (className == 'visible'){
+    //     if (walletOne == display : 'none'){
     //         Modal;
     //         }
     //     else if (className == 'hidden'){
@@ -111,14 +110,14 @@ const Prototype = () => {
 
             <div id="left-top-wallet">
             
-                <section id="wallet-one-not-connected" style={{display: "block"}}>
+                <section id="wallet-one-not-connected" style={walletOneConnector}>
                     <button onClick={connectWalletOne} 
                     id="connect-wallet-one" type="button">
                     Connect Wallet One
                     </button>  
                 </section>
             
-                <section id="wallet-one-connected" style={{walletOne}}>
+                <section id="wallet-one-connected" style={walletOne}>
                     <button className="eth" id="choose-token">
                         <img id="ethicon" src="/icons&images/eth-icon.png"/>
                         <p id="eth-name">ETH</p>
