@@ -16,27 +16,24 @@ const Prototype = () => {
 //creating a react button that toggles a Modal after checking if a div display is block or none 
 
     //wallet connection functions
-    const [isVisible, setIsVisible] = useState(false);
+    const [walletOne, setWalletOne] = useState('none');
+    function connectWalletOne() {
+        setWalletOne(display === 'none' ? 'block' : 'block');
+      }
 
-    let className = 'my-component';
-    if (isVisible) {
-      className += ' visible';
-    } else {
-      className += ' hidden';
-    }
     const [walletTwo, connectWalletTwo] = useState(false);
 
-    function exchange(){
-        if (className == 'visible'){
-            Modal;
-            }
-        else if (className == 'hidden'){
-            Modal;	
+    // function exchange(){
+    //     if (className == 'visible'){
+    //         Modal;
+    //         }
+    //     else if (className == 'hidden'){
+    //         Modal;	
             
-            // crossPollinationExchangeSystem();
-        }
+    //         // crossPollinationExchangeSystem();
+    //     }
             
-    }    
+    // }    
 
     return (
 
@@ -114,14 +111,14 @@ const Prototype = () => {
 
             <div id="left-top-wallet">
             
-                <section id="wallet-one-not-connected" style={{display:"block"}}>
-                    <button onClick={className} 
+                <section id="wallet-one-not-connected" style={{display: "block"}}>
+                    <button onClick={connectWalletOne} 
                     id="connect-wallet-one" type="button">
                     Connect Wallet One
                     </button>  
                 </section>
             
-                <section id="wallet-one-connected" style={{display:"block"}}>
+                <section id="wallet-one-connected" style={{walletOne}}>
                     <button className="eth" id="choose-token">
                         <img id="ethicon" src="/icons&images/eth-icon.png"/>
                         <p id="eth-name">ETH</p>
@@ -226,7 +223,8 @@ const Prototype = () => {
       
       <br/>
       
-      <a onClick={exchange()} id="exchange" style={{display:"block"}}>
+      <a // onClick={exchange()} 
+      id="exchange" style={{display:"block"}}>
           EXCHANGE
       </a>
       
