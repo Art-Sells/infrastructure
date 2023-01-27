@@ -10,29 +10,29 @@ const Prototype = () => {
 
 
 //2nd Question:
-//creating a react button that toggles a Modal after checking if a div display is block or none 
+//creating a function that checks if a useState style display is block or none 
 
     //wallet connection functions
     const [walletOne = style, setWalletOne] = useState({display: 'none'});
     const [walletOneConnector = style, setWalletOneConnector] = useState({display: 'block'});
     function connectWalletOne() {
+        setWalletOne({display: 'block'});        
         setWalletOneConnector({display: 'none'});
-        setWalletOne({display: 'block'});
     }
 
     const [walletTwo, connectWalletTwo] = useState(false);
 
-    // function exchange(){
-    //     if (walletOne == display : 'none'){
-    //         Modal;
-    //         }
-    //     else if (className == 'hidden'){
-    //         Modal;	
+    function exchange(){
+        if (setWalletOne({display : 'none'})){
+            console.log("Connect Wallets");
+            }
+        else if (setWalletOne({display : 'block'})){
+            console.log("Execute CPES");	
             
-    //         // crossPollinationExchangeSystem();
-    //     }
+            // crossPollinationExchangeSystem();
+        }
             
-    // }    
+    }    
 
     return (
 
@@ -222,7 +222,7 @@ const Prototype = () => {
       
       <br/>
       
-      <a // onClick={exchange()} 
+      <a onClick={exchange()} 
       id="exchange" style={{display:"block"}}>
           EXCHANGE
       </a>
