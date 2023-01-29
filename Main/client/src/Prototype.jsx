@@ -15,18 +15,20 @@ const Prototype = () => {
     //wallet connection functions
     const [walletOne = style, setWalletOne] = useState({display: 'none'});
     const [walletOneConnector = style, setWalletOneConnector] = useState({display: 'block'});
+    var walletOneConnected = false;
     function connectWalletOne() {
         setWalletOne({display: 'block'});        
         setWalletOneConnector({display: 'none'});
+        walletOneConnected = true;
     }
 
     const [walletTwo, connectWalletTwo] = useState(false);
 
     function exchange(){
-        if (setWalletOne({display : 'none'})){
+        if (walletOneConnected == true){
             console.log("Connect Wallets");
             }
-        else if (setWalletOne({display : 'block'})){
+        else if (walletOneConnected == false){
             console.log("Execute CPES");	
             
             // crossPollinationExchangeSystem();
