@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import Modal from "./components/modals/Modal";
@@ -8,27 +8,27 @@ import './css/Prototype.css';
 
 const Prototype = () => {
 
-
-//2nd Question:
-//creating a function that checks if a useState style display is block or none 
-
     //wallet connection functions
-    const [walletOne = style, setWalletOne] = useState({display: 'none'});
-    const [walletOneConnector = style, setWalletOneConnector] = useState({display: 'block'});
-    var walletOneConnected = false;
+    const [walletOne, setWalletOne] = useState('none');
+    const [walletOneConnector, setWalletOneConnector] = useState('block');
+    useEffect(() => {
+        document.getElementById('wallet-one-not-connected').style.display = walletOne;
+        document.getElementById('wallet-one-connected').style.display = walletOneConnector;
+      }, 
+      [walletOne]
+    );
     function connectWalletOne() {
-        setWalletOne({display: 'block'});        
-        setWalletOneConnector({display: 'none'});
-        walletOneConnected = true;
+        setWalletOne('block');        
+        setWalletOneConnector('none');
     }
 
     const [walletTwo, connectWalletTwo] = useState(false);
 
     function exchange(){
-        if (walletOneConnected == true){
+        if (setWalletOne({display:'none'})){
             console.log("Connect Wallets");
             }
-        else if (walletOneConnected == false){
+        else if (setWalletOne({display:'block'})){
             console.log("Execute CPES");	
             
             // crossPollinationExchangeSystem();
@@ -112,14 +112,14 @@ const Prototype = () => {
 
             <div id="left-top-wallet">
             
-                <section id="wallet-one-not-connected" style={walletOneConnector}>
+                <section id="wallet-one-not-connected">
                     <button onClick={connectWalletOne} 
                     id="connect-wallet-one" type="button">
                     Connect Wallet One
                     </button>  
                 </section>
             
-                <section id="wallet-one-connected" style={walletOne}>
+                <section id="wallet-one-connected">
                     <button className="eth" id="choose-token">
                         <img id="ethicon" src="/icons&images/eth-icon.png"/>
                         <p id="eth-name">ETH</p>
