@@ -26,10 +26,10 @@ const Prototype = () => {
     const [walletTwo, connectWalletTwo] = useState(false);
 
     function exchange(){
-        if (walletOneConnect == false){
+        if (walletOneConnect == 'false'){
             console.log("Connect Wallets");
             }
-        else if (walletOneConnect == true){
+        else if (walletOneConnect == 'true'){
             console.log("Execute CPES");	
             
             // crossPollinationExchangeSystem();
