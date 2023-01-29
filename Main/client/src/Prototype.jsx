@@ -11,28 +11,29 @@ const Prototype = () => {
     //wallet connection functions
     const [walletOne, setWalletOne] = useState('none');
     const [walletOneConnector, setWalletOneConnector] = useState('block');
+    const [walletOneConnect, setWalletOneConnect] = useState('false');
     useEffect(() => {
         document.getElementById('wallet-one-not-connected').style.display = walletOneConnector;
         document.getElementById('wallet-one-connected').style.display = walletOne;
-      }, 
-      [walletOne]
+      }
     );
     function connectWalletOne() {
         setWalletOneConnector('none');        
-        setWalletOne('block');        
+        setWalletOne('block');  
+        setWalletOneConnect('true');      
     }
 
     const [walletTwo, connectWalletTwo] = useState(false);
 
     function exchange(){
-        // if (setWalletOne({display:'none'})){
-        //     console.log("Connect Wallets");
-        //     }
-        // else if (setWalletOne({display:'block'})){
-        //     console.log("Execute CPES");	
+        if (walletOneConnect == false){
+            console.log("Connect Wallets");
+            }
+        else if (walletOneConnect == true){
+            console.log("Execute CPES");	
             
-        //     // crossPollinationExchangeSystem();
-        // }
+            // crossPollinationExchangeSystem();
+        }
             
     }    
 
@@ -224,7 +225,7 @@ const Prototype = () => {
       
       <br/>
       
-      <a onClick={exchange()} 
+      <a onClick={exchange} 
       id="exchange" style={{display:"block"}}>
           EXCHANGE
       </a>
