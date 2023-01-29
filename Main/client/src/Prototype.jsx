@@ -12,27 +12,27 @@ const Prototype = () => {
     const [walletOne, setWalletOne] = useState('none');
     const [walletOneConnector, setWalletOneConnector] = useState('block');
     useEffect(() => {
-        document.getElementById('wallet-one-not-connected').style.display = walletOne;
-        document.getElementById('wallet-one-connected').style.display = walletOneConnector;
+        document.getElementById('wallet-one-not-connected').style.display = walletOneConnector;
+        document.getElementById('wallet-one-connected').style.display = walletOne;
       }, 
       [walletOne]
     );
     function connectWalletOne() {
+        setWalletOneConnector('none');        
         setWalletOne('block');        
-        setWalletOneConnector('none');
     }
 
     const [walletTwo, connectWalletTwo] = useState(false);
 
     function exchange(){
-        if (setWalletOne({display:'none'})){
-            console.log("Connect Wallets");
-            }
-        else if (setWalletOne({display:'block'})){
-            console.log("Execute CPES");	
+        // if (setWalletOne({display:'none'})){
+        //     console.log("Connect Wallets");
+        //     }
+        // else if (setWalletOne({display:'block'})){
+        //     console.log("Execute CPES");	
             
-            // crossPollinationExchangeSystem();
-        }
+        //     // crossPollinationExchangeSystem();
+        // }
             
     }    
 
