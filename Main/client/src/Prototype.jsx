@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
-import Modal from "./components/modals/Modal";
+import  Modal from "./components/modals/Modal";
 
 // Change below links after test
 import './css/Prototype.css';
@@ -11,7 +11,6 @@ const Prototype = () => {
     //wallet connection functions
     const [walletOne, setWalletOne] = useState('none');
     const [walletOneConnector, setWalletOneConnector] = useState('block');
-    const [walletOneConnect, setWalletOneConnect] = useState('false');
     useEffect(() => {
         document.getElementById('wallet-one-not-connected').style.display = walletOneConnector;
         document.getElementById('wallet-one-connected').style.display = walletOne;
@@ -19,17 +18,16 @@ const Prototype = () => {
     );
     function connectWalletOne() {
         setWalletOneConnector('none');        
-        setWalletOne('block');  
-        setWalletOneConnect('true');      
+        setWalletOne('block');      
     }
 
     const [walletTwo, connectWalletTwo] = useState(false);
 
     function exchange(){
-        if (walletOneConnect == 'false'){
+        if (walletOne == 'none'){
             console.log("Connect Wallets");
             }
-        else if (walletOneConnect == 'true'){
+        else if (walletOne == 'block'){
             console.log("Execute CPES");	
             
             // crossPollinationExchangeSystem();
@@ -41,6 +39,10 @@ const Prototype = () => {
 
     <div id="prototype-wrapper">
 
+        {/* error Modal Element*/}
+        <Modal/>
+
+        {/* Helmet for Meta-tags & body Element*/}
         <Helmet>
                 
             <meta charset="UTF-8"/>
@@ -80,29 +82,30 @@ const Prototype = () => {
             <title>Prototype</title>
 
 
-        {/* body styling element */}
-        <style>
-        {`
-            body {
-                text-align: center;
-                font-family: Arial;
-                margin-left: 0%;
-                margin-right: 0%;
-                margin-top: 0%;
-                margin-bottom: 0%;
-                background-color: #f8f8fc;
-                padding-left: 40px;
-                padding-right: 40px;
-                padding-bottom: 50px;
-            }
-            @media screen and (max-width: 690px) {
+            {/* body styling element */}
+            <style>
+            {`
                 body {
-                -webkit-text-size-adjust: none;
+                    text-align: center;
+                    font-family: Arial;
+                    margin-left: 0%;
+                    margin-right: 0%;
+                    margin-top: 0%;
+                    margin-bottom: 0%;
+                    background-color: #f8f8fc;
+                    padding-left: 40px;
+                    padding-right: 40px;
+                    padding-bottom: 50px;
                 }
-            }
-        `}
-        </style>              
+                @media screen and (max-width: 690px) {
+                    body {
+                    -webkit-text-size-adjust: none;
+                    }
+                }
+            `}
+            </style>              
        </Helmet>
+        {/* Helmet for Meta-tags & body Element*/}
 
        {/* <!-- Change below link after test --> */}
       <Link to="/">
@@ -216,8 +219,6 @@ const Prototype = () => {
             </div>
 
         </section>
-      
-      
       
       <a id="reset" onclick="resetWallets()" style={{display:"none"}}>
         <img id="refresh" src="/icons&images/refreshIcon.png"/>
