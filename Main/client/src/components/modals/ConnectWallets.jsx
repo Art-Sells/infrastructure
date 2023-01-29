@@ -2,7 +2,7 @@ import '../../css/components/Modal.css';
 
 import React, {useState} from 'react';
 
-const Modal = ({closeModal}) => {
+const ConnectWallets = ({closeConnectWallets}) => {
   // const [modalOpen, setModalOpen] = useState(false);
   // const toggleModal = () => {
   //   setModalOpen(!modalOpen);
@@ -10,12 +10,12 @@ const Modal = ({closeModal}) => {
   return (
     <div id="Modal-Container">
         <div id="Modal-Content">
-            <p> Testing</p>
-            <p id="Modal-Close" onClick={() => closeModal(false)}>Ok</p>
+            <p> Connect Both Wallets</p>
+            <p id="Modal-Close" onClick={() => closeConnectWallets(false)}>Ok</p>
         </div>
     </div>
     
   );
 }
 
-export default Modal;
+export default ConnectWallets;

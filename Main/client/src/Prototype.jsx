@@ -1,51 +1,26 @@
 import React, { useState, useEffect } from "react";
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
-import  Modal from "./components/modals/Modal";
+import  ConnectWallets from "./components/modals/ConnectWallets";
+
+// Main Algorithm Functions
+import { connectWalletOne, connectWalletTwo, exchange } from './components/MainAlgorithms';
 
 // Change below links after test
 import './css/Prototype.css';
 
 const Prototype = () => {
 
-    //wallet connection functions
-    const [walletOne, setWalletOne] = useState('none');
-    const [walletOneConnector, setWalletOneConnector] = useState('block');
-    useEffect(() => {
-        document.getElementById('wallet-one-not-connected').style.display = walletOneConnector;
-        document.getElementById('wallet-one-connected').style.display = walletOne;
-      }
-    );
-    function connectWalletOne() {
-        setWalletOneConnector('none');        
-        setWalletOne('block');      
-    }
-
-    const [walletTwo, connectWalletTwo] = useState(false);
-
 
     //Open Modal Functions
-    const [openModal, setOpenModal] = useState(false);
-
-
-    function exchange(){
-        if (walletOne == 'none'){
-            setOpenModal(true);
-            }
-        else if (walletOne == 'block'){
-            console.log("Execute CPES");	
-            
-            // crossPollinationExchangeSystem();
-        }
-            
-    }    
+    const [openConnectWallets, setConnectWallets] = useState(false);
 
     return (
 
     <div id="prototype-wrapper">
 
         {/* error Modal Element*/}
-        {openModal && <Modal closeModal={setOpenModal}/>}
+        {openConnectWallets && <ConnectWallets closeConnectWallets={setConnectWallets}/>}
 
         {/* Helmet for Meta-tags & body Element*/}
         <Helmet>
@@ -173,8 +148,8 @@ const Prototype = () => {
 
             <div id="right-bottom-wallet">
             
-                <section id="wallet-two-not-connected" style={{display: !walletTwo ? 'block' : 'none'}}>
-                    <button onClick={() => connectWalletTwo(!walletTwo)}  
+                <section id="wallet-two-not-connected">
+                    <button onClick={connectWalletTwo}  
                     id="connect-wallet-two" type="button">
                     Connect Wallet Two
                     </button>
