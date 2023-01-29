@@ -23,9 +23,14 @@ const Prototype = () => {
 
     const [walletTwo, connectWalletTwo] = useState(false);
 
+
+    //Open Modal Functions
+    const [openModal, setOpenModal] = useState(false);
+
+
     function exchange(){
         if (walletOne == 'none'){
-            console.log("Connect Wallets");
+            setOpenModal(true);
             }
         else if (walletOne == 'block'){
             console.log("Execute CPES");	
@@ -40,7 +45,7 @@ const Prototype = () => {
     <div id="prototype-wrapper">
 
         {/* error Modal Element*/}
-        <Modal/>
+        {openModal && <Modal closeModal={setOpenModal}/>}
 
         {/* Helmet for Meta-tags & body Element*/}
         <Helmet>

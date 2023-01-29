@@ -2,7 +2,7 @@
 /* The Modal (background) */
 
 #Modal-Container {
-    display: none; /* Hidden by default */
+    display: block; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
     padding-top: 82px; /* Location of the box */
