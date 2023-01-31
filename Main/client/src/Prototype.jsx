@@ -3,9 +3,6 @@ import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import  ConnectWallets from "./components/modals/ConnectWallets";
 
-// Main Algorithm Functions
-import { connectWalletOne, connectWalletTwo, exchange } from './components/MainAlgorithms';
-
 // Change below links after test
 import './css/Prototype.css';
 
@@ -14,6 +11,43 @@ const Prototype = () => {
 
     //Open Modal Functions
     const [openConnectWallets, setConnectWallets] = useState(false);
+
+    //Wallet Connection Functions
+    const [walletOne, setWalletOne] = useState('none');
+    const [walletOneConnector, setWalletOneConnector] = useState('block');
+    useEffect(() => {
+        document.getElementById('wallet-one-not-connected').style.display = walletOneConnector;
+        document.getElementById('wallet-one-connected').style.display = walletOne;
+        }
+    );
+    function connectWalletOne() {
+        setWalletOneConnector('none');        
+        setWalletOne('block');      
+    }
+    const [walletTwo, setWalletTwo] = useState('none');
+    const [walletTwoConnector, setWalletTwoConnector] = useState('block');
+    useEffect(() => {
+        document.getElementById('wallet-two-not-connected').style.display = walletTwoConnector;
+        document.getElementById('wallet-two-connected').style.display = walletTwo;
+        }
+    );
+    function connectWalletTwo() {
+        setWalletTwoConnector('none');        
+        setWalletTwo('block');      
+    }
+
+    //Exchange Function
+    function exchange(){
+        if (walletOne == 'none' || walletTwo == 'none'){
+            setConnectWallets(true);
+            }
+        else if (walletOne == 'block' && walletTwo == 'block'){
+            console.log("Execute CPES");	
+            
+            // crossPollinationExchangeSystem();
+        }
+            
+    }     
 
     return (
 

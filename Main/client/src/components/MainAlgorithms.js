@@ -1,28 +1,4 @@
-import { useState, useEffect } from "react";
 
-//Wallet Connection Functions
-const [walletOne, setWalletOne] = useState('none');
-const [walletOneConnector, setWalletOneConnector] = useState('block');
-useEffect(() => {
-    document.getElementById('wallet-one-not-connected').style.display = walletOneConnector;
-    document.getElementById('wallet-one-connected').style.display = walletOne;
-    }
-);
-export function connectWalletOne() {
-    setWalletOneConnector('none');        
-    setWalletOne('block');      
-}
-const [walletTwo, setWalletTwo] = useState('none');
-const [walletTwoConnector, setWalletTwoConnector] = useState('block');
-useEffect(() => {
-    document.getElementById('wallet-two-not-connected').style.display = walletTwoConnector;
-    document.getElementById('wallet-two-connected').style.display = walletTwo;
-    }
-);
-export function connectWalletTwo() {
-    setWalletTwoConnector('none');        
-    setWalletTwo('block');      
-}
 
 
 // CPES Tests (Below):
@@ -518,18 +494,3 @@ export function resetWallets(){
          
         RWmodal.open(1, 'Wallets Reset');	
 }
-
-
-
-
-export function exchange(){
-    if (walletOne == 'none' || walletTwo == 'none'){
-        setConnectWallets(true);
-        }
-    else if (walletOne == 'block' && walletTwo == 'block'){
-        console.log("Execute CPES");	
-        
-        // crossPollinationExchangeSystem();
-    }
-        
-}  
