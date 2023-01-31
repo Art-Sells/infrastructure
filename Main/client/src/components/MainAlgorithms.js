@@ -459,7 +459,7 @@ function crossPollinationExchangeSystem(){
 //CPES (Cross Pollination Exchange Systen) (Above)		
 
 //Input Format Function	
-export function isNumberKey(evt, obj) {
+function isNumberKey(evt, obj) {
 
     var charCode = (evt.which) ? evt.which : event.keyCode
     var value = obj.value;
@@ -472,25 +472,25 @@ export function isNumberKey(evt, obj) {
     return true;
 }
 
-export function resetWallets(){
+function resetWallets(){
         
-        var walletOneBalance = 100000.00;
-         var walletOneFormat = new Intl.NumberFormat('en-US',
-                  { minimumFractionDigits: 2 }).format(walletOneBalance);
-        document.getElementById('balance-one-connected-value').innerHTML = 
-             walletOneFormat;
-        var walletOneTokens = 100.00;
-         document.getElementById('tokens-one-connected-value').innerHTML = 
-             walletOneTokens.toFixed(2);
-         
-        var walletTwoBalance = 90000.00;
-         var walletTwoFormat = new Intl.NumberFormat('en-US',
-                  { minimumFractionDigits: 2 }).format(walletTwoBalance);
-        document.getElementById('balance-two-connected-value').innerHTML = 
-            walletTwoFormat;
-        var walletTwoTokens = 90.00;
-         document.getElementById('tokens-two-connected-value').innerHTML = 
-             walletTwoTokens.toFixed(2);
-         
-        RWmodal.open(1, 'Wallets Reset');	
+    var walletOneBalance = 100000.00;
+    var walletOneFormat = new Intl.NumberFormat('en-US',
+        { minimumFractionDigits: 2 }).format(walletOneBalance);
+    document.getElementById('balance-one-connected-value').innerHTML = 
+        walletOneFormat;
+    var walletOneTokens = 100.00;
+        document.getElementById('tokens-one-connected-value').innerHTML = 
+        walletOneTokens.toFixed(2);
+        
+    var walletTwoBalance = 90000.00;
+        var walletTwoFormat = new Intl.NumberFormat('en-US',
+        { minimumFractionDigits: 2 }).format(walletTwoBalance);
+    document.getElementById('balance-two-connected-value').innerHTML = 
+        walletTwoFormat;
+    var walletTwoTokens = 90.00;
+        document.getElementById('tokens-two-connected-value').innerHTML = 
+        walletTwoTokens.toFixed(2);
+        
+    RWmodal.open(1, 'Wallets Reset');	
 }

@@ -36,6 +36,46 @@ const Prototype = () => {
         setWalletTwo('block');      
     }
 
+
+    //Reset Wallets Function
+    function resetWallets(){
+
+        console.log("Execute Reset Wallet Function");	        
+        
+        // var walletOneBalance = 100000.00;
+        // var walletOneFormat = new Intl.NumberFormat('en-US',
+        //     { minimumFractionDigits: 2 }).format(walletOneBalance);
+        // document.getElementById('balance-one-connected-value').innerHTML = 
+        //     walletOneFormat;
+        // var walletOneTokens = 100.00;
+        //     document.getElementById('tokens-one-connected-value').innerHTML = 
+        //     walletOneTokens.toFixed(2);
+            
+        // var walletTwoBalance = 90000.00;
+        //     var walletTwoFormat = new Intl.NumberFormat('en-US',
+        //     { minimumFractionDigits: 2 }).format(walletTwoBalance);
+        // document.getElementById('balance-two-connected-value').innerHTML = 
+        //     walletTwoFormat;
+        // var walletTwoTokens = 90.00;
+        //     document.getElementById('tokens-two-connected-value').innerHTML = 
+        //     walletTwoTokens.toFixed(2);
+            
+        // RWmodal.open(1, 'Wallets Reset');	
+    }    
+    //Input Format Function	
+    function isNumberKey(event, obj) {
+
+        var charCode = (evt.which) ? evt.which : event.keyCode
+        var value = obj.value;
+        var dotcontains = value.indexOf(".") != -1;
+        if (dotcontains)
+            if (charCode == 46) return false;
+        if (charCode == 46) return true;
+        if (charCode > 31 && (charCode < 48 || charCode > 57))
+            return false;
+        return true;
+    }    
+
     //Exchange Function
     function exchange(){
         if (walletOne == 'none' || walletTwo == 'none'){
@@ -164,9 +204,9 @@ const Prototype = () => {
                     <label id="label">Exchange Tokens</label>						
                     <br/>
                     <input id="input-one" type="text" 
-                            onkeypress="return isNumberKey(event,this)"
+                            onKeyDown={isNumberKey}
                             pattern="^[0-9]*[.]?[0-9]*"
-                            inputmode="decimal"	
+                            inputMode="decimal"	
                             step="any" value="1.01" />
                     </div>	
             
@@ -217,9 +257,9 @@ const Prototype = () => {
                     <label id="label">Exchange Tokens</label>						
                     <br/>
                     <input id="input-two" type="tel" 
-                            onkeypress="return isNumberKey(event,this)"
+                            onKeyDown={isNumberKey}
                             pattern="^[0-9]*[.]?[0-9]*"
-                            inputmode="decimal"	      
+                            inputMode="decimal"	      
                             step="any" value="1.01"/>
                     </div>										
                     
@@ -234,7 +274,7 @@ const Prototype = () => {
 
         </section>
       
-      <a id="reset" onclick="resetWallets()" style={{display:"none"}}>
+      <a id="reset" onClick={resetWallets()} style={{display:"none"}}>
         <img id="refresh" src="/icons&images/refreshIcon.png"/>
       </a>      
       
