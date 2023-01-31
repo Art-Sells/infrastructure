@@ -268,6 +268,7 @@ const Prototype = () => {
                         <button id="connected-wallet">
                         Connected
                         </button>
+                        
                 </section>
             
             </div>
