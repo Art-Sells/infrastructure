@@ -1,6 +1,6 @@
 import '../../css/components/Modal.css';
 
-import React, {useState} from 'react';
+import React from 'react';
 
 const ConnectWallets = ({closeConnectWallets}) => {
   // const [modalOpen, setModalOpen] = useState(false);
