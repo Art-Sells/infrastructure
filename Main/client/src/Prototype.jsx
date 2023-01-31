@@ -207,7 +207,7 @@ const Prototype = () => {
                             onKeyDown={isNumberKey}
                             pattern="^[0-9]*[.]?[0-9]*"
                             inputMode="decimal"	
-                            step="any" value="1.01" />
+                            step="any" defaultValue="1.01" />
                     </div>	
             
                         <br></br>
@@ -260,7 +260,7 @@ const Prototype = () => {
                             onKeyDown={isNumberKey}
                             pattern="^[0-9]*[.]?[0-9]*"
                             inputMode="decimal"	      
-                            step="any" value="1.01"/>
+                            step="any" defaultValue="1.01"/>
                     </div>										
                     
                     <br></br>
@@ -275,7 +275,9 @@ const Prototype = () => {
 
         </section>
       
-      <a id="reset" onClick={resetWallets()} style={{display:"none"}}>
+      <a id="reset" 
+        // onClick={resetWallets()} 
+        style={{display:"none"}}>
         <img id="refresh" src="/icons&images/refreshIcon.png"/>
       </a>      
       
