@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 
 
-const Home = () => {
+const App = () => {
     return (
     <>
         <Helmet>	
@@ -136,4 +136,4 @@ const Home = () => {
     );
 }
 
-export default Home;
+export default App;
