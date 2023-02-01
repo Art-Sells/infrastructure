@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from 'react-router-dom';
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 import  ConnectWallets from "./components/modals/ConnectWallets";
 
 // Change below links after test
