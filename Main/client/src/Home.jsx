@@ -2,7 +2,7 @@ import React from "react";
 // Change below link after test
 import './css/Home.css';
 import { Link } from 'react-router-dom';
-import { Helmet } from 'react-helmet-async';
+import { Helmet } from 'react-helmet';
 
 
 const App = () => {
