@@ -2,15 +2,15 @@ import React from "react";
 // Change below link after test
 import './css/Home.css';
 import { Link } from 'react-router-dom';
-import { Helmet } from 'react-helmet';
+import { HelmetProvider } from 'react-helmet-async';
 
 
 const App = () => {
-    return (
-    <>
-        <Helmet>	
+    return ( 
+        <>
+        <HelmetProvider>	
                                                         
-                <meta charset="UTF-8"/>
+                <meta charSet="UTF-8"/>
                 
         {/* <!-- Below information for social media sharing and search-engine/browser optimization -->		 */}
                 <meta name="title" content="Ecare"/>
@@ -47,28 +47,28 @@ const App = () => {
                 <title>Ecare</title>
 
         {/* body styling element */}
-        <style>
-        {`
-                body {
-                        text-align: center;
-                        font-family: Arial;
-                        margin-top: 0%;
-                        margin-left: 0%;
-                        margin-right: 0%;
-                        background-color: #1f1f1f;
-                        margin-bottom: 0%;
-                }
-
-                @media screen and (max-width: 650px) {
+                <style>
+                {`
                         body {
-                          -webkit-text-size-adjust: none;
+                                text-align: center;
+                                font-family: Arial;
+                                margin-top: 0%;
+                                margin-left: 0%;
+                                margin-right: 0%;
+                                background-color: #1f1f1f;
+                                margin-bottom: 0%;
                         }
-                }
-        `}
-        </style>        
+
+                        @media screen and (max-width: 650px) {
+                                body {
+                                -webkit-text-size-adjust: none;
+                                }
+                        }
+                `}
+                </style>        
 
 
-        </Helmet>
+        </HelmetProvider>                
 
         <div id="home-above">
                 
@@ -132,7 +132,7 @@ const App = () => {
                 </a>  	
                 
         </div>
-    </>
+        </>
     );
 }
 

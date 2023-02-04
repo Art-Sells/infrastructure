@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from 'react-router-dom';
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 import  ConnectWallets from "./components/modals/ConnectWallets";
 
 // Change below links after test
@@ -97,9 +97,9 @@ const Prototype = () => {
         {openConnectWallets && <ConnectWallets closeConnectWallets={setConnectWallets}/>}
 
         {/* Helmet for Meta-tags & body Element*/}
-        <Helmet>
+        <HelmetProvider>
                 
-            <meta charset="UTF-8"/>
+            <meta charSet="UTF-8"/>
             
     {/* <!-- Below information for social media sharing and search-engine/browser optimization -->		 */}
             <meta name="title" content="Ecare"/>
@@ -158,7 +158,7 @@ const Prototype = () => {
                 }
             `}
             </style>              
-       </Helmet>
+       </HelmetProvider>
         {/* Helmet for Meta-tags & body Element*/}
 
        {/* <!-- Change below link after test --> */}
