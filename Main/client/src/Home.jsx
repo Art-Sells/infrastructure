@@ -3,11 +3,13 @@ import React from "react";
 import './css/Home.css';
 import { Link } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
+import Favicon from "react-favicon";
 
 
 const App = () => {
     return ( 
         <>
+        <Favicon url="/icons&images/Iconic.ico"/>
         <HelmetProvider>	
                                                         
                 <meta charSet="UTF-8"/>
@@ -20,7 +22,6 @@ const App = () => {
                 <meta name="author" content="Ecare"/>
                 <meta name="viewport" id="viewport" content="width=device-width,user-scalable=yes,initial-scale=1" />
                 
-                <link rel="icon" type="image/x-icon" href="/icons&images/Iconic.ico" sizes="156x156"/>
                         {/* <!-- Change below link after test --> */}
                 <link rel="canonical" href="https://ecare.exchange"/>
                 
