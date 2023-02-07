@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
 import  ConnectWallets from "./components/modals/ConnectWallets";
+import Favicon from "react-favicon";
 
 // Change below links after test
 import './css/Prototype.css';

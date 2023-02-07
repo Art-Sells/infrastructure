@@ -2,6 +2,7 @@ import { useRouteError } from "react-router-dom";
 import "./css/error.css";
 import { HelmetProvider} from 'react-helmet-async';
 import { Link } from 'react-router-dom';
+import Favicon from "react-favicon";
 
 export default function ErrorPage() {
   const error = useRouteError();
