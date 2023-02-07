@@ -98,7 +98,7 @@ const Prototype = () => {
         {openConnectWallets && <ConnectWallets closeConnectWallets={setConnectWallets}/>}
 
         {/* Helmet for Meta-tags & body Element*/}
-        <Favicon url="/icons&images/Iconic.ico"/>
+        <Favicon url="favicon.ico"/>
         <HelmetProvider>
                 
             <meta charSet="UTF-8"/>

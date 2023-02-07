@@ -10,7 +10,7 @@ export default function ErrorPage() {
 
   return (
     <>
-    <Favicon url="/icons&images/Iconic.ico"/>
+    <Favicon url="favicon.ico"/>
     <HelmetProvider>	
               
         <meta charSet="UTF-8"/>
@@ -23,7 +23,6 @@ export default function ErrorPage() {
         <meta name="author" content="Ecare"/>
         <meta name="viewport" id="viewport" content="width=device-width,user-scalable=yes,initial-scale=1" />
         
-        <link rel="icon" type="image/x-icon" href="/icons&images/Iconic.ico" sizes="156x156"/>
                 {/* <!-- Change below link after test --> */}
         <link rel="canonical" href="https://ecare.exchange"/>
         

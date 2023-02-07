@@ -9,7 +9,7 @@ import Favicon from "react-favicon";
 const App = () => {
     return ( 
         <>
-        <Favicon url="/icons&images/Iconic.ico"/>
+        <Favicon url="favicon.ico"/>
         <HelmetProvider>	
                                                         
                 <meta charSet="UTF-8"/>
