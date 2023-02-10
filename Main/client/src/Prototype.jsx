@@ -7,7 +7,7 @@ import Favicon from "react-favicon";
 // Change below links after test
 import './css/Prototype.css';
 
-//Battling Demons!.........
+//Recovering.
 
 const Prototype = () => {
 
