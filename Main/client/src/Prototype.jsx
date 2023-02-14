@@ -7,8 +7,6 @@ import Favicon from "react-favicon";
 // Change below links after test
 import './css/Prototype.css';
 
-//Recovering.
-
 const Prototype = () => {
 
 
@@ -208,8 +206,8 @@ const Prototype = () => {
                     <br/>
                     <input id="input-one" type="text" 
                             onKeyDown={isNumberKey}
-                            pattern="^[0-9]*[.]?[0-9]*"
-                            inputMode="decimal"	
+                            // pattern="^[0-9]*[.]?[0-9]*"
+                            // inputMode="decimal"	
                             step="any" defaultValue="1.01" />
                     </div>	
             
@@ -261,8 +259,8 @@ const Prototype = () => {
                     <br/>
                     <input id="input-two" type="tel" 
                             onKeyDown={isNumberKey}
-                            pattern="^[0-9]*[.]?[0-9]*"
-                            inputMode="decimal"	      
+                            // pattern="^[0-9]*[.]?[0-9]*"
+                            // inputMode="decimal"	      
                             step="any" defaultValue="1.01"/>
                     </div>										
                     
