@@ -56,6 +56,10 @@ During exchanges, each token exchanged is moved into a burn wallet while the val
 > | Tokens = 64.35                | Tokens = 52.35                |
 > | 1 Token = 2,244.93 USD        | 1 Token = 2,590.73 USD        |
 
+### Overall Vision:
+
+***In the future we will get paid to do what we love, not what we have to do...*** And Ecare will create a bedrock for these kinds of tokens, tokens which will pay us to do what we love.
+
 ------------------------------------------------------------------------------------------
 
 ## [Prototype](https://ecare.exchange/prototype)
@@ -65,7 +69,7 @@ During exchanges, each token exchanged is moved into a burn wallet while the val
 
 --------------------------------------------------
 
-### [Roadmap](https://github.com/Ecare-Exchange/infrastructure/blob/main/MVP/Readme.md)
+### [Roadmap](https://ecare.exchange/roadmap)
 
 #### [Combinatorial Auction Implementations](https://www.sciencedirect.com/topics/computer-science/combinatorial-auction)
 
