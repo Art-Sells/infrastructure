@@ -258,7 +258,7 @@ const Prototype = () => {
                     <label id="label">Exchange Tokens</label>						
                     <br/>
                     <input id="input-two" type="tel" 
-                            onKeyDown={isNumberKey()}
+                            onKeyPress={isNumberKey}
                             // pattern="^[0-9]*[.]?[0-9]*"
                             // inputMode="decimal"	      
                             step="any" defaultValue="1.01"/>
