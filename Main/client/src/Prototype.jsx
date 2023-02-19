@@ -64,6 +64,7 @@ const Prototype = () => {
         // RWmodal.open(1, 'Wallets Reset');	
     }    
     //Input Format Function	
+    const [value, setValue] = useState('');
     function isNumberKey(event, obj) {
 
         var charCode = (evt.which) ? evt.which : event.keyCode
@@ -205,7 +206,7 @@ const Prototype = () => {
                     <label id="label">Exchange Tokens</label>						
                     <br/>
                     <input id="input-one" type="text" 
-                            onKeyDown={isNumberKey}
+                            onChange={isNumberKey}
                             // pattern="^[0-9]*[.]?[0-9]*"
                             // inputMode="decimal"	
                             step="any" defaultValue="1.01" />
@@ -258,7 +259,7 @@ const Prototype = () => {
                     <label id="label">Exchange Tokens</label>						
                     <br/>
                     <input id="input-two" type="tel" 
-                            onKeyPress={isNumberKey}
+                            onChange={isNumberKey}
                             // pattern="^[0-9]*[.]?[0-9]*"
                             // inputMode="decimal"	      
                             step="any" defaultValue="1.01"/>
