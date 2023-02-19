@@ -65,10 +65,17 @@ const Prototype = () => {
     }    
     //Input Format Function	
     const [value, setValue] = useState('');
-    function isNumberKey(event) {
-        const inputValue = event.target.value;
-        const numericValue = inputValue.replace('^[0-9]*[.]?[0-9]*', ''); // Remove non-numeric characters
-        setValue(numericValue);
+    function isNumberKey(event, obj) {
+
+        var charCode = (evt.which) ? evt.which : event.keyCode
+        var value = obj.value;
+        var dotcontains = value.indexOf(".") != -1;
+        if (dotcontains)
+            if (charCode == 46) return false;
+        if (charCode == 46) return true;
+        if (charCode > 31 && (charCode < 48 || charCode > 57))
+            return false;
+        return true;
     }    
 
     //Exchange Function
@@ -199,7 +206,9 @@ const Prototype = () => {
                     <label id="label">Exchange Tokens</label>						
                     <br/>
                     <input id="input-one" type="tel" 
-                            onChange={isNumberKey}
+                            //onKeyDown={isNumberKey}
+                            pattern="^[0-9]*[.]?[0-9]*"
+                            inputMode="decimal"	
                             step="any" defaultValue="1.01" />
                     </div>	
             
@@ -250,7 +259,9 @@ const Prototype = () => {
                     <label id="label">Exchange Tokens</label>						
                     <br/>
                     <input id="input-two" type="tel" 
-                            onChange={isNumberKey}	      
+                            // onKeyDown={isNumberKey}
+                            pattern="^[0-9]*[.]?[0-9]*"
+                            inputMode="decimal"	      
                             step="any" defaultValue="1.01"/>
                     </div>										
                     
