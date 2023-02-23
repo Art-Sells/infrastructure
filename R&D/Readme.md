@@ -1,9 +1,9 @@
 # Base Framework Research & Development
 
 ## Contents:
-- [Mechanics Algorithm Calculations](#mechanics-calculations)
 - [Basic Smart-Contract Framework](#basic-smart-contract-framework)
 - [Exchange Launching](#exchange-launching)
+- [Probable Reference](#probable-reference-to-algorithmic-stablecoins)
 
 
 
@@ -82,48 +82,6 @@ Wallet 2 Balance == New Wallet 2 Balance
 
 
 ```
-
-#### Cross-pollination exchange system:
-
-During exchanges, each token exchanged is moved into a burn wallet while the value of the tokens burned are exchanged into the corresponding wallet's balance as follows:
-
-**Scenario 1:** *Wallet 1 exchanges 10 of their Tokens for 25 Tokens from Wallet 2.*
-
-> ***Before Exchange***
-> 
-> | Wallet 1                      | Wallet 2                      |
-> | ----------------------------- | ----------------------------- |
-> | Balance = 100,000 USD         | Balance = 90,000 USD          |
-> | Tokens = 100                  | Tokens = 90                   |
-> | 1 Token = 1,000 USD           | 1 Token = 1,000 USD           |
-> 
-> ***After Exchange***
-> 
-> | Wallet 1                      | Wallet 2                      |
-> | ----------------------------  | ----------------------------- |
-> | Balance = 125,000 USD         | Balance = 100,000 USD         |
-> | Tokens = 90                   | Tokens = 65                   |
-> | 1 Token = 1,388.88 USD        | 1 Token = 1,538.46 USD        |
-
-**Scenario 2:** *Wallet 1 exchanges 25.65 of their Tokens for 12.65 Token from Wallet 2.*
-
-> ***Before Exchange***
-> 
-> | Wallet 1                      | Wallet 2                      |
-> | ----------------------------  | ----------------------------- |
-> | Balance = 125,000 USD         | Balance = 100,000 USD         |
-> | Tokens = 90                   | Tokens = 65                   |
-> | 1 Token = 1,388.88 USD        | 1 Token = 1,538.46 USD        |
-> 
-> ***After Exchange***
-> 
-> | Wallet 1                      | Wallet 2                      |
-> | ----------------------------  | ----------------------------- |
-> | Balance = 144,461.54 USD      | Balance = 135,625 USD         |
-> | Tokens = 64.35                | Tokens = 52.35                |
-> | 1 Token = 2,244.93 USD        | 1 Token = 2,590.73 USD        |
-
-
 
 ## Basic Smart-Contract Framework:
 
@@ -722,4 +680,18 @@ Deployment of the liquidity pool cost 0.031548 ETH
 - https://www.toptal.com/ethereum/create-erc20-token-tutorial
 - https://blog.logrocket.com/create-deploy-erc-20-token-ethereum-blockchain/
 - https://medium.com/the-capital/how-much-does-it-cost-to-deploy-a-smart-contract-on-ethereum-11bcd64da1
+
+## Probable Reference to Algorithmic Stablecoins
+
+*Rebasing Algorithmic Stablecoins*
+- The rebasing algorithmic stablecoins basically involve the supply taking over regulation of value. In this case, the algorithm reduces the coin supply in event of a price drop and ensures issuing additional coins in the opposite situation. 
+
+*Over-collateralized Algorithmic Stablecoins*
+- The over-collateralized algorithmic stablecoins depend on a large reserve of cryptocurrencies for issuing lesser stablecoins. Such types of algorithmic stablecoins serve as an effective choice for a buffer for price fluctuations. 
+
+*Fractional Algorithmic Stablecoins*
+- Fractional algorithmic stablecoins are one of the important additions to an algorithmic stablecoins list, and they are partially collateralized. The assets feature backing of cryptographic algorithms as well as asset collateralization. 
+
+*Seigniorage Algorithmic Stablecoins*
+- The Seigniorage algorithmic stablecoin model opts for an alternative to the rebasing mechanism. It features two distinct tokens such as a supply-elastic currency and the investment shares of the network. The owners of the investment shares can receive inflationary rewards and bear the burden of debt when the currency falls. 
 
