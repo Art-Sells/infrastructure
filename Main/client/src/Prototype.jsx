@@ -37,6 +37,16 @@ const Prototype = () => {
         setWalletTwo('block');      
     }
 
+    const [value, setValue] = useState("");
+    const handleInput = (e) => {
+        const inputValue = e.target.value;
+        // regex to match only numbers and one decimal point
+        const regex = /^[0-9]*\.?[0-9]*$/;
+        if (regex.test(inputValue)) {
+          setValue(inputValue);
+        }
+    };
+
 
     //Reset Wallets Function
     function resetWallets(){
@@ -206,9 +216,7 @@ const Prototype = () => {
                     <label id="label">Exchange Tokens</label>						
                     <br/>
                     <input id="input-one" type="tel" 
-                            //onKeyDown={isNumberKey}
-                            pattern="^[0-9]*[.]?[0-9]*"
-                            inputMode="decimal"	
+                            onChange={handleInput}	
                             step="any" defaultValue="1.01" />
                     </div>	
             
