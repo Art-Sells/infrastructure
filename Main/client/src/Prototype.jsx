@@ -37,16 +37,6 @@ const Prototype = () => {
         setWalletTwo('block');      
     }
 
-    const [value, setValue] = useState("");
-    const handleInput = (e) => {
-        const inputValue = e.target.value;
-        // regex to match only numbers and one decimal point
-        const regex = /^[0-9]*\.?[0-9]*$/;
-        if (regex.test(inputValue)) {
-          setValue(inputValue);
-        }
-    };
-
 
     //Reset Wallets Function
     function resetWallets(){
@@ -74,19 +64,15 @@ const Prototype = () => {
         // RWmodal.open(1, 'Wallets Reset');	
     }    
     //Input Format Function	
-    const [value, setValue] = useState('');
-    function isNumberKey(event, obj) {
-
-        var charCode = (evt.which) ? evt.which : event.keyCode
-        var value = obj.value;
-        var dotcontains = value.indexOf(".") != -1;
-        if (dotcontains)
-            if (charCode == 46) return false;
-        if (charCode == 46) return true;
-        if (charCode > 31 && (charCode < 48 || charCode > 57))
-            return false;
-        return true;
-    }    
+    const [value, setValue] = useState("1.01");
+    const handleInput = (e) => {
+        const inputValue = e.target.value;
+        // regex to match only numbers and one decimal point
+        const regex = /^[0-9]*\.?[0-9]*$/;
+        if (regex.test(inputValue)) {
+          setValue(inputValue);
+        }
+    }; 
 
     //Exchange Function
     function exchange(){
@@ -217,7 +203,7 @@ const Prototype = () => {
                     <br/>
                     <input id="input-one" type="tel" 
                             onChange={handleInput}	
-                            step="any" defaultValue="1.01" />
+                            step="any" value={value} />
                     </div>	
             
                         <br></br>
@@ -266,11 +252,9 @@ const Prototype = () => {
                     <div className="form-group-exchange">
                     <label id="label">Exchange Tokens</label>						
                     <br/>
-                    <input id="input-two" type="tel" 
-                            // onKeyDown={isNumberKey}
-                            pattern="^[0-9]*[.]?[0-9]*"
-                            inputMode="decimal"	      
-                            step="any" defaultValue="1.01"/>
+                    <input id="input-one" type="tel" 
+                            onChange={handleInput}	
+                            step="any" value={value} />
                     </div>										
                     
                     <br></br>
