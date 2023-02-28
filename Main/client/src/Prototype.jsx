@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
 import  ConnectWallets from "./components/modals/ConnectWallets";
+import EnterValidTokens from "./components/modals/EnterValidTokens";
 import Favicon from "react-favicon";
 
 // Change below links after test
@@ -12,6 +13,11 @@ const Prototype = () => {
 
     //Open Modal Functions
     const [openConnectWallets, setConnectWallets] = useState(false);
+    const [openEnterValidTokens, setEnterValidTokens] = useState(false);
+
+
+
+
 
     //Wallet Connection Functions
     const [walletOne, setWalletOne] = useState('none');
@@ -38,30 +44,15 @@ const Prototype = () => {
     }
 
 
+
+
+
+
     //Reset Wallets Function
     function resetWallets(){
 
         console.log("Execute Reset Wallet Function");	        
         
-        // var walletOneBalance = 100000.00;
-        // var walletOneFormat = new Intl.NumberFormat('en-US',
-        //     { minimumFractionDigits: 2 }).format(walletOneBalance);
-        // document.getElementById('balance-one-connected-value').innerHTML = 
-        //     walletOneFormat;
-        // var walletOneTokens = 100.00;
-        //     document.getElementById('tokens-one-connected-value').innerHTML = 
-        //     walletOneTokens.toFixed(2);
-            
-        // var walletTwoBalance = 90000.00;
-        //     var walletTwoFormat = new Intl.NumberFormat('en-US',
-        //     { minimumFractionDigits: 2 }).format(walletTwoBalance);
-        // document.getElementById('balance-two-connected-value').innerHTML = 
-        //     walletTwoFormat;
-        // var walletTwoTokens = 90.00;
-        //     document.getElementById('tokens-two-connected-value').innerHTML = 
-        //     walletTwoTokens.toFixed(2);
-            
-        // RWmodal.open(1, 'Wallets Reset');	
     }    
     //Input Format Function	
     const [value, setValue] = useState("1.01");
@@ -74,15 +65,27 @@ const Prototype = () => {
         }
     }; 
 
+
+    //*******************************CPES********************************
+    function crossPollinationExchangeSystem(){
+		
+        
+        //Base Cases
+        if (document.getElementById('input-one').value == "" ||
+            document.getElementById('input-two').value == "") {
+            setEnterValidTokens(true);				
+        }
+    }      
+
     //Exchange Function
     function exchange(){
         if (walletOne == 'none' || walletTwo == 'none'){
             setConnectWallets(true);
             }
         else if (walletOne == 'block' && walletTwo == 'block'){
-            console.log("Execute CPES");	
+            // console.log("Execute CPES");	
             
-            // crossPollinationExchangeSystem();
+            crossPollinationExchangeSystem();
         }
             
     }     
@@ -91,8 +94,9 @@ const Prototype = () => {
 
     <div id="prototype-wrapper">
 
-        {/* error Modal Element*/}
+        {/*Modal Element*/}
         {openConnectWallets && <ConnectWallets closeConnectWallets={setConnectWallets}/>}
+        {openEnterValidTokens && <EnterValidTokens closeEnterValidTokens={setEnterValidTokens}/>}
 
         {/* Helmet for Meta-tags & body Element*/}
         <Favicon url="favicon.ico"/>
