@@ -81,8 +81,18 @@ const Prototype = () => {
         
         //Base Cases
         if (document.getElementById('input-one').value == "" ||
-            document.getElementById('input-two').value == "") {
+                document.getElementById('input-two').value == "") {
             setEnterValidTokens(true);				
+        }
+        else if ((document.getElementById('input-one').value == "" ||
+                document.getElementById('input-two').value == ".") ||
+                (document.getElementById('input-two').value == "" ||
+                document.getElementById('input-one').value == ".") ) {
+            setEnterValidTokens(true);		
+        }
+        else if (document.getElementById('input-one').value < "0" ||
+                document.getElementById('input-two').value < "0") {
+            setEnterValidTokens(true);	
         }
     }      
 
