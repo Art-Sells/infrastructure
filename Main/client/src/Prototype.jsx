@@ -55,21 +55,22 @@ const Prototype = () => {
         
     }    
     //Input Format Function	
-    const [value, setValue] = useState("1.01");
+    const [valueOne, setValueOne] = useState("1.01");
     const inputOne = (e) => {
         const inputValue = e.target.value;
         // regex to match only numbers and one decimal point
         const regex = /^[0-9]*\.?[0-9]*$/;
         if (regex.test(inputValue)) {
-          setValue(inputValue);
+          setValueOne(inputValue);
         }
     }; 
+    const [valueTwo, setValueTwo] = useState("1.01");
     const inputTwo = (e) => {
         const inputValue = e.target.value;
         // regex to match only numbers and one decimal point
         const regex = /^[0-9]*\.?[0-9]*$/;
         if (regex.test(inputValue)) {
-          setValue(inputValue);
+          setValueTwo(inputValue);
         }
     };     
 
@@ -215,7 +216,7 @@ const Prototype = () => {
                     <br/>
                     <input id="input-one" type="tel" 
                             onChange={inputOne}	
-                            step="any" value={value} />
+                            step="any" value={valueOne} />
                     </div>	
             
                         <br></br>
@@ -266,7 +267,7 @@ const Prototype = () => {
                     <br/>
                     <input id="input-one" type="tel" 
                             onChange={inputTwo}	
-                            step="any" value={value} />
+                            step="any" value={valueTwo} />
                     </div>										
                     
                     <br></br>
