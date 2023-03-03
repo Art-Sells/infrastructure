@@ -79,13 +79,14 @@ const Prototype = () => {
     function crossPollinationExchangeSystem(){
 		
         
+        //****Base Case issue: EnterValikdTokens not responding for input two */
         //Base Cases
         if (document.getElementById('input-one').value == "" ||
             document.getElementById('input-two').value == "") {
             setEnterValidTokens(true);				
         }
-        else if (document.getElementById('input-one').value == "." ||
-                document.getElementById('input-two').value == ".") {
+        else if (document.getElementById('input-one').value = "." ||
+                document.getElementById('input-two').value ==".") {
             setEnterValidTokens(true);		
         }
         else if (document.getElementById('input-one').value < "0" ||
