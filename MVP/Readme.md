@@ -10,5 +10,5 @@
   - [X] Roadmap *[[Completed & Launched]](https://github.com/jeyakatsa/Ecare-Exchange/infrastructure/main/MVP/EcareWebApp)*---------***https://ecare.exchange/roadmap***
 
 - **Aug 2022 - Mar 2023**
-  - [ ] Base AMM-dApp (Automated Market Maker decentralized App) *[[Pivoted-to-Arells]](https://github.com/Art-Sells/Arells)*
+  - [X] Base AMM-dApp (Automated Market Maker decentralized App) *[[Pivoted-to-Arells]](https://github.com/Art-Sells/Arells)*
 
