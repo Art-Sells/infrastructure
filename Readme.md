@@ -4,7 +4,7 @@
 
 ## Ethereum Combinatorial Auction Rate Exchange
 
-#### Ecare is the infrastructure created to house an ecosystem to lift storytellers out of poverty.
+#### Ecare was the infrastructure created to house an ecosystem to lift storytellers out of poverty.
 
 ### Motivation:
 
