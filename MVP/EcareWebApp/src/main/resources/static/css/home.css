@@ -22,10 +22,10 @@ body {
 	justify-content: center;
 	align-items: center;
 	background-color: #f8f8fc;
-	height: 420px;
+	height: 440px;
 	position: sticky;
 	z-index: 2;	
-/* 	box-shadow: 0px 0px 8px 0px black; */
+ 	box-shadow: 0px 0px 8px 0px black;
 	  
 }
 
@@ -102,90 +102,6 @@ body {
 	}	
 		
 
-	
-/* #about {
-	padding-top: 40px;
-	width: 100%;
-	height: 80px;
-	background-color: gray;
-	margin-left: auto;
-	margin-right: auto;	
-}
-	#about-desc{
-		margin: auto;
-		width: 220px;
-		color: #f8f8fc;
-		font-weight: 600;
-		line-height: 20px;
-		letter-spacing: .2px;
-		opacity: .85;
-		font-size: 12px;
-	} */
-
-#ecosystem {
-	padding-top: 45px;	
-	margin-left: auto;
-    margin-right: auto;
-    height: 65px; 
-	width: 100%;
-    margin-bottom: 40px;
-	background: linear-gradient(50deg, 
-	rgba(255,0,0,1) 15%, 
-	rgba(178,179,2,1) 30%, 
-	rgba(1,187,1,1) 50%, 
-	rgba(33,0,255,1) 70%, 
-	rgba(187,1,158,1) 85%); 
-     animation: gradient 20s ease infinite; 
-     background-size: 20000% 20000%; 
-	position: sticky;
-	z-index: 1;	
-	box-shadow: 0px 0px 20px 5px black;     
-}
-@-webkit-keyframes gradient{
-  0% {
-    background-position: 0 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-     background-position: 0% 50%;
-  }
-}
-@keyframes gradient{
-  0% {
-    background-position: 0 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-     background-position: 0% 50%;
-  }
-}	
-		#eco-link {
-		  text-decoration: none;
-			color: white;	
-			opacity: 1;
-		    padding-top: 22px;
-			  border: solid;			    
-			  padding-bottom: 15px;
-			  padding-right: 30px;
-			  padding-left: 30px;	  
-			  border-radius: 10px;
-			  border-width: 1px;
-			  width: 200px;	 	  
-		}
-		#eco-link:hover,
-		#eco-link:focus {
-		  opacity: .3;
-		  transition: 1s;
-		  cursor: pointer;
-		}
-		#letter-logo {
-			width: 58px;
-		}	
-
 #infrastructure {
 	margin-left: auto;
     margin-right: auto;
@@ -196,25 +112,6 @@ body {
 	background-color: #1f1f1f;
 }
 	
-		#roadmap {
-		  background: #1f1f1f;
-		  text-decoration: none;
-		  color: white;
-		  font-weight:600;
-		  font-size: 13px;
-		  padding: 20px;
-		  border: solid;
-		  border-color: silver;
-		  border-width: 2px;
-		  border-radius: 3px;
-		  opacity: .75;
-		}
-		#roadmap:hover,
-		#roadmap:focus {
-		  transition: 1s;
-		  cursor: pointer;
-		  opacity: .3;
-		}	
 	
 		#contact {
 			opacity: .75;	
@@ -225,7 +122,7 @@ body {
 			transition: 1s;
 		}
 		#github {
-			margin-top: 55px;
+			margin-top: 20px;
 			width: 30px;
 		}
 
@@ -236,7 +133,7 @@ body {
 	
 	#above {
 		padding-top: 40px;
-		height: 415px;
+		height: 440px;
 	}	
 		.icon {
 		  width: 40px;
@@ -296,13 +193,9 @@ body {
 		padding-top: 5px;
 		height: 60px;
 	}
-		#roadmap {
-		  font-size: 11px;
-		  padding: 15px;	
-		}
 		
 		#github {
-			margin-top: 40px;
+			margin-top: 20px;
 			width: 25px;
 		}
 	

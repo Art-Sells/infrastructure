@@ -74,35 +74,14 @@
 	      </a>
 	  
 	  </div>
-	  
-<!-- 		<div id="about"> 
-		  
-			  <p id="about-desc">Created to house an ecosystem 
-			  to lift storytellers out of poverty.</p>
-			  
-		 </div>	  --> 
-		  
-		 <div id="ecosystem">
-		 
-	      		<!-- Change below link after test -->		 
-		      <a href="https://arells.com"
-			      id="eco-link">		      
-				<img id="letter-logo" src="/icons&images/Arells-Logo.png">	      
-		      </a>		 
-	
-	
-		 </div>
 		
 		      
 		 <div id="infrastructure">
-		 	  	     <!-- Change below link after test -->
-		 	  	     
-		      <a href="/roadmap" id="roadmap">Roadmap
-		      </a>
+
 		      
 		      <br>
 		          
-			  <a href="https://github.com/orgs/Ecare-Exchange"
+			  <a href="https://github.com/Art-Sells/infrastructure"
 			      target="_blank"
 			      id="contact">
 			      <img id="github" src="/icons&images/GithubBright.png">
