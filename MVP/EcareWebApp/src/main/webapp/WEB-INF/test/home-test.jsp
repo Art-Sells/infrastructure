@@ -83,7 +83,7 @@
 		      
 		      <br>
 		          
-			  <a href="https://github.com/orgs/Art-Sells/infrastructure"
+			  <a href="https://github.com/Art-Sells/infrastructure"
 			      target="_blank"
 			      id="contact">
 			      <img id="github" src="/icons&images/GithubBright.png">
