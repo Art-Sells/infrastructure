@@ -4,13 +4,13 @@
 
 ## Ethereum Combinatorial Auction Rate Exchange
 
-#### Ecare was the infrastructure created to house an ecosystem to lift storytellers out of poverty.
+#### Ecare was the infrastructure created to house an ecosystem to lift people out of poverty.
 
 ### Motivation:
 
-Ecare was born out of the ashes of a cryptocurrency ecosystem in 2019 created to lift storytellers out of poverty; Novestic. Though Novestic gained 600+ users pre-product release, it needed a specific infrastructure in order for it to maintain a successful ecosystem that did not yet exist; Ecare.
+Ecare was born out of the ashes of a cryptocurrency ecosystem in 2019 created to lift people out of poverty; Novestic. Though Novestic gained 600+ users pre-product release, it needed a specific infrastructure in order for it to maintain a successful ecosystem that did not yet exist; Ecare.
 
-How will Ecare achieve poverty alleviation for storytellers? Through CPES, an exchange system immune to bear-market volatility.
+How will Ecare achieve poverty alleviation? Through CPES, an exchange system immune to bear-market volatility.
 
 ### CPES (Cross Pollination Exchange System):
 
@@ -55,10 +55,6 @@ During exchanges, each token exchanged is moved into a burn wallet while the val
 > | Balance = 144,461.54 USD      | Balance = 135,625 USD         |
 > | Tokens = 64.35                | Tokens = 52.35                |
 > | 1 Token = 2,244.93 USD        | 1 Token = 2,590.73 USD        |
-
-### Overall Vision:
-
-***In the future we will get paid to do what we love, not what we have to do...*** And Ecare will create a bedrock for these kinds of tokens, tokens which will pay us to do what we love.
 
 ------------------------------------------------------------------------------------------
 
